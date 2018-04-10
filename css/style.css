@@ -1,0 +1,201 @@
+#app{
+    width: 100%;
+    position: absolute;
+    /*background-color: #002752;*/
+}
+
+#cabecalho{
+    padding: 0px;
+}
+
+#titulo-site{
+    height: 50px;
+    background-color: #002752;
+}
+
+#titulo-site h3{
+    color: #fefefe;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+#titulo-site h5{
+    color: #fefefe;
+    margin-top: 18px;
+    margin-left: -50px;
+}
+
+#menu{
+    height: 50px;
+
+}
+
+#menu ul{
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 13px;
+    position: absolute;
+}
+
+#menu ul li{
+    display: inline;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+#menu ul li a{
+    color: red;
+}
+
+#menu ul li a:hover{
+    list-style-type: none;
+    color: #fefefe;
+    background: red;
+    border-top-color: red;
+    border-left-color: red;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#slide{
+    width: 100%;
+    height: 400px;
+    background-color: #6c757d;
+}
+
+#cabecalho-pagina{
+    width: 100%;
+    height: 200px;
+    background-color: #005cbf;
+}
+
+.titulo-pagina{
+    color: #002752;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.linha-titulo-pagina{
+    border: solid 0.5px #002752;
+    width: 97%;
+    margin-left: 15px;
+    margin-top: -15px;
+}
+
+
+#estadios-copa{
+    margin-top: -60px;
+    /*background-image: url('img/bkgd-estadios.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 0;*/
+    padding: 20px;
+    background-color: #002752;
+    /*background-image: url(../img/bkgd-estadios.jpg);*/
+    width: 100%;
+    height: auto;
+}
+
+
+#desc-estadios-copa h2,h5{
+    color: #fefefe;
+}
+
+#imagem-estadios-copa img{
+    width: 500px;
+    height: 200px;
+}
+
+
+#noticias{
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+#noticias h3{
+    color: #005cbf;
+    padding: 15px;
+    font-weight: bold;
+}
+
+#noticias hr{
+    margin-top: -15px;
+    margin-left: 15px;
+    border: solid 0.5px #005cbf;
+}
+
+#noticias .row{
+    padding: 15px;
+    margin-top: -15px;
+}
+
+.selecao-noticia {
+    font-size: 10px;
+    color: #6c757d;
+    margin-top: 5px;
+}
+
+.conteudo-noticia {
+    margin-top: -10px;
+    color: #002752;
+}
+
+#rodape{
+    margin-top: 180px;
+    width: 100%;
+    height: auto;
+    background-color: #002752;
+}
+
+#rodape p{
+    color: #fefefe;
+    padding: 15px;
+    margin-left: -15px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#rodape h5{
+    margin-top: -20px;
+    text-align: left;
+    color: #c8cbcf;
+}
+
+#rodape img {
+    margin-left: 1225px;
+    margin-top: -70px;
+}
+
+#menu-rodape{
+    list-style-type: none;
+    margin-left: 350px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+#menu-rodape ul li{
+    display: inline;
+    text-decoration: none;
+    padding: 15px;
+    line-height: 20px;
+}
+
+#menu-rodape ul li a{
+    color: #005cbf;
+}
+
+#menu-rodape ul li a:hover{
+    list-style-type: none;
+    color: #005cbf;
+    text-decoration: none;
+}
+
+
+
+
+
