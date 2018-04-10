@@ -17,7 +17,7 @@
 
 <div class="container-fluid" id="app">
 
-    <div class="container-fluid" id="cabecalho">
+
         <div class="row">
             <div class="col-md-12" id="titulo-site">
                 <h3 class="col-md-2 col-xs-12">Fut Histórias</h3>
@@ -34,7 +34,7 @@
                     </ul>
             </div>
         </div>
-    </div>
+
 
     <div class="row">
             <!-- Carousel ================================================== -->

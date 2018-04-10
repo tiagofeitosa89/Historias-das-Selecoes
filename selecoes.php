@@ -43,11 +43,88 @@
     <div class="row">
         <h3 class="titulo-pagina">SELEÇÕES</h3>
         <hr class="linha-titulo-pagina">
-        <p>
-        Aqui abaixo colocar os grupos das seleções,
-        duas colunas e 4 linhas. Em cada linha dois grupos com os escudos das seleções dispostos na horizontal
+            <div id="selecoes" class="row">
+                <div id="grupo" class="col-md-6">
+                    <h5>GRUPO A</h5>
+                    <img src="img/selecoes/Russia_65.png">
+                    <img src="img/selecoes/Uruguai_65.png">
+                    <img src="img/selecoes/ArabiaSaudita-65.png">
+                    <img src="img/selecoes/egito_65.png">
+                    <p>EGITO | RÚSSIA | URUGUAI | ARÁBIA SAUDITA</p>
 
-        </p>
+                </div>
+
+                <div id="grupo" class="col-md-6">
+                    <h5>GRUPO A</h5>
+                    <img src="img/selecoes/Russia_65.png">
+                    <img src="img/selecoes/Uruguai_65.png">
+                    <img src="img/selecoes/ArabiaSaudita-65.png">
+                    <img src="img/selecoes/egito_65.png">
+                    <p>EGITO | RÚSSIA | URUGUAI | ARÁBIA SAUDITA</p>
+
+                </div>
+
+                <div id="grupo" class="col-md-6">
+                    <h5>GRUPO A</h5>
+                    <img src="img/selecoes/Russia_65.png">
+                    <img src="img/selecoes/Uruguai_65.png">
+                    <img src="img/selecoes/ArabiaSaudita-65.png">
+                    <img src="img/selecoes/egito_65.png">
+                    <p>EGITO | RÚSSIA | URUGUAI | ARÁBIA SAUDITA</p>
+
+                </div>
+
+                <div id="grupo" class="col-md-6">
+                    <h5>GRUPO A</h5>
+                    <img src="img/selecoes/Russia_65.png">
+                    <img src="img/selecoes/Uruguai_65.png">
+                    <img src="img/selecoes/ArabiaSaudita-65.png">
+                    <img src="img/selecoes/egito_65.png">
+                    <p>EGITO | RÚSSIA | URUGUAI | ARÁBIA SAUDITA</p>
+
+                </div>
+
+                <div id="grupo" class="col-md-6">
+                    <h5>GRUPO A</h5>
+                    <img src="img/selecoes/Russia_65.png">
+                    <img src="img/selecoes/Uruguai_65.png">
+                    <img src="img/selecoes/ArabiaSaudita-65.png">
+                    <img src="img/selecoes/egito_65.png">
+                    <p>EGITO | RÚSSIA | URUGUAI | ARÁBIA SAUDITA</p>
+
+                </div>
+
+                <div id="grupo" class="col-md-6">
+                    <h5>GRUPO A</h5>
+                    <img src="img/selecoes/Russia_65.png">
+                    <img src="img/selecoes/Uruguai_65.png">
+                    <img src="img/selecoes/ArabiaSaudita-65.png">
+                    <img src="img/selecoes/egito_65.png">
+                    <p>EGITO | RÚSSIA | URUGUAI | ARÁBIA SAUDITA</p>
+
+                </div>
+
+                <div id="grupo" class="col-md-6">
+                    <h5>GRUPO A</h5>
+                    <img src="img/selecoes/Russia_65.png">
+                    <img src="img/selecoes/Uruguai_65.png">
+                    <img src="img/selecoes/ArabiaSaudita-65.png">
+                    <img src="img/selecoes/egito_65.png">
+                    <p>EGITO | RÚSSIA | URUGUAI | ARÁBIA SAUDITA</p>
+
+                </div>
+
+                <div id="grupo" class="col-md-6">
+                    <h5>GRUPO A</h5>
+                    <img src="img/selecoes/Russia_65.png">
+                    <img src="img/selecoes/Uruguai_65.png">
+                    <img src="img/selecoes/ArabiaSaudita-65.png">
+                    <img src="img/selecoes/egito_65.png">
+                    <p>EGITO | RÚSSIA | URUGUAI | ARÁBIA SAUDITA</p>
+
+                </div>
+            </div>
+
     </div>
 
     <div class="row">
