@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
@@ -13,53 +14,217 @@
 </head>
 <body>
 
-<div class="container" id="app">
+<div class="container-fluid" id="app">
 
-        <div class="container" id="cabecalho">
 
-            <div id="faixa-cabecalho" class="col-md-12" ></div>
-
-            <div class="row">
-                <img class="col-md-2" id="logo-copa" src="img/copa-do-mundo-russia-2018-logo.png" height="90%" width="90%">
-                <h2 class="col-md-4"> Histórico das seleções - Copa da Rússia 2018 </h2>
-                <h5 class="col-md-8"> Tudo que você quer saber sobre as seleções mas não sabe onde encontrar</h5>
-            </div>
-
-            <nav class="navbar navbar-default">
-                <ul class="nav navbar-nav navbar-left">
-                    <li><a href="index.php">Home</a> </li>
-                    <li><a href="selecoes.php">Seleções</a> </li>
-                    <li><a href="#">Informações e curiosidades</a> </li>
-                    <li><a href="fasegrupos.php">Fase de grupos</a> </li>
-                </ul>
-            </nav>
-
+    <div class="row">
+        <div class="col-md-12" id="titulo-site">
+            <h3 class="col-md-2 col-xs-12">Fut Histórias</h3>
+            <h5 class="col-md-9 col-xs-12">Tudo que você quer saber sobre as seleções da copa da Rússia e não sabe onde encontrar</h5>
         </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12" id="menu">
+            <ul  class="col-xs-12">
+                <li><a href="index.php">Home</a> </li>
+                <li><a href="selecoes.php">Seleções</a> </li>
+                <li><a href="info.php">Informações e curiosidades</a> </li>
+                <li><a href="#">Fase de grupos</a> </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div id="cabecalho-pagina" class="col-md-12"></div>
 
         <div class="container" id="corpoSite">
 
-            <div id="rodape" class="col-md-12">
-                <div class="row">
-                    <ul class="col-md-7">
-                        <li><a href="#">Seleções     |</a> </li>
-                        <li><a href="#">Artilheiros     |</a> </li>
-                        <li><a href="#">Elencos     |</a> </li>
-                        <li><a href="#">Créditos</a> </li>
-                    </ul>
-                    <p id="direitos" class="col-md-7">© Copyright 2018 - Disciplina Engenharia de Software II</p>
-                    <div id="voltarTopo" class="col-md-1">
-                        <a href="#app"><img src="img/seta.png"  width="60%" height="60%"></a>
+            <div class="row">
+
+                <div id="fasegrupos" class="col-md-12">
+
+                    <div class="container">
+                        <h2>FASE DE GRUPOS</h2>
+                        <hr class="linha-modulo">
+                        <!--<p>The .table-responsive class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p> -->
+                        <div class="table-responsive">
+                            <table class="table">
+                                <h4>Grupo A</h4>
+                                <thead>
+                                <tr style="background-color: #000099; color: white;">
+                                    <th>CLASSIFICAÇÃO</th>
+                                    <th>P</th>
+                                    <th>J</th>
+                                    <th>V</th>
+                                    <th>E</th>
+                                    <th>D</th>
+                                    <th>GP</th>
+                                    <th>GC</th>
+                                    <th>SG</th>
+                                    <th>%</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Arábia Saudita</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Egito</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0.0</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Rússia</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Uruguai</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0.0</td>
+                                </tr>
+
+                                </tbody>
+
+                            </table> <br>
+
+                            <table class="table">
+                                <h4>Grupo B</h4>
+                                <thead>
+                                <tr style="background-color: #000099; color: white;">
+                                    <th>CLASSIFICAÇÃO</th>
+                                    <th>P</th>
+                                    <th>J</th>
+                                    <th>V</th>
+                                    <th>E</th>
+                                    <th>D</th>
+                                    <th>GP</th>
+                                    <th>GC</th>
+                                    <th>SG</th>
+                                    <th>%</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Epanha</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Irã</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0.0</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Marrocos</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Portugal</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0.0</td>
+                                </tr>
+
+                                </tbody>
+
+                            </table>
+
+                        </div>
                     </div>
+
                 </div>
 
             </div>
 
         </div>
+            <div class="row">
+                <div id="rodape" class="col-md-12">
+                    <div class="col-md-12">
+                        <p>Fut Histórias</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>© Copyright 2018 - Disciplina Engenharia de Software II</h5>
+                    </div>
+                    <div class="col-md-4" id="menu-rodape">
+                        <ul>
+                            <li><a href="#">Seleções</a> </li>
+                            <li><a href="#">Elencos</a> </li>
+                            <li><a href="#">Créditos</a> </li>
+                            <li><a href="#">Torcidômetro</a> </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#app"> <img src="img/seta.png" width="4%"> </a>
+                    </div>
+                </div>
+            </div>
 
-</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

@@ -8,59 +8,76 @@
     <title>Histórias das copas</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/carousel.css" rel="stylesheet" type="text/css">
+
 
 </head>
 <body>
 
-<div class="container" id="app">
+<div class="container-fluid" id="app">
 
-        <div class="container" id="cabecalho">
-
-            <div id="faixa-cabecalho" class="col-md-12" ></div>
-
-            <div class="row">
-                <img class="col-md-2" id="logo-copa" src="img/copa-do-mundo-russia-2018-logo.png" height="90%" width="90%">
-                <h2 class="col-md-4"> Histórico das seleções - Copa da Rússia 2018 </h2>
-                <h5 class="col-md-8"> Tudo que você quer saber sobre as seleções mas não sabe onde encontrar</h5>
+    <div class="container-fluid" id="cabecalho">
+        <div class="row">
+            <div class="col-md-12" id="titulo-site">
+                <h3 class="col-md-2 col-xs-12">Fut Histórias</h3>
+                <h5 class="col-md-9 col-xs-12">Tudo que você quer saber sobre as seleções da copa da Rússia e não sabe onde encontrar</h5>
             </div>
-
-            <nav class="navbar navbar-default">
-                <ul class="nav navbar-nav navbar-left">
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="menu">
+                <ul  class="col-xs-12">
                     <li><a href="index.php">Home</a> </li>
                     <li><a href="selecoes.php">Seleções</a> </li>
                     <li><a href="#">Informações e curiosidades</a> </li>
                     <li><a href="fasegrupos.php">Fase de grupos</a> </li>
                 </ul>
-            </nav>
-
+            </div>
         </div>
+    </div>
 
+    <div class="row">
+        <div id="cabecalho-pagina" class="col-md-12"></div>
         <div class="container" id="corpoSite">
-
-
-            <div id="rodape" class="col-md-12">
-                <div class="row">
-                    <ul class="col-md-7">
-                        <li><a href="#">Seleções     |</a> </li>
-                        <li><a href="#">Artilheiros     |</a> </li>
-                        <li><a href="#">Elencos     |</a> </li>
-                        <li><a href="#">Créditos</a> </li>
-                    </ul>
-                    <p id="direitos" class="col-md-7">© Copyright 2018 - Disciplina Engenharia de Software II</p>
-                    <div id="voltarTopo" class="col-md-1">
-                        <a href="#app"><img src="img/seta.png"  width="60%" height="60%"></a>
+            <div class="row">
+                <div id="info" class="col-md-12">
+                    <div class="container">
+                        <h2>INFORMAÇÕES E CURIOSIDADES</h2>
+                        <hr class="linha-modulo">
+                        <h1>Página em desenvolvimento...</h1>
                     </div>
                 </div>
-
             </div>
-
         </div>
 
-</div>
+        <div class="row">
+            <div id="rodape" class="col-md-12">
+                <div class="col-md-12">
+                    <p>Fut Histórias</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>© Copyright 2018 - Disciplina Engenharia de Software II</h5>
+                </div>
+                <div class="col-md-4" id="menu-rodape">
+                    <ul>
+                        <li><a href="#">Seleções</a> </li>
+                        <li><a href="#">Elencos</a> </li>
+                        <li><a href="#">Créditos</a> </li>
+                        <li><a href="#">Torcidômetro</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-12">
+                    <a href="#app"> <img src="img/seta.png" width="4%"> </a>
+                </div>
+            </div>
+        </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 
+    </div>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

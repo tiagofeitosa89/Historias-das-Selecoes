@@ -71,8 +71,8 @@
 #cabecalho-pagina{
     width: 100%;
     height: 200px;
-    background-image: url('../img/noticias/image-1.jpg');
-    background-repeat:no-repeat;
+    /*background-color: darkred;*/
+    background-image: url(../img/18191722889052-t1200x480.jpg);
 }
 
 .titulo-pagina{
@@ -114,7 +114,7 @@
     background-size: 100%;
     bottom: 0;*/
     padding: 20px;
-    background-color: #002752;
+    background-color: darkred;
     /*background-image: url(../img/bkgd-estadios.jpg);*/
     width: 100%;
     height: auto;
