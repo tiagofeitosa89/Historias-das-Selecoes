@@ -48,7 +48,7 @@
     <div class="row" id="linha-titulo-site">
         <div class="container">
             <div class="col-md-6 col-xs-6" id="titulo-site"><!--título site-->
-                <h3>Fut Histórias</h3>
+                <h3>Futistorias</h3>
             </div>
             <div class="topnav" id="myTopnav">
                 <a href="..\index.php">Home</a>
