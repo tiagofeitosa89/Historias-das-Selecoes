@@ -9,10 +9,6 @@
     padding: 0px;
 }
 
-#app{
-    width: 100%;
-    height: auto;
-}
 
 #linha-titulo-site{
     right: 0;
@@ -99,7 +95,6 @@
 #cabecalho-pagina{
     width: 100%;
     height: 200px;
-    /*background-color: darkred;*/
     background-image: url(../img/18191722889052-t1200x480.jpg);
 }
 
@@ -117,22 +112,39 @@
     margin-bottom: -2px;
 }
 
+
 #grupo{
-    margin-top: 20px;
-    margin-left: 30px;
-    height: auto;
+    height: 100px;
     width: auto;
-    background-color: #c8cbcf;
+    border: solid 1px #005cbf;
     border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+#grupo h5{
+    width: 100%;
+    background-color: #005cbf;
+    display: block;
+    color: #fefefe;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: bold;
+    line-height:  25px;
+    padding: 0 10px;
+    margin-top: 0;
 }
 
 #grupo img{
-    margin-top: -10px;
-    margin-left: -5px;
+    margin-top: -15px;
+    float: left;
+    padding: 0;
 }
 
 #grupo p{
-    font-size: 12px;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 0;
 }
 
 #estadios-copa{
@@ -147,9 +159,46 @@
     color: #fefefe;
 }
 
-#imagem-estadios-copa img{
-    width: 500px;
-    height: 200px;
+#link-estadios-copa{
+    height: 165px;
+    border-radius: 5px;
+    overflow: auto;
+    margin-left: 0px;
+}
+
+#link-estadios-copa .estadio-copa{
+    height: 30px;
+    background-color: #005cbf;
+    color: #fefefe;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+}
+
+.mobile .desktop-hide h5{
+    color: #fefefe;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 400px) {
+    .mobile-hide{ display: none !important; }
+}
+@media only screen and (max-width: 400px) {
+    .mobile{
+        display: inline !important;
+    }
+}
+@media only screen and (min-width: 500px) {
+    .desktop-hide{ display: none !important; }
+}
+
+#link-estadios-copa a .estadio-copa:hover{
+    background-color: #fefefe;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 #noticias{

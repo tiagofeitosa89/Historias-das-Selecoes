@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.js" rel="stylesheet">
 
-    <title>Histórias das copas</title>
+    <title>Futistórias::Home</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -49,10 +49,10 @@
     <div class="row" id="linha-titulo-site">
         <div class="container">
             <div class="col-md-6 col-xs-6" id="titulo-site"><!--título site-->
-                <h3>Fut Histórias</h3>
+                <h3>FutHistórias</h3>
             </div>
             <div class="topnav" id="myTopnav">
-                <a href="index.php">Home</a>
+                <a href="#">Home</a>
                 <a href="selecoes.php">Seleções</a>
                 <a href="fasegrupos.php">Fase de grupos</a>
                 <a href="info.php">Informações e curiosidades</a>
@@ -73,7 +73,7 @@
                 <li data-target="#carousel" data-slide-to="4" ></li>
             </ol>
 
-            <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner" role="listbox" class="responsive">
                 <div class="item active">
                     <img src="img/selecoes-principais/russia.png">
                     <div class="carousel-caption">
@@ -140,8 +140,28 @@
                     <h2>CONHEÇA UM POUCO SOBRE OS ESTÁDIOS QUE SEDIARÃO JOGOS DA COPA DE 2018</h2>
                     <h5>Clique no nome do estádio desejado</h5>
                 </div>
-                <div id="imagem-estadios-copa" class="post-content">
-                    <img src="img/estadios.png">
+                <div id="link-estadios-copa" class="col-md-6 col-xs-12">
+                    <div class="row">
+                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 1</div></a>
+                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 2</div></a>
+                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 3</div></a>
+                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 4</div></a>
+                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 5</div></a>
+                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 6</div></a>
+                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 7</div></a>
+                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 8</div></a>
+                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 9</div></a>
+                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 10</div></a>
+                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 11</div></a>
+                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 12</div></a>
+                    </div>
+                </div>
+                <div class="mobile">
+                    <div class="desktop-hide">
+                        <h1 class="texto-mobile">
+                            <h5>ROLE PARA CIMA</h5>
+                        </h1>
+                    </div>
                 </div>
             </div>
         </div>
@@ -191,7 +211,6 @@
 
 
 </div>
-
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>

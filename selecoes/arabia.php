@@ -52,9 +52,9 @@
             </div>
             <div class="topnav" id="myTopnav">
                 <a href="..\index.php">Home</a>
-                <a href="#news">Seleções</a>
-                <a href="#contact">Fase de grupos</a>
-                <a href="#about">Informações e curiosidades</a>
+                <a href="../selecoes.php">Seleções</a>
+                <a href="../fasegrupos.php">Fase de grupos</a>
+                <a href="../info.php">Informações e curiosidades</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
             </div>
         </div>
@@ -380,18 +380,9 @@
         <br>
         <div class="row">
             <p class="col-md-7">
-                asdashdaksh"But I must explain to you how all this mistaken idea of denouncing pleasure
-                and praising pain was born and I will give you a complete account of the system, and expound the actual
-                teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes,
-                or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure
-                rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues
-                or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which
-                toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes
-                laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault
-                with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that
-                produces no resultant pleasure?"dkjahskdhjash
-                laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault
-                with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that
+                A seleção saudita é vista como novata no cenário mundial, tendo feito sua primeira aparição na copa de 1994 que foi também sua melhor campanha, quando chegaram até as oitavas de final, sendo eliminados pela seleção Sueca pelo placar de 3 x 1. Os sauditas perderam para a Holanda por 2 x 1 e venceram Marrocos por 2 x 1 e Bélgica por 1 x 0 pela fase de grupos.
+                Nas três seguintes copas os sauditas não passaram da fase de grupos.
+
             </p> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
