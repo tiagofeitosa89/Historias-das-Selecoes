@@ -406,15 +406,15 @@ Já o maior artilheiro da história da Islândia é Eidur Gudjohnsen, com 26 gol
 
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/islandia/slides/01-maior-artilheiro-Eidur Gudjohnsen.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/islandia/slides/02-classificacao-para-copa-2018.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/islandia/slides/3 -jogador-com-mais-partidas.jpeg" width="450" height="250">
                         </div>
 
 

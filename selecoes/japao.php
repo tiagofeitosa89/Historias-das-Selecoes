@@ -379,14 +379,15 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                Até 2013, a Seleção Japonesa de Futebol é a mais bem-sucedida seleção na Copa da Ásia, com quatro conquistas (1992 e 2000, contra Arábia Saudita; 2004, contra China e 2011, contra a Austrália). Sua estreia em Copas do Mundo foi em 1998, quatro anos antes de o Japão ser uma das sedes da competição e chegar às quartas-de-final, façanha repetida em 2010. 
-                Na copa da rússia em 2018 a equipe terminou na primeira colocação do grupo 2 nas eliminatórias, apenas um ponto na frente a Austrália, que terminou em terceiro e teve que jogar a repescagem, contra a Síria.O time teve apenas duas derrotas na competição. Na primeira rodada perdeu para os Emirados Árabes Unidos e na última perdeu para a Arábia Saudita.
-                O Japão chega à Rússia tentando repetir seu melhor resultado em copas, onde chegou até as oitavas de final, em duas oportunidades. Nas outras três vezes que participou, acabou sendo eliminado ainda na fase de grupos.
-
-
-
-            </p> <!--texto seleção-->
+            <div class="col-md-7">
+              <p align = "justify">Até 2013, a Seleção Japonesa de Futebol é a mais bem-sucedida seleção na Copa da Ásia, com quatro conquistas (1992 e 2000, contra Arábia Saudita; 2004, contra China e 2011, contra a Austrália). Sua estreia em Copas do Mundo foi em 1998, quatro anos antes de o Japão ser uma das sedes da competição e chegar às quartas-de-final, façanha repetida em 2010. </p>
+			  <p align = "justify">Na copa da rússia em 2018 a equipe terminou na primeira colocação do grupo 2 nas eliminatórias, apenas um ponto na frente a Austrália, que terminou em terceiro e teve que jogar a repescagem, contra a Síria.O time teve apenas duas derrotas na competição. Na primeira rodada perdeu para os Emirados Árabes Unidos e na última perdeu para a Arábia Saudita.</p>
+			  <p align = "justify">Na Copa do Mundo de 2018 a Seleção do Japão não será cabeça-de-chave de grupo a ser definido no Sorteio da Copa do Mundo. Os três adversários do Japão na Primeira Fase da Copa do Mundo de 2018 também serão definidos em sorteio. Os jogos do Japão na 1º Fase serão em cidades russas a serem confirmadas. Para ser campeão da Copa de 2018 o Japão tem que ficar entre os dois primeiros em seu grupo, depois vencer os confrontos das fases eliminatórias (mata-mata): oitavas-de-final, quartas-de-final, semifinal e final. Se perder a semifinal o Japão disputa o terceiro-lugar.</p>
+			  <p align = "justify">Na Copa do Mundo de 2014 em 4 de junho de 2013 nas eliminatórias da AFC (Ásia). A seleção do Japão começou as eliminatórias asiáticas na Terceira Fase de acordo com a classificação das eliminatórias da Copa do Mundo anterior. Na Terceira Fase o Japão ficou em segundo lugar do grupo C, que tinha Uzbequistão, Coreia do Norte e Tadjiquistão. A seleção japonesa se classificou em primeiro lugar no Grupo B na Quarta Fase das eliminatórias asiáticas. Austrália, Jordânia, Omã e Iraque estavam no grupo do Japão na Quarta Fase das eliminatórias asiáticas da Copa do Mundo de 2014.</p>
+			  <p align = "justify">Desde que assumiu o cargo de treinador, em 2015, o bósnio Vahid Halilhodžić vem promovendo mudanças profundas não só na forma do time jogar, como também nas peças do elenco, e já dispensou alguns medalhões, como Keisuke Honda, Shinji Kagawa e Shinji Okazaki. Em um grupo formado quase que exclusivamente por jogadores que atuam no próprio país, os protagonistas são o volante Yosuke Ideguchi, do Gamba Ozaka, e o zagueiro Maya Yoshida, do Southampton.</p>
+			  <p align = "justify">A consistência defensiva foi o ponto chave para o time obter a classificação em primeiro lugar no Grupo 2 das Eliminatórias Asiáticas, apesar de uma campanha sem brilho, com 66,7% aproveitamento.</p>
+			 <p align = "justify">O Japão chega à Rússia tentando repetir seu melhor resultado em copas, onde chegou até as oitavas de final, em duas oportunidades. Nas outras três vezes que participou, acabou sendo eliminado ainda na fase de grupos.</p>
+         </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

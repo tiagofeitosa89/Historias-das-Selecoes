@@ -379,14 +379,14 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                Até 2012, em termos de resultado, o maior feito da seleção polonesa é o ouro olímpico nos Jogos de Verão de 1972, alcançado após vitória sobre a Hungria, na final. Também conquistou a medalha de prata nas Olimpíadas de 1976 e nas Olimpíadas de 1992 vencidas por Alemanha Oriental e Espanha.
-                Nas eliminatórias para a classificação da copa de 2018, a equipe terminou na liderança do grupo E, com oito vitórias em 10 jogos. Com 25 pontos, terminou com quatro de vantagem em relação a Dinamarca, segunda colocada.
-                Rivais na 1ª fase da Copa 2018 A Polônia chega a Rússia tentando repetir o que fez há mais de 35 anos, estar entre as três melhores seleções do mundo. Em 1974 e 1982, a seleção terminou com o terceiro lugar nos mundiais. No entanto, a equipe não se classificou para as duas últimas edições do Mundial.
-
-
-
-            </p> <!--texto seleção-->
+            <div class="col-md-7">
+            <p align = "justify">Até 2012, em termos de resultado, o maior feito da seleção polonesa é o ouro olímpico nos Jogos de Verão de 1972, alcançado após vitória sobre a Hungria, na final. Também conquistou a medalha de prata nas Olimpíadas de 1976 e nas Olimpíadas de 1992 vencidas por Alemanha Oriental e Espanha.</p>
+			<p align = "justify">Nas eliminatórias para a classificação da copa de 2018, a equipe terminou na liderança do grupo E, com oito vitórias em 10 jogos. Com 25 pontos, terminou com quatro de vantagem em relação a Dinamarca, segunda colocada.</p>
+			<p align = "justify">Cabeça de chave menos badalada deste mundial, a Polônia voltará a apresentar na Rússia um time competitivo após três décadas de ostracismo. O futebol do país viveu seu apogeu durante os anos 70 e 80, quando obteve dois terceiros lugares e foi presença constante em Copas do Mundo, mas desde então, teve apenas algumas participações esporádicas, e nunca conseguiu ir além da primeira fase.</p>
+			<p align = "justify">Desta vez, porém, a história tem tudo para ser diferente. A geração atual conta com jogadores que atuam em alguns dos maiores clubes da Europa, como o volante Krychowiak, do PSG, o zagueirão Kamil Glik, do Mônaco, o jovem meia Piotr Zieliński, que começa a se firmar no Napoli, o goleiro Wojciech Szczęsny, que defende a Juventus após passagens por Arsenal e Roma, e o grande astro da companhia, Robert Lewandowski, artilheiro do Bayern de Munique.</p>
+			<p align = "justify">Com este plantel, a Polônia se classificou em primeiro lugar no Grupo E das Eliminatórias da Europa com cinco pontos de vantagem sobre a Dinamarca, e um aproveitamento de 83,3%. O ataque teve um desempenho bastante satisfatório, com 28 gols  marcados em 10 jogos, mas a defesa, que foi vazada 14 vezes no mesmo período, é a principal fonte de preocupação para o técnico Adam Nawalka. Se os problemas do setor forem corrigidos, ou pelo menos atenuados, o time poderá ir longe.</p>
+			<p align = "justify">Rivais na 1ª fase da Copa 2018 A Polônia chega a Rússia tentando repetir o que fez há mais de 35 anos, estar entre as três melhores seleções do mundo. Em 1974 e 1982, a seleção terminou com o terceiro lugar nos mundiais. No entanto, a equipe não se classificou para as duas últimas edições do Mundial.</p>
+        </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

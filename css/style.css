@@ -86,6 +86,68 @@
     }
 }
 
+#principais-selecoes{
+    height: 480px;
+    padding: 10px 12px;
+}
+
+#col-1-img-selecoes{
+    width: 125px;
+    margin-left: 15px;
+}
+
+#img-selecao-grande {
+    width: 800px;
+    height: 390px;
+    margin: 5px;
+    margin-left: 30px;
+    border-radius: 3px;
+    padding: 0;
+    overflow: hidden;
+}
+
+#img-selecao-grande img{
+    width: 800px;
+    height: 390px;
+}
+
+.img-selecao{
+    background-color: #002752;
+    color: #fefefe;
+    width: 130px;
+    height: 90px;
+    margin: 5px 0px;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.selecao-mini{
+    opacity: .5;
+}
+
+.img-selecao a:hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 1;
+    top: 0;
+}
+
+.img-selecao a img{
+    width: 130px;
+    height: 90px;
+}
+
+.img-selecao h5{
+    color: #fefefe;
+    margin: 25px;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+}
+
 #slide{
     width: 100%;
     height: 400px;
@@ -148,11 +210,11 @@
 }
 
 #estadios-copa{
-    margin-top: -60px;
-    padding: 20px;
+    margin-top: 5px;
     background-color:#002752;
     width: 100%;
     height: auto;
+    padding: 5px 5px 5px 5px;
 }
 
 #desc-estadios-copa h2,h5{
@@ -278,4 +340,16 @@
     background-color: #b4b5a9;
     image-rendering: auto;
     color: #fefefe;
+}
+
+
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel .item{
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
 }
