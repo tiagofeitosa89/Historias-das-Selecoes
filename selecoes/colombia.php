@@ -379,14 +379,18 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                O período que compreende o início dos anos 90 e o início dos anos 2000, marca a era de ouro da Seleção Colombiana de Futebol. Nessa época, a Colômbia formou grandes times, tendo se classificado para as Copas do Mundo de 1990, 1994 e 1998. Em 1996, ”Los Cafeteros” figuraram na 4ª colocação do Ranking FIFA, façanha que se repetiu em 2002 e 2013 - o que lhe rendeu a posição de cabeça de chave no Mundial de 2014.
-                Em 2013 a grande conquista do futebol colombiano, foi alcançada em 2001. O país foi sede da Copa América e sagrou-se campeão continental pela primeira e única vez ao vencer o México por 1x0, na final. Foram seis partidas, 100% de aproveitamento, 11 gols marcados e nenhum sofrido. A campanha ainda foi coroada com a artilharia da competição: Víctor Hugo Aristizábal, com seis gols.
-                A Colômbia chega a Rússia tentando repetir o que fez na última copa, onde chegou com 100% de aproveitamento nas quartas de final, mas foi derrotada por 2 a 1 para o Brasil e acabou sendo eliminada. Com isso, a seleção ficou na quinta colocação do mundial, a melhor participação do país na história.
+           <div class="col-md-7">
+               <p align = "justify">O período que compreende o início dos anos 90 e o início dos anos 2000, marca a era de ouro da Seleção Colombiana de Futebol. Nessa época, a Colômbia formou grandes times, tendo se classificado para as Copas do Mundo de 1990, 1994 e 1998. Em 1996, ”Los Cafeteros” figuram na 4ª colocação do Ranking FIFA, façanha que se repetiu em 2002 e 2013 - o que lhe rendeu a posição de cabeça de chave no Mundial de 2014.</p>
+				<p align = "justify">Em 2013 a grande conquista do futebol colombiano, foi alcançada em 2001. O país foi sede da Copa América e sagrou-se campeão continental pela primeira e única vez ao vencer o México por 1x0, na final. Foram seis partidas, 100% de aproveitamento, 11 gols marcados e nenhum sofrido. A campanha ainda foi coroada com a artilharia da competição: Víctor Hugo Aristizábal, com seis gols.</p>
+				<p align = "justify">A Colômbia ganhou sua qualificação para a Copa do Mundo da FIFA Rússia 2018 ™ depois de igualar 1-1 com o Peru no último dia da qualificação sul-americana. Eles fechassem em quarto lugar nos playoffs e com a última passagem direta para a Copa do Mundo. Ele participou de seis Copas do Mundo de Futebol (1962, 1990, 1994, 1998, 2014 e 2018). No Brasil, 2014 conseguiu a melhor participação que terminou na 5 posição de 32 equipes participantes.</p>
+				<p align = "justify">Seleção Colombiana se ficou entre os dez melhores times do mundo no ranking mundial da FIFA. Sua maior posição foi alcançada durante os meses de 15 de julho e 16 de agosto de 2013, da mesma forma, de 17 de setembro de 2014 a abril de 2015,18 quando ele ficou a terceira posição. Atualmente, fica no posição 10 no FIFA.</p>
+				<p align = "justify">A seleção Colombiana de futebol é o equipamento representativo desse país para a prática deste esporte, representa pela Federação Colombiana de Futebol, que é filiada à Confederação Sul-Americana de Futebol (CONMEBOL) e à Federação Internacional de Futebol Associado ( FIFA). Seu primeiro jogo internacional foi jogado na Panamá em 10 de fevereiro de 1938.</p>
+				<p align = "justify">Sua conquista internacional mais é a Copa América obtida em 2001, sendo a Colômbia a sede do concurso, ele também chegou um semifinais em 1975 e chegou a semifinais em 1987, 1991, 1993, 1995, 2004 e 2016.</p>
+				<p align = "justify">A Colômbia chega a Rússia tentando repetir o que fez na última copa, onde chegou com 100% de aproveitamento nas quartas de final, mas foi derrotada por 2 a 1 para o Brasil e acabou sendo eliminada. Com isso, a seleção ficou na quinta colocação do mundial, a melhor participação do país na história.</p>
 
 
 
-            </p> <!--texto seleção-->
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

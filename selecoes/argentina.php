@@ -404,15 +404,15 @@ Já o maior artilheiro da história da Argentina é Lionel Messi, com 61 gols em
 
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/argentina/Slides/1-maradona-gol-de-mao-copa1986.jpeg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/argentina/Slides/elenco-de-2018.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/argentina/Slides/3-leonel-messi-maior-artilheiro.jpg" width="450" height="250">
                         </div>
 
 

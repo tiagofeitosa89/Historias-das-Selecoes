@@ -63,110 +63,156 @@
 
 
     <div class="row">
-        <!-- Carousel ================================================== -->
-        <div id="carousel" class="carousel slide">
-            <ol class="carousel-indicators">
-                <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel" data-slide-to="1" ></li>
-                <li data-target="#carousel" data-slide-to="2" ></li>
-                <li data-target="#carousel" data-slide-to="3" ></li>
-                <li data-target="#carousel" data-slide-to="4" ></li>
-            </ol>
-
-            <div class="carousel-inner" role="listbox" class="responsive">
-                <div class="item active">
-                    <img src="img/selecoes-principais/russia.png">
-                    <div class="carousel-caption">
-                        <h5>PRINCIPAIS SELEÇÕES</h5>
-                        <h1>SELEÇÃO RUSSA</h1>
-                        <h3><a href="#">Saiba mais</a></h3>
-                    </div>
+        <div id="principais-selecoes" class="container">
+            <div id="col-1-img-selecoes" class="col-md-2">
+                <div class="img-selecao col-md-6">
+                    <h5>SELEÇÃO<br>FRANCESA</h5>
+                    <a href="#">
+                        <img class="selecao-mini" src="img/selecoes-principais/franca.jpg" class="image responsive">
+                    </a>
                 </div>
-
-                <div class="item">
-                    <img src="img/selecoes-principais/brasil.png">
-                    <div class="carousel-caption">
-                        <h5>PRINCIPAIS SELEÇÕES</h5>
-                        <h1>SELEÇÃO BRASILEIRA</h1>
-                        <h3><a href="#">Saiba mais</a></h3>
-                    </div>
+                <div class="img-selecao col-md-6">
+                    <h5>SELEÇÃO<br>BRASILEIRA</h5>
+                    <a href="#">
+                        <img class="selecao-mini" src="img/selecoes-principais/brasil.png" class="image responsive">
+                    </a>
                 </div>
-
-                <div class="item">
-                    <img src="img/selecoes-principais/alemanha.jpg">
-                    <div class="carousel-caption">
-                        <h5>PRINCIPAIS SELEÇÕES</h5>
-                        <h1>SELEÇÃO ALEMÃ</h1>
-                        <h3><a href="#">Saiba mais</a></h3>
-                    </div>
+                <div class="img-selecao col-md-6">
+                    <h5>SELEÇÃO<br>ARGENTINA</h5>
+                    <a href="#">
+                        <img class="selecao-mini" src="img/selecoes-principais/argentina.jpg" class="image responsive">
+                    </a>
                 </div>
-
-                <div class="item">
-                    <img src="img/selecoes-principais/argentina.jpg">
-                    <div class="carousel-caption">
-                        <h5>PRINCIPAIS SELEÇÕES</h5>
-                        <h1>SELEÇÃO ARGENTINA</h1>
-                        <h3><a href="#">Saiba mais</a></h3>
-                    </div>
+                <div class="img-selecao col-md-6">
+                    <h5>SELEÇÃO<br>ALEMÃ</h5>
+                    <a href="#">
+                        <img class="selecao-mini" src="img/selecoes-principais/alemanha.jpg" class="image responsive">
+                    </a>
                 </div>
-
-                <div class="item">
-                    <img src="img/selecoes-principais/franca.jpg">
-                    <div class="carousel-caption">
-                        <h5>PRINCIPAIS SELEÇÕES</h5>
-                        <h1>SELEÇÃO FRANCESA</h1>
-                        <h3><a href="#">Saiba mais</a></h3>
-                    </div>
-                </div>
-
-                <a href="#carousel" class="left carousel-control" data-slide="prev">
-                    <i class="glyphicon glyphicon-chevron-left"></i>
-                </a>
-
-                <a href="#carousel" class="right carousel-control" data-slide="next">
-                    <i class="glyphicon glyphicon-chevron-right"></i>
-                </a>
-
+            </div>
+            <div id="col-1-img-selecoes" class="col-md-2">
+                <div class="img-selecao col-md-6"></div>
+                <div class="img-selecao col-md-6"></div>
+                <div class="img-selecao col-md-6"></div>
+                <div class="img-selecao col-md-6"></div>
+            </div>
+            <div id="img-selecao-grande" class="col-md-8">
+                <img src="img/selecoes-principais/brasil.png">
             </div>
 
-        </div>
 
+        </div>
     </div>
 
-    <div class="row">
-        <div id="estadios-copa" class="col-md-12">
-            <div class="container">
-                <div id="desc-estadios-copa" class="col-md-6 col-xs-12">
-                    <h2>CONHEÇA UM POUCO SOBRE OS ESTÁDIOS QUE SEDIARÃO JOGOS DA COPA DE 2018</h2>
-                    <h5>Clique no nome do estádio desejado</h5>
-                </div>
-                <div id="link-estadios-copa" class="col-md-6 col-xs-12">
-                    <div class="row">
-                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 1</div></a>
-                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 2</div></a>
-                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 3</div></a>
-                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 4</div></a>
-                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 5</div></a>
-                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 6</div></a>
-                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 7</div></a>
-                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 8</div></a>
-                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 9</div></a>
-                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 10</div></a>
-                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 11</div></a>
-                        <a href="#"><div class="estadio-copa col-md-3 col-xs-11">Estadio 12</div></a>
-                    </div>
-                </div>
-                <div class="mobile">
-                    <div class="desktop-hide">
-                        <h1 class="texto-mobile">
-                            <h5>ROLE PARA CIMA</h5>
-                        </h1>
-                    </div>
+    <div class="row" >
+          <div class="p-3 mb-2 bg-primary text-white" class="col-md-12" >
+          <br><br>
+                <div class="container">
+                        <div class="row" >
+                          <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+                            <!-- Carousel indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                                <li data-target="#myCarousel" data-slide-to="4"></li>
+                                <li data-target="#myCarousel" data-slide-to="5"></li>
+                                <li data-target="#myCarousel" data-slide-to="6"></li>
+                                <li data-target="#myCarousel" data-slide-to="7"></li>
+                                <li data-target="#myCarousel" data-slide-to="8"></li>
+                                <li data-target="#myCarousel" data-slide-to="9"></li>
+                                <li data-target="#myCarousel" data-slide-to="10"></li>
+                                <li data-target="#myCarousel" data-slide-to="11"></li>
+                                <li data-target="#myCarousel" data-slide-to="12"></li>
+                            </ol>   
+                            <!-- Wrapper for carousel items -->
+                            <div class="carousel-inner" >
+                                <div class="item active">
+                                    <img src="img/estadios/estadio01.jpg" alt="First Slide" >
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <p>Estádio Nizhny Novgorod</p>
+                                      </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/estadios/estadio02.jpg" alt="Second Slide">
+                                     <div class="carousel-caption d-none d-md-block">
+                                        <p>Estádio de Moscou - Luzhniki</p>
+                                      </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/estadios/estadio03.jpg" alt="Third Slide">
+                                     <div class="carousel-caption d-none d-md-block">
+                                        <p>Estádio de São Petersburgo</p>
+                                      </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/estadios/estadio04.jpg" alt="Third Slide">
+                                     <div class="carousel-caption d-none d-md-block">
+                                        <p>Estádio Olímpico de Fisht</p>
+                                      </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/estadios/estadio05.jpg" alt="Third Slide">
+                                     <div class="carousel-caption d-none d-md-block">
+                                        <p>Estádio Central - Ekaterinburg Arena</p>
+                                      </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/estadios/estadio06.jpg" alt="Third Slide">
+                                     <div class="carousel-caption d-none d-md-block">
+                                        <p>Kazan Arena</p>
+                                      </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/estadios/estadio07.jpg" alt="Third Slide">
+                                     <div class="carousel-caption d-none d-md-block">
+                                        <p>Rostov Arena</p>
+                                      </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/estadios/estadio08.jpg" alt="Third Slide">
+                                     <div class="carousel-caption d-none d-md-block">
+                                        <p>Samara Arena</p>
+                                      </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/estadios/estadio09.jpg" alt="Third Slide">
+                                     <div class="carousel-caption d-none d-md-block">
+                                        <p>Mordovia Arena - Saransk</p>
+                                      </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/estadios/estadio10.jpg" alt="Third Slide">
+                                     <div class="carousel-caption d-none d-md-block">
+                                        <p>Estádio Volgograd</p>
+                                      </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/estadios/estadio11.jpg" alt="Third Slide">
+                                     <div class="carousel-caption d-none d-md-block">
+                                        <p>Estádio Spartak - Moscou</p>
+                                      </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/estadios/estadio12.jpg" alt="Third Slide">
+                                     <div class="carousel-caption d-none d-md-block">
+                                        <p>Estádio de Kaliningrad</p>
+                                      </div>
+                                </div>
+                            </div>
+                            <!-- Carousel controls -->
+                            <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
                 </div>
             </div>
-        </div>
     </div><!--Sobre estadios-->
-
+</div>
     <div class="row">
         <div class="container">
             <div id="noticias" class="col-md-12">
