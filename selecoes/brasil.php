@@ -379,13 +379,24 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A Seleção Brasileira de Futebol é a seleção mais bem-sucedida na história das Copas do Mundo com cinco conquistas de um total de 21 títulos internacionais oficiais - até 2013. 
-                Um lema comum da seleção nacional é: "os ingleses o inventaram, mas os brasileiros o aperfeiçoaram". O Brasil é consistente entre as nações mais fortes de futebol do planeta, costuma figurar nas primeiras colocações do Ranking FIFA e é a única equipe a ter jogado em todas as Copas do Mundo. Destaques para Pelé, eleito pela FIFA, como futebolista do século XX e único jogador presente em três equipes vitoriosas em mundiais e Ronaldo, o Fenômeno, artilheiro isolado em Copas do Mundo, com 15 gols.
-                Nas Eliminatórias do continente, a seleção venceu 12 dos 18 jogos disputados, perdendo apenas um. A única derrota veio na estreia, contra o Chile, fora de casa. Com a campanha, terminou na liderança, com 41 pontos conquistados e 10 pontos na frente do Uruguai, o segundo no torneio.A equipe terminou como o melhor ataque e a melhor defesa, marcando 41 gols e sofrendo apenas 11.
+			<div class="col-md-7">
+           
+                <p align = "justify">A Seleção Brasileira de Futebol é a seleção mais bem-sucedida na história das Copas do Mundo com cinco conquistas de um total de 21 títulos internacionais oficiais - até 2013.</p>
+                 <p align = "justify">Um lema comum da seleção nacional é: "os ingleses o inventaram, mas os brasileiros o aperfeiçoaram". O Brasil é consistente entre as nações mais fortes de futebol do planeta, costuma 
+			figurar nas primeiras colocações do Ranking FIFA e é a única equipe a ter jogado em todas as Copas do Mundo. Destaques para Pelé, eleito pela FIFA, como futebolista do século XX e único jogador 
+			presente em três equipes vitoriosas em mundiais e Ronaldo, o Fenômeno, artilheiro isolado em Copas do Mundo, com 15 gols.</p>
+               <p align = "justify"> Nas Eliminatórias do continente, a seleção venceu 12 dos 18 jogos disputados, perdendo apenas um. A única derrota veio na estreia, contra o Chile, fora de casa. Com a campanha, terminou na 
+				liderança, com 41 pontos conquistados e 10 pontos na frente do Uruguai, o segundo no torneio.A equipe terminou como o melhor ataque e a melhor defesa, marcando 41 gols e sofrendo apenas 11.</p>
+				<p align = "justify">Sendo a única seleção a participar de todas as edições da Copa do Mundo, o Brasil vem como um dos favoritos ao título em 2018, na Rússia.
+<p align = "justify">O Brasil possui inúmeros destaques individuais, dentre eles: Alisson, goleiro de 25 anos da Roma, que possui 24 jogos pelo Brasil; Marcelo, lateral de 29 anos do Real Madrid, que possui 52 jogos e 6 gols pelo Brasil; Casemiro, meio-campista de 26 anos do Real Madrid, que possui 22 jogos pelo Brasil; Philippe Coutinho, meio-campista de 25 anos do Barcelona, que possui 35 jogos e 9 gols pelo Brasil; Gabriel Jesus, atacante de 21 anos do Manchester City, que possui 15 jogos e 9 gols pelo Brasil; Neymar, atacante de 26 anos do PSG, que possui 83 jogos e 53 gols pelo Brasil.</p>
+<p align = "justify">O Brasil foi sorteado no grupo E na Copa do Mundo de 2018, com Suíça, Costa Rica e Sérvia.</p>
+	<p align = "justify">Apesar de não haver uma seleção muito tradicional no grupo, todas elas podem dificultar de alguma maneira a vida da seleção brasileira.</p>
+	<p align = "justify">Mas o Brasil é amplo favorito para a liderança do grupo, contanto que apresente o bom futebol que vem mostrando ultimamente.</p>
+	<p align = "justify">A Suíça é a principal ameaça para o Brasil, por ser uma seleção qualificada, que fez uma sólida eliminatória, além de ser a adversária da estreia, onde o nervosismo pode pesar.</p>
+<p align = "justify">Uma campanha sólida do Brasil é o mínimo que se espera para essa Copa do Mundo,para tentar apagar o fiasco da semifinal da última copa, o incrível 7x1 para a Alemanha, com a Seleção sendo uma das favoritas ao título mundial.</p>
 
-
-            </p> <!--texto seleção-->
+				
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 
