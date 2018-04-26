@@ -379,12 +379,19 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                asdashdaksh"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"dkjahskdhjash laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that
+            <div class="col-md-7">
+                <p align = "justify">A seleção suíça participou de onze Copas do Mundo (incluindo 2018), tendo se classificado para as três últimas edições. Seu melhor resultado em mundiais foi o 6º lugar em 1950, no Brasil. Em 2006, a Suíça foi eliminada nas oitavas-de-final da competição sem sofrer nenhum gol no tempo normal e prorrogação, façanha inédita até hoje (a desclassificação veio após derrota nos pênaltis para a Ucrânia.
+<p align = "justify">Indo para sua quarta Copa do Mundo seguida, a Suíça chega ao mundial de 2018 como uma equipe bastante experiente, que buscará chegar mais longe na competição.</p>
+<p align = "justify">Nas Eliminatórias da copa da rússia, a seleção terminou a primeira fase como segunda colocada do grupo B, com 9 vitórias em 10 jogos. A campanha foi praticamente perfeita, apenas sendo derrotada por Portugal, que acabou líder com o mesmo número de pontos. A Vantagem do time português foi apenas no saldo de gols. Com isso, a Suíça teve que jogar uma repescagem contra a Irlanda do Norte, onde mostrou sua melhor característica, a defesa. Uma vitória por 1 a 0 e um empate em 0 a 0 classificaram a equipe para a Copa do Mundo.</p>
+<p align = "justify">A Suíça possui alguns destaques individuais, dentre eles: Yann Sommer, goleiro de 29 anos do Borussia Monchengladbach, que possui 34 jogos pela Suíça; Stephan Lichtsteiner, lateral de 34 anos da Juventus, que possui 98 jogos e 8 gols pela Suíça; Ricardo Rodríguez, lateral de 25 anos do Milan, que possui 51 jogos e 3 gols pela Suíça; Granit Xhaka, meio-campista de 25 anos do Arsenal, que possui 61 jogos e 9 gols pela Suíça; Xherdan Shaqiri, meio-campista de 26 anos do Stoke City, que possui 68 jogos e 20 gols pela Suíça; Haris Seferovic, atacante de 26 anos do Benfica, que possui 49 jogos e 11 gols pela Suíça.</p>
+<p align = "justify">A Suíça foi sorteada no grupo E na Copa do Mundo de 2018, juntamente de Brasil, Costa Rica e Sérvia.Os suíços são a segunda força do grupo, devendo lutar pela segunda vaga nas oitavas, visto que o Brasil é o amplo favorito à liderança do grupo.</p>
+<p align = "justify">A disputa pela vaga deverá ser decidida contra a Sérvia, que deverá dificultar a vida dos suíços no mundial.O sucesso da Suíça passará muito pelo entrosamento de gerações, pois o elenco é polarizado em jogadores jovens promissores e atletas experientes, que deverão encontrar o balança necessário para um bom desempenho.</p>
+    <p align = "justify">Shaqiri, o craque do time, apesar de não viver grande fase em seu clube, o Stoke City, deverá ser fator de desequilíbrio para sua seleção, pois possui ótimo drible e precisa finalização.O sistema defensivo suíço é outro ponto forte dessa seleção, que cede poucas chances aos seus rivais.</p>
 
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

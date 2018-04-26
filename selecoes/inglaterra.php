@@ -379,13 +379,15 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                Em 30 de novembro de 1872, Inglaterra e Escócia realizaram a primeira partida oficial entre seleções da história do futebol. O jogo aconteceu em território escocês e terminou empatado em 0x0. Em Copas do Mundo, a Inglaterra, desde sua estreia em 1950, chegou apenas uma vez à final, justamente em 1966, quando sediou a competição. A decisão foi realizada no Estádio de Wembley, um dos palcos mais tradicionais do futebol e após vencer a Alemanha Ocidental por 4x2, outras conquistas de destaque foram o tricampeonato olímpico (1900, contra França e 1908 e 1912, contra a Dinamarca), porém representando a Grã-Bretanha (Inglaterra, Escócia e País de Gales). Contudo, as equipes eram formadas, em sua maioria, por jogadores ingleses.
-                Na copa da Rússia em 2018 a vaga inglesa veio após uma boa campanha nas Eliminatórias, com oito vitórias e dois empates em dez jogos. Na primeira colocação do Grupo F com 26 pontos, os campeões mundiais de 1966 marcaram 18 gols e sofreram três.
+            <div class="col-md-7">
+              <p align = "justify">Em 30 de novembro de 1872, Inglaterra e Escócia realizaram a primeira partida oficial entre seleções da história do futebol. O jogo aconteceu em território escocês e terminou empatado em 0x0. Em Copas do Mundo, a Inglaterra, desde sua estreia em 1950, chegou apenas uma vez à final, justamente em 1966, quando sediou a competição. A decisão foi realizada no Estádio de Wembley, um dos palcos mais tradicionais do futebol e após vencer a Alemanha Ocidental por 4x2, outras conquistas de destaque foram o tricampeonato olímpico (1900, contra França e 1908 e 1912, contra a Dinamarca), porém representando a Grã-Bretanha (Inglaterra, Escócia e País de Gales). Contudo, as equipes eram formadas, em sua maioria, por jogadores ingleses.</p>
+<p align = "justify">Na copa da Rússia em 2018 a vaga inglesa veio após uma boa campanha nas Eliminatórias, com oito vitórias e dois empates em dez jogos. Na primeira colocação do Grupo F com 26 pontos, os campeões mundiais de 1966 marcaram 18 gols e sofreram três.</p>
+<p align = "justify">A Seleção da Inglaterra, campeã mundial em 1966, chega para sua 15ª Copa do Mundo sob o comando do técnico Gareth Southgate – que não é nenhuma unanimidade entre os súditos da rainha Elizabeth, assim como não era o seu antecessor, Sam Allardyce, o breve, que assumiu a equipe no lugar de Roy Hodgson, comandante do English Team entre 2012 e 2016. Allardyce caiu no mesmo ano e deu lugar ao interino/definitivo Southgate.</p>
+<p align = "justify">Apesar de toda a “bagunça” com os técnicos – que quase azedou o chá em Windsor – a seleção inglesa conseguiu sua classificação para a Copa do Mundo com relativa tranquilidade. Líder invicta do Grupo F nas eliminatórias, a equipe conquistou 8 vitórias e 2 empates, obtendo um aproveitamento de 86,7%, que arrancou aplausos discretos do príncipe William.</p>
+<p align = "justify">A seleção chega para a Copa, evidentemente, com algum favoritismo na luta pelo título, mas, assim como a Bélgica, está atrás dos “pesos-pesados” (França, Alemanha, Brasil, Espanha e Portugal). As esperanças – e liderança – da seleção inglesa estão nos pés de Harry Kane, atacante do Tottenham que faz uma temporada excepcional na Premier League e é o símbolo máximo da renovação pela qual passou o English Team desde a última Copa do Mundo.</p>
 
 
-
-            </p> <!--texto seleção-->
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

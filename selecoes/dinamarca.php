@@ -379,12 +379,28 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A Seleção Dinamarquesa é uma das grandes reveladoras de talentos no futebol, como são os casos dos irmãos Michael e Brian Laudrup e o goleiro Peter Schmeichel. As boas apresentações apareceriam já nos remotos anos de 1908 e 1912, quando a Dinamarca conquistou a medalha de prata nos Jogos Olímpicos de Verão após ser derrotada nas duas finais para a Grã-Bretanha. No entanto, os bons resultados só voltariam a aparecer nas Olimpíadas de 1948, com a conquista do bronze em cima dos britânicos, e na de 1960, novamente com a prata, quando perdeu a decisão para a Iugoslávia.
-                A seleção alcançou sua maior façanha em 1992: o título europeu, após uma vitória de 2x0 sobre os alemães. Desde então, os melhores resultados da Dinamarca foram as quartas-de-final da Copa do Mundo de 1998 e da Eurocopa de 2004. 
+            <div class="col-md-7">
+               <p align = "justify"> A Seleção Dinamarquesa é uma das grandes reveladoras de talentos no futebol, como são os casos dos irmãos Michael e Brian Laudrup e o goleiro Peter Schmeichel. As boas apresentações apareceriam já nos remotos anos de 1908 e 1912, quando a Dinamarca conquistou a medalha de prata nos Jogos Olímpicos de Verão após ser derrotada nas duas finais para a Grã-Bretanha. No entanto, os bons resultados só voltariam a aparecer nas Olimpíadas de 1948, com a conquista do bronze em cima dos britânicos, e na de 1960, novamente com a prata, quando perdeu a decisão para a Iugoslávia.</p>
+               <p align = "justify"> A seleção alcançou sua maior façanha em 1992: o título europeu, após uma vitória de 2x0 sobre os alemães. Desde então, os melhores resultados da Dinamarca foram as quartas-de-final da Copa do Mundo de 1998 e da Eurocopa de 2004. </p>
+
+                 <p align = "justify">Sob o comando de Åge Hareide, a Dinamarca conseguiu se classificar para a Copa do Mundo de 2018, após passar pela repescagem.
+
+Com 6 vitórias, 2 empates e 2 derrotas em 10 jogos, marcando 20 gols e sofrendo 8, a Dinamarca ficou em segundo lugar no grupo E das Eliminatórias Europeias para a Copa do Mundo, se classificando para a repescagem.
+
+A adversária da repescagem foi a Irlanda. Após empate sem gols no jogo de ida, a Dinamarca aplicou uma goleada na volta, vencendo por 5 a 1 e garantindo a vaga na Rússia em 2018.</p>
+
+<p align = "justify">Entre 2017 e 2018 a Dinamarca jogou 11 partidas, vencendo 5, empatando 4 e perdendo 2 jogos, marcando 21 gols e sofrendo 9.
+
+<p align = "justify">Importante ressaltar que as duas derrotas foram com uma seleção alternativa, somente com jogadores locais.
+Peter Schmeichel é o jogador com mais partidas pela seleção dinamarquesa, participando de 129 partidas entre 1987 e 2001.
+Já os maiores artilheiros da Dinamarca são Jon Dahl Tomasson (1997–2010) e Poul Nilsen (1910–1925), com 52 gols marcados por cada um.</p>
+
+<p align = "justify">A Dinamarca possui alguns destaques individuais, como: Kasper Schmeichel, goleiro de 31 anos do Leicester City, que possui 31 jogos pela Dinamarca; Simon Kjær, zagueiro de 28 anos do Sevilla, que possui 74 jogos e 3 gols pela Dinamarca, além de ser o capitão do time; William Kvist, meio-campista de 33 anos do FC Copenhague, que possui 77 jogos e 2 gols pela Dinamarca; Christian Eriksen, meio-campista de 26 anos do Tottenham, que possui 75 jogos e 21 gols pela Dinamarca; Niklas Bendter, atacante de 30 anos do Rosenborg, que possui 79 jogos e 30 gols pela Dinamarca.</p>
+<p align = "justify">A Dinamarca foi sorteada no grupo C na Copa do Mundo de 2018, juntamente de França, Austrália e Peru.</p>
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

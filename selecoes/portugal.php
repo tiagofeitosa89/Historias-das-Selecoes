@@ -379,11 +379,28 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A Seleção Portuguesa de Futebol, atualmente, é uma das mais respeitadas seleções do mundo, mesmo sem nunca ter conquistado um título de expressão. Até 2013, a Seleção das Quinas, como também é conhecida, já se classificou para seis Copas do Mundo, sendo que esteve presente nas últimas quatro edições (contabilizando 2014) e estará presente na copa de 2018.
+            <div class="col-md-7">
+                <p align = "justify">A Seleção Portuguesa de Futebol, atualmente, é uma das mais respeitadas seleções do mundo, mesmo sem nunca ter conquistado um título de expressão. Até 2013, a Seleção das Quinas, como também é conhecida, já se classificou para seis Copas do Mundo, sendo que esteve presente nas últimas quatro edições (contabilizando 2014) e estará presente na copa de 2018.</p>
+
+                <p align = "justify">Chegando para o Mundial da Rússia como atuais campeões europeus, os portugueses vivem o melhor momento da história do seu futebol e buscam repetir as grandes campanhas de 1966 e 2006, quando Portugal chegou às semifinais daqueles Mundiais.</p>
+<p align = "justify">O título europeu fez com que Portugal participasse pela primeira fez da Copa das Confederações, em 2017, na Rússia.
+
+Ficando em primeiro lugar no seu grupo, Portugal é eliminado na semifinal, perdendo para o Chile nos pênaltis, com 3 defesas do goleiro chileno Bravo.</p>
+<p align = "justify">O jogador que mais jogou partidas por Portugal é Cristiano Ronaldo, com 147 jogos. Cristiano também é o maior artilheiro da história da seleção portuguesa, com 79 gols marcados.</p>
+
+<p align = "justify">Para chegar na Copa do Mundo de 2018, Portugal teve que lutar jogo a jogo com a Suíça pela vaga direta do grupo B das Eliminatórias Europeias, sendo a vaga decidida apenas no último jogo, com uma vitória de Portugal sobre a Suíça, igualando a pontuação das equipes (27 pontos em 10 jogos), porém Portugal tinha melhor saldo de gols, ficando com a vaga.</p>
+
+<p align = "justify">Foram 9 vitórias e 1 derrota em 10 jogos nas Eliminatórias, com 32 gols marcados e 4 gols sofridos. Cristiano Ronaldo, com 14 gols, foi o vice-artilheiro das Eliminatórias Europeias, ficando atrás de Lewandowski.</p>
+
+<p align = "justify">Em 15 partidas disputadas em 2017, Portugal venceu 11, empatou 3 e perdeu apenas 1, para a Suécia, em um amistoso. 35 gols foram marcados e 9 foram sofridos.</p>
+
+<p align = "justify">Os destaques individuais de Portugal são: Rui Patrício, goleiro do Sporting, de 29 anos, que tem 68 partidas pela seleção portuguesa; Pepe, zagueiro do Beşiktaş, de 34 anos, que tem 92 jogos e 5 gols por Portugal; Bernardo Silva, meia do Manchester City, de 23 anos, que tem 21 jogos e 2 gols pela seleção; André Silva, atacante do Milan, de 22 anos, que tem 18 jogos e 11 gols por Portugal; Cristiano Ronaldo, atacante do Real Madrid, de 32 anos, capitão da equipe, que tem 147 jogos e 79 gols pela seleção portuguesa.</p>
+
+<p align = "justify">Portugal estará no grupo B na Copa do Mundo da Rússia, juntamente de sua rival histórica, a Espanha, além de Irã e Marrocos.</p>
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

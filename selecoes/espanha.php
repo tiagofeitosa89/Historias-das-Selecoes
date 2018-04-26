@@ -379,14 +379,26 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                "La Fúria" ou "A Fúria Vermelha" é como a seleção espanhola é conhecida mundo afora. Organizada pela Real Federação Espanhola de Futebol, é uma das confederações fundadoras da FIFA e um dos países com mais participações em Copas do Mundo (14, incluindo 2014). Apesar de sempre possuir grandes jogadores, até os início do século XXI, os títulos de expressão da Espanha se resumiam à Eurocopa de 1964, contra União Soviética e às Olimpíadas de 1992, contra a Polônia.
+            <div class="col-md-7">
+                <p align = "justify">"La Fúria" ou "A Fúria Vermelha" é como a seleção espanhola é conhecida mundo afora. Organizada pela Real Federação Espanhola de Futebol, é uma das confederações fundadoras da FIFA e um dos países com mais participações em Copas do Mundo (14, incluindo 2014). Apesar de sempre possuir grandes jogadores, até os início do século XXI, os títulos de expressão da Espanha se resumiam à Eurocopa de 1964, contra União Soviética e às Olimpíadas de 1992, contra a Polônia.</p>
 
-                A alcunha de "A Fúria Vermelha" deve-se à gana e vontade da seleção espanhola, bem como pela cor principal de seu uniforme de origem. Durante a Guerra Civil que deflagrou no país entre os anos de 1936 e 1939, a Espanha trocou o vermelho pelo branco e passou a usar em sua camisa o símbolo franquista, em menção ao general Francisco Franco. 
+               <p align = "justify"> A alcunha de "A Fúria Vermelha" deve-se à gana e vontade da seleção espanhola, bem como pela cor principal de seu uniforme de origem. Durante a Guerra Civil que deflagrou no país entre os anos de 1936 e 1939, a Espanha trocou o vermelho pelo branco e passou a usar em sua camisa o símbolo franquista, em menção ao general Francisco Franco. </p>
+
+                <p align = "justify">Para se classificar para a Copa do Mundo de 2018, a Espanha ficou em primeiro lugar no grupo G das Eliminatórias Europeias, vencendo o duelo pela vaga direta com a Itália, que acabou ficando de fora da Copa na repescagem.
+Em 10 jogos, os espanhóis venceram 9 e empataram 1 jogo, marcando 36 gols e sofrendo apenas 3.</p>
+
+<p align = "justify">A Espanha jogou 10 jogos em 2017, vencendo 8 e empatando 2 partidas, com 33 gols a favor e 7 gols contra.</p>
+
+<p align = "justify">O jogador com mais partidas pela seleção espanhola é o goleiro Iker Casillas, com 167 jogos desde 2000.
+Já o maior artilheiro da história da Espanha é David Villa, que marcou 59 gols e 98 jogos desde 2005.</p>
+
+<p align = "justify">A Espanha possui diversos destaques individuais, como: David De Gea, goleiro do Atlético de Madrid de 27 anos, que possui 25 partidas pela Espanha; Sérgio Ramos, zagueiro do Real Madrid de 31 anos, que possui 149 jogos e 13 gols pela Espanha e é o capitão da seleção; Andrés Iniesta, meio-campista do Barcelona de 33 anos, que possui 123 jogos e 14 gols pela Espanha; Isco, meio-campista do Real Madrid de 25 anos, que possui 25 jogos e 7 gols pela Espanha.</p>
+<p align = "justify">A Espanha está no grupo B na Copa do Mundo da Rússia, juntamente de Portugal, Marrocos e Irã.</p>
 
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

@@ -379,13 +379,24 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                Em âmbito internacional, o país esteve representado em quatro Copas do Mundo (1970, 1986, 1994 e 1998), sendo que seu melhor desempenho foi as oitavas-de-final em 1986. Naquela edição, Marrocos se tornou a primeira seleção africana a liderar a fase de grupos de um mundial, ficando à frente de Portugal, Polônia e Inglaterra. 
-                A grande façanha da Seleção Marroquina de Futebol é o título de campeões da Copa das Nações Árabes em 2012, com vitória nas penalidades sobre a Líbia.
+            <div class="col-md-7">
+               <p align = "justify"> Em âmbito internacional, o país esteve representado em quatro Copas do Mundo (1970, 1986, 1994 e 1998), sendo que seu melhor desempenho foi as oitavas-de-final em 1986. Naquela edição, Marrocos se tornou a primeira seleção africana a liderar a fase de grupos de um mundial, ficando à frente de Portugal, Polônia e Inglaterra. </p>
+               <p align = "justify"> A grande façanha da Seleção Marroquina de Futebol é o título de campeões da Copa das Nações Árabes em 2012, com vitória nas penalidades sobre a Líbia.</p>
+
+                <p align = "justify">O Marrocos se classificou para a Copa do Mundo de 2018 após venceu o grupo C das Eliminatórias Africanas, vencendo 3 jogos e empatando outros 3, marcando 11 gols e não sofrendo nenhum. Costa do Marfim, Gabão e Mali foram as adversárias de grupo.</p>
+
+<p align = "justify">Em 2017 e em 2018, Marrocos jogou 23 jogos, vencendo 15 jogos, empatando 3 jogos e perdendo 5 jogos, com 43 gols a favor e 11 gols contra.</p>
+
+<p align = "justify">Abdelmajid Dolmy é o jogador com mais partidas por Marrocos, com 140 jogos entre 1971 e 1988.
+Ahmed Faras é o maior artilheiro da história de Marrocos, com 42 gols em 77 jogos, entre 1965 e 1979.</p>
+
+<p align = "justify">O Marrocos possui alguns destaques individuais, como: Achraf Hakimi, lateral de 19 anos do Real Madrid, que possui 6 jogos e 1 gols por Marrocos; Mehdi Benatia, zagueiro de 30 anos da Juventus, que possui 53 jogos e 2 gols por Marrocos, além de ser o capitão da seleção; Nordin Amrabat, meio-campista de 30 anos do Leganés, que possui 40 jogos e 4 gols por Marrocos; Younés Belhanda, meio-campista de 27 anos do Galatasaray, que possui 43 jogos e 3 gols por Marrocos.</p>
+<p align = "justify">A seleção marroquina estará no grupo B na Copa do Mundo de 2018, juntamente com Portugal, Espanha e Irã.</p>
 
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

@@ -379,14 +379,26 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A Argentina é um dos cinco países da América do Sul que vão participar da Copa do Mundo de 2018, na Rússia. Depois de muita dificuldade e apenas sete vitórias nas 18 partidas jogadas, a seleção se classificou para o Mundial. A equipe contou ainda a instabilidade no quesito treinador, contando com três no total, até chegar ao atual, Jorge Sampaoli.
-                Ela é uma das mais vitoriosas seleções de futebol, sagrando-se campeã das Copas do Mundo de 1978 e 1986. Dessa maneira, é junto com o Brasil, a única seleção a ter vencido o Mundial em dois ou mais continentes.
-                Diego Armando Maradona é considerado o maior ídolo da seleção e para muitos, o melhor jogador de futebol de todos os tempos. Disputou quatro Copas do Mundo (1982-1994) e foi eleito o craque do Mundial de 1986, quando a Argentina sagrou-se bicampeã, com direito ao "Gol do Século" quando passou por toda a zaga adversária e ao polêmico gol de mão ("La Mano de Dios" – como ele mesmo intitulou), ambos nas quartas-de-final contra a Inglaterra.
+            <div class="col-md-7">
+               <p align = "justify"> A Argentina é um dos cinco países da América do Sul que vão participar da Copa do Mundo de 2018, na Rússia. Depois de muita dificuldade e apenas sete vitórias nas 18 partidas jogadas, a seleção se classificou para o Mundial. A equipe contou ainda a instabilidade no quesito treinador, contando com três no total, até chegar ao atual, Jorge Sampaoli.</p>
+               <p align = "justify"> Ela é uma das mais vitoriosas seleções de futebol, sagrando-se campeã das Copas do Mundo de 1978 e 1986. Dessa maneira, é junto com o Brasil, a única seleção a ter vencido o Mundial em dois ou mais continentes.</p>
+               <p align = "justify"> Diego Armando Maradona é considerado o maior ídolo da seleção e para muitos, o melhor jogador de futebol de todos os tempos. Disputou quatro Copas do Mundo (1982-1994) e foi eleito o craque do Mundial de 1986, quando a Argentina sagrou-se bicampeã, com direito ao "Gol do Século" quando passou por toda a zaga adversária e ao polêmico gol de mão ("La Mano de Dios" – como ele mesmo intitulou), ambos nas quartas-de-final contra a Inglaterra.</p>
+
+              <p align = "justify">  A classificação para a Copa do Mundo de 2018 veio de forma dramática, sendo confirmada apenas na última rodada.
+
+Messi foi fundamental para isso, pois o rendimento da seleção foi muito melhor com ele.
+7 vitórias, 7 empates e 4 derrotas, com 19 gols marcados e 16 sofridos, a Argentina ficou em 3° lugar nas Eliminatórias Sul-Americanas, 2 pontos acima do 6° colocado, o Chile, que ficou de fora do mundial.</p>
+
+<p align = "justify">Em 11 jogos feitos entre 2017 e 2018, a Argentina venceu 6, empatou 3 e perdeu 2 partidas, marcando 17 gols e sofrendo 8.</p>
+<p align = "justify">O jogador com mais partidas pela seleção argentina é Javier Zanetti, com 143 partidas entre 1994 e 2011.
+Já o maior artilheiro da história da Argentina é Lionel Messi, com 61 gols em 125 jogos, de 2005 até os dias atuais.</p>
+<p align = "justify">A Argentina possui inúmeros destaques individuais, dentre eles: Nicolás Otamendi, zagueiro de 30 anos do Manchester City, que possui 51 jogos e 3 gols pela Argentina; Ángel Di Maria, meio-campista de 30 anos do PSG, que possui 92 jogos e 19 gols pela Argentina; Lionel Messi, atacante de 30 anos do Barcelona, que possui 125 jogos e 61 gols pela Argentina; Sergio Agüero, atacante de 29 anos do Manchester City, que possui 84 jogos e 36 gols pela Argentina; Gonzalo Higuaín, atacante de 30 anos da Juventus, que possui 68 jogos e 31 gols pela Argentina.</p>
+<p align = "justify">Para a Copa do Mundo de 2018, a Argentina foi sorteada no grupo D, juntamente de Islândia, Croácia e Nigéria.</p>
 
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

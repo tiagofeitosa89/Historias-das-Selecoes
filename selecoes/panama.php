@@ -379,14 +379,16 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A seleção panamenha participará de sua primeira edição da Copa do Mundo de futebol em 2018. A seleção do Panamá não disputou a Copa do Mundo até 1978, quando tentou sem sucesso sua primeira classificação. Depois de dez tentativas frustradas a equipe panamenha estreia na Copa do Mundo em 2018. Na Copa Ouro da CONCACAF o Panamá participou de oito edições, sendo vice-campeão em duas oportunidades (2005 e 2013). O Panamá foi campeão da Copa Centroamericana em 2009.
-                Localizado na região do Caribe, o país garantiu a vaga inédita na última rodada das Eliminatórias da Concacaf ao vencer a Costa Rica em casa e contar com derrota dos Estados Unidos para Trinidad e Tobago. Ao todo, foram nove gols marcados e dez sofridos, com 13 pontos ganhos em 30 disputados.
-                Em seu primeiro Mundial da história, o Panamá chegará como azarão e deve jogar para conquistar ao menos um ponto, o que já seria histórico. A classificação ficou marcada por muita festa no país caribenho com direito a feriado nacional.
+            <div class="col-md-7">
+                <p align = "justify">A seleção panamenha participará de sua primeira edição da Copa do Mundo de futebol em 2018. A seleção do Panamá não disputou a Copa do Mundo até 1978, quando tentou sem sucesso sua primeira classificação. Depois de dez tentativas frustradas a equipe panamenha estreia na Copa do Mundo em 2018. Na Copa Ouro da CONCACAF o Panamá participou de oito edições, sendo vice-campeão em duas oportunidades (2005 e 2013). O Panamá foi campeão da Copa Centroamericana em 2009.</p>
+<p align = "justify">Localizado na região do Caribe, o país garantiu a vaga inédita na última rodada das Eliminatórias da Concacaf ao vencer a Costa Rica em casa e contar com derrota dos Estados Unidos para Trinidad e Tobago. Ao todo, foram nove gols marcados e dez sofridos, com 13 pontos ganhos em 30 disputados.</p>
+<p align = "justify">Embora seja considerada uma equipe em evolução dentro da Concacaf e tenha conseguido se classificar para a Copa do Mundo da Rússia sem depender de repescagem ao se garantir em terceiro lugar no hexagonal final das eliminatórias – deixando para trás, por exemplo, a Seleção dos Estados Unidos que não ficava fora de uma Copa desde 1994 –, a Seleção do Panamá não fez uma campanha de encher os olhos e teve um aproveitamento de apenas 43,3% em sua caminhada rumo à Rússia com 3 vitórias, 4 empates e 3 derrotas em 10 jogos (nos últimos 5, foram 2 derrotas, 2 vitórias e 1 empate).</p>
+    <p align = "justify">Liderada pelo (e dependente do) talento do veterano atacante Luis Tejada, de 35 anos, a seleção panamenha desembarca para sua primeira Copa do Mundo sem grandes ambições, chegará como azarão e deve jogar para conquistar ao menos um ponto, o que já seria histórico. A classificação ficou marcada por muita festa no país caribenho com direito a feriado nacional.</p>
 
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

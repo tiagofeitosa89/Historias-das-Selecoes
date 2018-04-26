@@ -379,11 +379,21 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                Fundada em 1900, a Associação Uruguaia de Futebol foi um dos membros fundadores da CONMEBOL. O apelido de Celeste veio já nos anos iniciais após o primeiro triunfo da seleção Uruguai em Montevidéu, em 15 de agosto de 1910. A camisa azul que hoje é um emblema nacional, na ocasião, foi adotada em reconhecimento ao triunfo, dias antes, do River uruguaio, que utilizava essas mesmas cores, ante o poderoso Alumni portenho.
+            <div class="col-md-7">
+                <p align = "justify">Fundada em 1900, a Associação Uruguaia de Futebol foi um dos membros fundadores da CONMEBOL. O apelido de Celeste veio já nos anos iniciais após o primeiro triunfo da seleção Uruguai em Montevidéu, em 15 de agosto de 1910. A camisa azul que hoje é um emblema nacional, na ocasião, foi adotada em reconhecimento ao triunfo, dias antes, do River uruguaio, que utilizava essas mesmas cores, ante o poderoso Alumni portenho.</p>
+
+                <p align = "justify">Para chegar na Copa do Mundo de 2018 o Uruguai ficou em segundo lugar nas Eliminatórias Sul-Americanas, ficando atrás apenas do Brasil. O Uruguai marcou 31 pontos em 18 jogos, sendo 9 vitórias, 4 empates e 5 derrotas, com 32 gols a favor e 20 contra, sendo Cavani o artilheiro da competição, com 10 gols.</p>
+
+<p align = "justify">O desempenho no ano de 2017 dos uruguaios foi bastante insatisfatório, com 2 vitórias, 3 empates e 5 derrotas, com 10 gols a favor e 17 contra.</p>
+
+<p align = "justify">Os maiores destaques individuais do Uruguai para a Copa de 2018 são: Luiz Suárez, de 30 anos, do Barcelona, que tem 49 gols em 95 jogos pelo Uruguai; Edison Cavani, de 30 anos, do PSG, que tem 40 gols em 98 jogos pelo Uruguai; Diego Godín, de 31 anos, do Atlético de Madrid, que tem 8 gols em 113 jogos pelo Uruguai; Rodrigo Bentancur, de 20 anos, da Juventus, que não fez gols nos seus 4 jogos pelo Uruguai.</p>
+
+<p align = "justify">Na história da seleção uruguaia, o jogador com mais partidas é o lateral Maxi Pereira, que desde 2005 participou de 124 jogos pelo Uruguai
+Já o maior artilheiro da história do Uruguai é Luiz Suárez, que marcou 49 gols em 95 jogos, desde 2007.</p>
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

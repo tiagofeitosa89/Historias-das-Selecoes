@@ -379,13 +379,28 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A Islândia é líder do Grupo I nas Eliminatórias do continente, teve sete vitórias, um empate e duas derrotas nas 10 partidas jogadas. A vaga para o Mundial veio depois de vencer o Kosovo por 2 a 0 na última rodada.
-                Ao lado do Panamá, a Islândia é estreante no maior evento do futebol mundial e irá participar pela primeira vez, de uma Copa do Mundo. A equipe comandada pelo treinador Heimir Hallgrímsson recebeu a alcunha de "Nossos Garotos".
-                A mesma não possui nenhum título de expressão ou reconhecido pela FIFA.
+            <div class="col-md-7">
+               <p align = "justify"> A Islândia é líder do Grupo I nas Eliminatórias do continente, teve sete vitórias, um empate e duas derrotas nas 10 partidas jogadas. A vaga para o Mundial veio depois de vencer o Kosovo por 2 a 0 na última rodada.
+                Ao lado do Panamá, a Islândia é estreante no maior evento do futebol mundial e irá participar pela primeira vez, de uma Copa do Mundo. A equipe comandada pelo treinador Heimir Hallgrímsson recebeu a alcunha de "Nossos Garotos".</p>
+                <p align = "justify">A mesma não possui nenhum título de expressão ou reconhecido pela FIFA.</p>
+               <p align = "justify"> Estando no grupo I das Eliminatórias, que também contava com fortes seleções, como Croácia, Turquia e Ucrânia, a Islândia novamente fez história.
+
+Com 7 vitórias, 2 empates e 1 derrota, com 16 gols marcados e 7 sofridos, a Islândia conseguiu se classificar para a Copa de maneira direta, pois foi a líder do grupo, deixando a Croácia na repescagem.
+
+A classificação da Islândia para a Copa ficou marcada como a classificação do país com menor número de habitantes da história.
+
+Em 15 jogos entre 2017 e 2018, a Islândia venceu 9, empatou 1 e perdeu 5 jogos, marcando 26 gols e sofrendo 10.</p>
+
+<p align = "justify">
+O jogador com mais partidas pela Islândia é Rúnar Kristinsson, com 106 jogos entre 1987 e 2004.
+Já o maior artilheiro da história da Islândia é Eidur Gudjohnsen, com 26 gols marcados em 88 jogos, entre 1996 e 2016.</p>
+
+<p align = "justify">A Islândia possui alguns destaques individuais, como: Hannes Halldorsson, goleiro de 33 anos do Randers, que possui 48 jogos pela Islândia; Ragnar Sigurdsson, zagueiro de 31 anos do Rostov, que possui 74 jogos e 3 gols pela Islândia; Hördur Magnússon, lateral de 25 anos do Bristol City, que possui 15 jogos e 2 gols pela Islândia; Aron Gunnarsson, meio-campista de 28 anos do Cardiff City, que possui 77 jogos e 2 gols pela Islândia; Birkir Bjarnasson, meio-campista de 29 anos do Aston Villa, que possui 64 jogos e 9 gols pela Islândia; Gylfi Sigurdsson, meio-campista de 28 anos do Everton, que possui 55 jogos e 18 gols pela Islândia; Kolbeinn Sigþórsson, atacante de 28 anos do Nantes, que possui 44 jogos e 22 gols pela Islândia.</p>
+<p align = "justify">A Islândia foi sorteada no grupo D da Copa do Mundo de 2018, juntamente de Argentina, Nigéria e Croácia.</p>
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

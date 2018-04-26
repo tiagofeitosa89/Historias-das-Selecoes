@@ -379,13 +379,26 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A Nigéria é um dos cinco países da África que vão participar da Copa do Mundo de 2018, na Rússia. Líder do Grupo B das eliminatórias, foi o primeiro país do continente a garantir sua passagem para o Mundial, uma rodada antes do fim da competição. Foram quatro vitórias, um empate e uma derrota nas seis partidas disputadas.
-                A Seleção Nigeriana de Futebol foi a primeira representante da África a conquistar a medalha olímpica de ouro. A façanha foi alcançada em 1996, após vitórias nas semifinais e finais sobre os poderosos Brasil e Argentina, respectivamente. Em 1994, estreou em Copas do Mundo e obteve a melhor das suas quatro participações, sendo eliminada nas oitavas-de-final pela Itália, na prorrogação. Em 2018, disputa seu 6º Mundial.
+            <div class="col-md-7">
+               <p align = "justify"> A Nigéria é um dos cinco países da África que vão participar da Copa do Mundo de 2018, na Rússia. Líder do Grupo B das eliminatórias, foi o primeiro país do continente a garantir sua passagem para o Mundial, uma rodada antes do fim da competição. Foram quatro vitórias, um empate e uma derrota nas seis partidas disputadas.</p>
+               <p align = "justify"> A Seleção Nigeriana de Futebol foi a primeira representante da África a conquistar a medalha olímpica de ouro. A façanha foi alcançada em 1996, após vitórias nas semifinais e finais sobre os poderosos Brasil e Argentina, respectivamente. Em 1994, estreou em Copas do Mundo e obteve a melhor das suas quatro participações, sendo eliminada nas oitavas-de-final pela Itália, na prorrogação. Em 2018, disputa seu 6º Mundial.</p>
+
+               <p align = "justify"> A vaga para o mundial veio após a Nigéria liderar o grupo B das Eliminatórias Africanas, que também jogaram Argélia, Camarões e Zâmbia, sendo esse considerado o grupo da morte na África.
+
+Mas o desempenho nigeriano foi acima das expectativas, com quatro vitórias, um empate e uma derrota, marcando 11 gols e sofrendo 6, garantindo assim a classificação para a Copa do Mundo na Rússia.</p>
+<p align = "justify">Entre 2017 e 2018 foram 24 jogos da Nigéria, com 12 vitórias, 7 empates e 5 derrotas, marcando 30 gols e sofrendo 20.</p>
+
+<p align = "justify">Os jogadores com mais partidas pela Nigéria são Vincent Enyeama (2002–2015) e Joseph Yobo (2001–2014), que jogaram 101 partidas.
+Já o maior artilheiro da história da Nigéria é Rashidi Yekini, que marcou 37 gols em 58 jogos entre 1983 e 1998.
+</p>
+<p align = "justify">A Nigéria possui diversos talentos individuais, dentre eles: Elderson Echiéjilé, lateral de 30 anos do Cercle Brugge, que possui 60 jogos e 3 gols pela Nigéria; John Obi Mikel, meio-campista de 30 anos do Tianjin Teda, que possui 83 jogos e 6 gols pela Nigéria; Wilfred Ndidi, meio-campista de 21 anos do Leicester City, que possui 16 jogos pela Nigéria; Ahmed Musa, atacante de 25 anos do CSKA Moscou, que possui 69 jogos e 13 gols pela Nigéria; Victor Moses, atacante de 27 anos do Chelsea, que possui 32 partidas e 11 gols pela Nigéria; Kelechi Iheanacho, atacante de 21 anos do Leicester City, que possui 15 partidas e 8 gols pela Nigéria.</p>
+
+<p align = "justify">A Nigéria foi sorteada no grupo D da Copa do Mundo de 2018, juntamente com Argentina, Islândia e Croácia.</p>
 
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

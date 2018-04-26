@@ -379,14 +379,18 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                Até 2012, a grande façanha da Seleção Tunisiana de Futebol foi conquistada em 2004, quando sediou e venceu a Copa das Nações Africanas com vitória de 2x1 sobre Marrocos, na final. Antes, suas melhores participações no torneio continental tinham sido os vice-campeonatos de 1965 e 1996 perdendo as decisões para Gana e África do Sul.
-                Em Copas do Mundo, a Tunísia entrou para a história ao se tornar a primeira seleção africana a conseguir uma vitória na competição. O feito foi alcançado em 1978, após vencer o México por 3x1, em seu jogo de estreia em mundiais. 
-                A classificação para a copa do mundo em 2018, veio após terminar na primeira colocação do Grupo A das Eliminatórias da África, com 14 pontos em seis jogos. Antes, na segunda fase, antes dos grupos, havia passado pela Mauritânia com duas vitórias em dois jogos. Ao todo, foram 15 gols marcados e seis sofridos.
+            <div class="col-md-7">
+                <p align = "justify">Até 2012, a grande façanha da Seleção Tunisiana de Futebol foi conquistada em 2004, quando sediou e venceu a Copa das Nações Africanas com vitória de 2x1 sobre Marrocos, na final. Antes, suas melhores participações no torneio continental tinham sido os vice-campeonatos de 1965 e 1996 perdendo as decisões para Gana e África do Sul.</p>
+<p align = "justify">Em Copas do Mundo, a Tunísia entrou para a história ao se tornar a primeira seleção africana a conseguir uma vitória na competição. O feito foi alcançado em 1978, após vencer o México por 3x1, em seu jogo de estreia em mundiais.</p>
+<p align = "justify">A classificação para a copa do mundo em 2018, veio após terminar na primeira colocação do Grupo A das Eliminatórias da África, com 14 pontos em seis jogos. Antes, na segunda fase, antes dos grupos, havia passado pela Mauritânia com duas vitórias em dois jogos. Ao todo, foram 15 gols marcados e seis sofridos.</p>
+<p align = "justify">Após um hiato de 12 anos, a Tunísia está de volta à uma Copa do Mundo depois de fazer a melhor campanha do Grupo A das Eliminatórias Africanas e concluir sua participação de forma invicta, com quatro vitórias e dois empates.</p>
+    <p align = "justify">Apesar de ter sido a primeira seleção de seu continente a vencer uma partida de Copa, em 1978, o histórico dos tunisianos na competição não chega a encher os olhos. Em quatro participações, o time nunca foi além da primeira fase, e nas três últimas terminou como último colocado em seus grupos.</p>
+    <p align = "justify">O técnico Nabil Maâloul normalmente arma seu time em um esquema 4-2-3-1 com forte presença ofensiva dos laterais Ali Maâloul e Hamdi Nagguez, mas varia para o 4-3-2-1 quando enfrenta equipes mais fortes, reforçando o sistema defensivo com a entrada de mais um volante. Formada basicamente por jogadores que atuam no próprio país, a equipe tem no meia-atacante do Rennes, Wahbi Khazri, seu nome mais conhecido.</p>
 
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

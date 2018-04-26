@@ -379,15 +379,19 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A Seleção Sérvia de Futebol participa das competições internacionais desde as eliminatórias da Euro 2008. É a sucessora natural da Seleção Servo-Montenegrina de Futebol, que por sua vez já era sucessora da Seleção Iugoslava de Futebol, equipe tradicional que fez boas campanhas em Copas do Mundo e campeonatos europeus, alcançando o 3º lugar no Mundial de 1930 (foi eliminada na semifinal, pelo futuro campeão Uruguai) e o vice-campeonato europeu de 1960 e 1968, perdendo para União Soviética e Itália na final.
-                A Sérvia chega a Rússia tentando repetir sua última partida em Copas, quando venceu a Alemanha por 1 a 0, mas o resultado não foi suficiente para classificar a equipe para a segunda fase da competição.
-                No entanto, desde que é representada como uma nação independente, a Sérvia nunca mais conseguiu resultados expressivos no futebol. Além de não se classificar para a Euro 2008 e 2012, a seleção serva não passou da fase de grupos da Copa do Mundo 2010, após vencer uma partida e perder as outras duas.
+            <div class="col-md-7">
+                <p align = "justify">A Seleção Sérvia de Futebol participa das competições internacionais desde as eliminatórias da Euro 2008. É a sucessora natural da Seleção Servo-Montenegrina de Futebol, que por sua vez já era sucessora da Seleção Iugoslava de Futebol, equipe tradicional que fez boas campanhas em Copas do Mundo e campeonatos europeus, alcançando o 3º lugar no Mundial de 1930 (foi eliminada na semifinal, pelo futuro campeão Uruguai) e o vice-campeonato europeu de 1960 e 1968, perdendo para União Soviética e Itália na final. </p>
+<p align = "justify">A Sérvia chega a Rússia tentando repetir sua última partida em Copas, quando venceu a Alemanha por 1 a 0, mas o resultado não foi suficiente para classificar a equipe para a segunda fase da competição.</p>
+<p align = "justify">No entanto, desde que é representada como uma nação independente, a Sérvia nunca mais conseguiu resultados expressivos no futebol. Além de não se classificar para a Euro 2008 e 2012, a seleção serva não passou da fase de grupos da Copa do Mundo 2010, após vencer uma partida e perder as outras duas.</p>
+<p align = "justify">Indo para sua segunda Copa do Mundo como país independente, a Sérvia é a herdeira do grande futebol iugoslavo, que foi um dos mais vistosos do mundo no século XX.</p>
+<p align = "justify">A Sérvia possui alguns destaques individuais, dentre eles: Vladimir Stojković, goleiro de 34 anos do Partizan, que possui 79 jogos pela Sérvia; Branislav Ivanović, zagueiro de 34 anos do Zenit, que possui 102 jogos e 12 gols pela Sérvia; Aleksandar Kolarov, lateral de 32 anos da Roma, que possui 74 jogos e 10 gols pela Sérvia; Nemanja Matić, meio-campista de 29 anos do Manchester United, que possui 38 jogos e 2 gols pela Sérvia; Sergej Milinković-Savić, meio-campista de 23 anos da Lazio, que possui 2 jogos pela Sérvia; Adem Ljajić, meio-campista de 26 anos do Torino, que possui 27 jogos e 5 gols pela Sérvia; Aleksandar Mitrović, atacante de 23 anos do Fulham, que possui 35 jogos e 13 gols pela Sérvia.</p>
+<p align = "justify">A Sérvia foi sorteada no grupo E da Copa do Mundo de 2018, juntamente de Brasil, Suíça e Costa Rica. Os sérvios brigam com os suíços pela segunda vaga do grupo nas oitavas, visto que o Brasil é amplo favorito à liderança. Com um futebol reativo, os sérvios dependerão bastante do avanço de seus laterais, que municiarão o atacante Mitrović, que é a referência no ataque da Sérvia. A bola parada deve ser uma arma bastante utilizada pelos sérvios, especialmente com cobranças de falta e de escanteio de Kolarov, um jogador que bate muito bem na bola.</p>
 
 
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

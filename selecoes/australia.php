@@ -379,12 +379,32 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A Seleção Australiana de Futebol (ou Socceroos) tem apresentado uma nítida evolução nos últimos anos. Apesar de ter conquistado quatro títulos continentais da Oceania (1980 e 1996, contra Taiti; 2000, contra Nova Zelândia; e 2004, contra Ilhas Salomão), as grandes façanhas são mais recentes, como as classificações para os mundiais de 2006, 2010,2014 e agora 2018. Antes, os australianos só haviam participado da Copa do Mundo de 1974. Em 2006, a Austrália avançou as oitavas-de-final, já na edição seguinte, não passou da fase de grupos.
+            <div class="col-md-7">
+               <p align = "justify"> A Seleção Australiana de Futebol (ou Socceroos) tem apresentado uma nítida evolução nos últimos anos. Apesar de ter conquistado quatro títulos continentais da Oceania (1980 e 1996, contra Taiti; 2000, contra Nova Zelândia; e 2004, contra Ilhas Salomão), as grandes façanhas são mais recentes, como as classificações para os mundiais de 2006, 2010,2014 e agora 2018. Antes, os australianos só haviam participado da Copa do Mundo de 1974. Em 2006, a Austrália avançou as oitavas-de-final, já na edição seguinte, não passou da fase de grupos.</p>
+
+                <p align = "justify">A classificação para a Copa do Mundo de 2018 veio de forma dramática, relembrando os tempos de OFC.
+
+Ficando na terceira posição do grupo B, com 5 vitórias, 4 empates e 1 derrota em 10 jogos, com 16 gols marcados e 11 gols sofridos, a Austrália se classificou para o playoff asiático, que classifica para o playoff mundial, contra uma representante da CONCACAF.</p>
+
+<p align = "justify">Foram duas partidas muito tensas contra a Síria, terceira colocada do grupo A. Os dois jogos terminaram empatados por 1 a 1, e a partida decisiva foi para a prorrogação.
+
+Na prorrogação, o ídolo Tim Cahill fez o gol da vitória, mantendo a esperança de classificação dos australianos para a Copa.</p>
+
+<p align = "justify">A adversária do playoff mundial foi Honduras, que ficou em quarto lugar nas Eliminatórias da CONCACAF.
+
+No jogo de ida em Honduras, 0 a 0 no placar. Mas no jogo de volta Jedinak foi decisivo, marcando os 3 gols australianos no jogo, fazendo com que a Austrália vencesse por 3 a 1 e se classificasse para a Copa do Mundo na Rússia em 2018.
+Em 13 partidas jogadas no ano de 2017, a Austrália conseguiu 5 vitórias, 5 empates e 3 derrotas, com 18 gols marcados e 18 gols sofridos.</p>
+<p align = "justify">O jogador com mais participações com a camisa da Austrália é o goleiro Mark Schwarzer, que participou de 109 jogos entre 1993 e 2013.
+Já o maior artilheiro da história da seleção australiana é Tim Cahill, que marcou 50 gols em 104 partidas, de 2004 até os dias atuais.</p>
+
+<p align = "justify">A Austrália possui alguns destaques individuais, dentre eles: Matthew Ryan, goleiro de 25 anos do Brigthon, que possui 41 jogos pela Austrália; Trent Sainsbury, zagueiro de 26 anos do Grasshoppers, que possui 33 jogos e 3 gols pela Austrália; Mile Jedinak, meio-campista de 33 anos do Aston Villa, que possui 73 jogos e 18 gols pela Austrália, além de ser o capitão da seleção; Aaron Mooy, meio-campista de 27 anos do Huddersfield Town, que possui 31 jogos e 5 gols pela Austrália; Mathew Leckie, atacante de 27 anos do Hertha Berlim, que possui 49 jogos e 6 gols pela Austrália; Tim Cahill, atacante de 38 anos do Millwall, que possui 104 jogos e 50 gols pela Austrália.</p>
+
+<p align = "justify">A Austrália foi sorteada no grupo C na Copa do Mundo de 2018, juntamente de França, Peru e Dinamarca.</p>
 
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

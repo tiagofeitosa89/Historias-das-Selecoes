@@ -379,14 +379,26 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A seleção russa surgiu como seleção independente em 1994 após a dissolução da seleção da CEI (Comunidade dos estados independentes) criada apenas para disputar a eurocopa de 1992, para qual a seleção da União Soviética já estava classificada.
-                A Seleção russa nunca conseguiu um título de expressão, ao contrário da seleção soviética que era bicampeã olímpica(1956 e 1988) e campeão europeia(1960). O melhor resultado da seleção russa em competições foi a semifinal do torneio europeu em 2008, quando foram eliminados pela espanha por 3 x 0. 
-                Foi eliminada na primeira fase nas três participações em copa do mundo.
-                Em 2018 foi classificada para a copa do mundo como país sede.
+            <div class="col-md-7"> 
+                <p align = "justify">A seleção russa surgiu como seleção independente em 1994 após a dissolução da seleção da CEI (Comunidade dos estados independentes) criada apenas para disputar a eurocopa de 1992, para qual a seleção da União Soviética já estava classificada.</p>
+                <p align = "justify">A Seleção russa nunca conseguiu um título de expressão, ao contrário da seleção soviética que era bicampeã olímpica(1956 e 1988) e campeão europeia(1960). O melhor resultado da seleção russa em competições foi a semifinal do torneio europeu em 2008, quando foram eliminados pela espanha por 3 x 0.</p> 
+                <p align = "justify">Foi eliminada na primeira fase nas três participações em copa do mundo.
+                Tanto nas edições da Euro de 2012 e 2016, como na Copa do Mundo de 2014, os russos tiveram péssimas participações, sendo eliminados na primeira fase em todas as competições.</p>
+
+<p align = "justify">Ser eliminado na primeira fase, algo que só ocorreu uma vez em tempos de União Soviética, ocorreu em todas as competições importantes que os russos participaram, com exceção da Eurocopa de 2008.</p>
+<p align = "justify">O jogador que mais atuou pela Rússia é Sergei Ignashevich, que atuou por 119 jogos. O maior artilheiro da seleção russa é Aleksandr Kerzhakov, que marcou 30 gols.</p>
+<p align = "justify">Na competição mais recente da Rússia, a seleção foi eliminada ainda na primeira fase da Copa das Confederações, perdendo para Portugal e México a vaga, pois só venceu a Nova Zelândia na competição, apresentando um futebol muito burocrático e sem técnica, dando um mal prognóstico para os anfitriões da próxima Copa.
+Após a Copa das Confederações, a Rússia jogou 4 amistosos, vencendo um (4x2 contra a Coreia do Sul), empatando 2 (1x1 contra o Irã e 3x3 contra a Espanha) e perdendo 1 (1x0 para a Argentina).</p>
+
+<p align = "justify">Se formos somar todos os jogos de 2017, a Rússia acumulou apenas 3 vitórias, 4 empates e 4 derrotas, com 15 gols a favor e 16 gols contra.</p>
+
+<p align = "justify">O atual treinador, Stanislav Cherchesov, está no comando da seleção russa desde agosto de 2016, após a Eurocopa daquele ano.
+Os destaques individuais da Rússia são: Golovin, do CSKA, que possui apenas 21 anos, que traz muita habilidade ao meio-campo russo; Kokorin, do Zenit, esperança de gols para a Rússia; Akinfeev, goleiro do CSKA, que está na seleção russa desde 2004, sendo o capitão russo; e os brasileiros Guilherme e Mário Fernandes, que começaram a ser convocados para a seleção russa recentemente, mas devem dar maior qualidade à seleção russa.</p>
+<p align = "justify">Se classificando como país-sede, a Rússia estará no grupo A da Copa do Mundo de 2018, e enfrentará a Arábia Saudita na estreia, em Moscou. Depois enfrentará o Egito, em São Petesburgo, finalizando a fase de grupos contra o Uruguai, em Samara.</p>
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

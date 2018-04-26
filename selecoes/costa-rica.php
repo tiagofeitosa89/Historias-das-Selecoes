@@ -379,12 +379,17 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                Entre outras façanhas, é a primeira seleção da América Central a ter vencido uma partida de Copa do Mundo e a única do continente a ter avançado à fase final. Ambos os feitos foram realizados na Copa do Mundo de 1990, ano em que o país latino estreou em mundiais. As outras participações da Costa Rica, na maior competição de futebol do mundo, foram em 2002 e 2006, porém não passou da fase de grupos.
-                A Costa Rica é um dos 3 países da CONCACAF classificados para Copa do Mundo de 2018 , na Rússia. Nas Eliminatórias da América Central e do Norte, a seleção terminou a primeira fase como líder do grupo B, com 5 vitórias em 6 jogos. A equipe enfrentou Panamá, Haiti e Jamaica. No hexagonal final, terminou em segundo lugar, apenas atrás do México. O time terminou com 16 pontos somados após 10 jogos, apenas 4 a frente dos Estados Unidos, que terminou em quinto e não conseguiu nem uma vaga para a repescagem.
+            <div class="col-md-7">
+               <p align = "justify"> Entre outras façanhas, é a primeira seleção da América Central a ter vencido uma partida de Copa do Mundo e a única do continente a ter avançado à fase final. Ambos os feitos foram realizados na Copa do Mundo de 1990, ano em que o país latino estreou em mundiais. As outras participações da Costa Rica, na maior competição de futebol do mundo, foram em 2002 e 2006, porém não passou da fase de grupos.</p>
+               <p align = "justify"> A Costa Rica é um dos 3 países da CONCACAF classificados para Copa do Mundo de 2018 , na Rússia. Nas Eliminatórias da América Central e do Norte, a seleção terminou a primeira fase como líder do grupo B, com 5 vitórias em 6 jogos. A equipe enfrentou Panamá, Haiti e Jamaica. No hexagonal final, terminou em segundo lugar, apenas atrás do México. O time terminou com 16 pontos somados após 10 jogos, apenas 4 a frente dos Estados Unidos, que terminou em quinto e não conseguiu nem uma vaga para a repescagem.</p>
+
+                <p align = "justify">Chegando à sua quinta Copa do Mundo em 2018, a Costa Rica buscará surpreender novamente o mundo, assim como fez em 2014.</p>
+<p align = "justify">A Costa Rica possui alguns destaques individuais, como: Keylor Navas, goleiro de 31 anos do Real Madrid, que possui 78 jogos pela Costa Rica; Giancarlo González, zagueiro de 30 anos do Bologna, que possui 67 jogos e 2 gols pela Costa Rica; Bryan Oviedo, lateral de 28 anos do Sunderland, que possui 41 jogos e 1 gols pela Costa Rica; Celso Borges, meio-campista de 29 anos do Espanyol, que possui 108 jogos e 21 gols pela Costa Rica; Bryan Ruiz, atacante de 32 anos do Sporting, que possui 109 jogos e 23 gols pela Costa Rica; Marco Ureña, atacante de 28 anos do Los Angeles FC, que possui 62 jogos e 15 gols pela Costa Rica.</p>
+<p align = "justify">A Costa Rica estará no grupo E na Copa do Mundo de 2018, juntamente de Brasil, Suíça e Sérvia.</p>
+	<p align = "justify">A seleção costarriquenha é considerada a mais fraca do grupo, pois possui um grupo envelhecido, além dos resultados recentes não serem nada animadores. Mas o fator de experiência pode ser favorável à Costa Rica, que 4 anos atrás surpreendeu seleções infinitamente mais tradicionais e técnicas. O sucesso costarriquenho passa pelo bom desempenho defensivo da equipe, que conta com uma linha de cinco defensores para manter-se sólida. As rápidas transições ofensivas também serão armas utilizadas pela Costa Rica, que contarão com o poder de finalização de Ruiz e Ureña para marcar seus gols.</p>
 
 
-            </p> <!--texto seleção-->
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

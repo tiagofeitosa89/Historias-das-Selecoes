@@ -379,13 +379,16 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A Seleção Sueca de Futebol participou de 12 Copas do Mundo, contudo, sem nunca ter alcançado o título. Sua maior façanha em mundiais é o vice-campeonato de 1958 quando foi a sede da competição. Na final, os suecos perderam de virada para o Brasil de Pelé, pelo placar de 5x2. Por sinal, o confronto contra os brasileiros é o que mais se repetiu na história das Copas. Ao todo, foram sete partidas, com cinco vitórias dos sul-americanos (4x2, em 1938; 7x1, em 1950; 5x2, em 1958; 2x1, em 1990 e 1x0, em 1994), e dois empates (1x1, em 1978 e 1x1, em 1994). A Suécia também figurou na 3ª colocação nas Copas de 1950 e 1994.
-                Nas Eliminatórias do continente da copa de 2018, a equipe ficou na segunda colocação do grupo A com 19 pontos, atrás apenas da líder França e eliminando a Holanda, que ficou em terceiro - a chave ainda tinha Bulgária, Luxemburgo e Belarus. Na repescagem, a seleção sueca deixou a Itália para trás vencendo por 1 a 0 em casa e empatando sem gols no campo do adversário.
+            <div class="col-md-7">
+               <p align = "justify">A Seleção Sueca de Futebol participou de 12 Copas do Mundo, contudo, sem nunca ter alcançado o título. Sua maior façanha em mundiais é o vice-campeonato de 1958 quando foi a sede da competição. Na final, os suecos perderam de virada para o Brasil de Pelé, pelo placar de 5x2. Por sinal, o confronto contra os brasileiros é o que mais se repetiu na história das Copas. Ao todo, foram sete partidas, com cinco vitórias dos sul-americanos (4x2, em 1938; 7x1, em 1950; 5x2, em 1958; 2x1, em 1990 e 1x0, em 1994), e dois empates (1x1, em 1978 e 1x1, em 1994). A Suécia também figurou na 3ª colocação nas Copas de 1950 e 1994.</p>
+<p align = "justify">Nas Eliminatórias do continente da copa de 2018, a equipe ficou na segunda colocação do grupo A com 19 pontos, atrás apenas da líder França e eliminando a Holanda, que ficou em terceiro - a chave ainda tinha Bulgária, Luxemburgo e Belarus. Na repescagem, a seleção sueca deixou a Itália para trás vencendo por 1 a 0 em casa e empatando sem gols no campo do adversário.</p>
+<p align = "justify">Dona de um notável histórico em Copas do Mundo, a Suécia retorna à competição após 12 anos apostando em um elenco sem grandes estrelas, mas muito competitivo. A equipe teve uma das trajetórias mais complicadas até a Rússia, mas se fortaleceu ao superar cada um dos desafios que apareceram pelo caminho. O primeiro foi disputar as Eliminatórias no Grupo A, o mesmo de França e Holanda. A Laranja Mecânica ficou para trás por ter um saldo de gols inferior, e a Suécia foi para a repescagem contra a poderosa Itália. Contrariando novamente todas as expectativas, os vice-campeões mundiais de 1958 carimbaram seu passaporte com uma vitória pela contagem mínima e um empate sem gols.</p>
+    <p align = "justify">O técnico Janne Andersson vive um grande dilema nesta fase final de preparação, manter o elenco modesto que deu resultado até o momento ou ceder às pressões para convocar o centroavante Ibrahimovic. Aposentado da seleção desde 2016, o maior jogador da história da Suécia já tem idade avançada, e passou os últimos anos às voltas com inúmeras contusões, mas suas simples presença poderá ser suficiente para impôr respeito aos adversários. Os atletas mais conhecidos atualmente são Forsberg, do RB Leipzig, e Lindelof, que atua pelo Manchester United.</p>
 
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

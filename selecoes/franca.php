@@ -379,12 +379,24 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                Até 2013, ao lado da Argentina, a seleção francesa de futebol é a única a conquistar a quádruple coroa, ou seja, vencer a Copa do Mundo, Olimpíadas, Copa das Confederações e Eurocopa (Copa América, no caso do país sul-americano). Mas a conquista de maior expressão estava reservada para 1998, quando o país sediou a Copa do Mundo. A França se tornava pela primeira vez campeã mundial de futebol, após golear o Brasil por 3x0. Em 2006, na Alemanha, o feito quase se repetiu. Porém, a seleção italiana levou a melhor na decisão por pênaltis, após 1x1 no tempo normal.
+            <div class="col-md-7">
+               <p align = "justify"> Até 2013, ao lado da Argentina, a seleção francesa de futebol é a única a conquistar a quádruple coroa, ou seja, vencer a Copa do Mundo, Olimpíadas, Copa das Confederações e Eurocopa (Copa América, no caso do país sul-americano). Mas a conquista de maior expressão estava reservada para 1998, quando o país sediou a Copa do Mundo. A França se tornava pela primeira vez campeã mundial de futebol, após golear o Brasil por 3x0. Em 2006, na Alemanha, o feito quase se repetiu. Porém, a seleção italiana levou a melhor na decisão por pênaltis, após 1x1 no tempo normal.</p>
+
+                <p align = "justify">Para se classificar para a Copa do Mundo de 2018, a França disputou as Eliminatórias Europeias, ficando em primeiro lugar no grupo A, com 23 pontos ganhos, vindos de 7 vitórias, 2 empates e 1 derrota em 10 jogos, marcando 18 gols e sofrendo 6.
+Apesar da liderança do grupo, a campanha não foi tão fácil, contando com um enorme tropeço contra a fraquíssima Luxemburgo em casa, com um empate sem gols.</p>
+
+<p align = "justify">Foram 11 jogos no ano de 2017, com 7 vitórias, 2 empates e 2 derrotas, com 23 gols marcados e 10 gols sofridos.</p>
+<p align = "justify">O jogador com mais partidas pela seleção francesa é o defensor Lilian Thuram, que participou de 142 jogos pela França.
+Já o maior artilheiro da história da seleção francesa é Thierry Henry, que marcou 51 gols em 123 jogos.</p>
+
+<p align = "justify">A França possui inúmeros destaques individuais, dentre eles: Hugo Lloris, goleiro de 31 anos do Tottenham, que possui 94 jogos pela França e é o capitão da seleção; Raphaël Varane, zagueiro de 24 anos do Real Madrid, que possui 40 jogos e 2 gols pela França; Blaise Matuidi, volante de 30 anos da Juventus, que possui 62 jogos e 9 gols pela França; Paul Pogba, volante de 24 anos do Manchester United, que possui 49 jogos e 8 gols pela França; Kylian Mbappé, atacante de 19 anos do PSG, que possui 10 jogos e 1 gol pela França; Antoine Griezmann, atacante de 26 anos do Atlético de Madri, que possui 49 jogos e 19 gols pela França.</p>
+
+<p align = "justify">A França foi sorteada no grupo C da Copa do Mundo de 2018, juntamente de Austrália, Peru e Dinamarca.</p>
 
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

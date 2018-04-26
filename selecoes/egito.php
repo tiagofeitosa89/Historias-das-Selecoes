@@ -379,11 +379,20 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A seleção egípcia de futebol já conquistou a copa africana das nações sete vezes, sendo até então o único tricampeão e o maior vencedor do torneio. Participou da copa do mundo em duas edições, 1934 e 1990.
-				Os Egípcios foram os primeiros africanos a participarem e marcarem gols em Copas do Mundo: os dois gols do Egito foram marcados por Abdulrahman Fawzi em 1934. Depois de 66 anos ausente da competição, a seleção egípcia voltou a disputar a Copa do Mundo em 1990. Com dois empates e a derrota para a Inglaterra na terceira rodada, novamente foi eliminada na fase inicial. 
+            <div class="col-md-7">
+                <p align = "justify">A seleção egípcia de futebol já conquistou a copa africana das nações sete vezes, sendo até então o único tricampeão e o maior vencedor do torneio. Participou da copa do mundo em duas edições, 1934 e 1990.</p>
+				<p align = "justify">Os Egípcios foram os primeiros africanos a participarem e marcarem gols em Copas do Mundo: os dois gols do Egito foram marcados por Abdulrahman Fawzi em 1934. Depois de 66 anos ausente da competição, a seleção egípcia voltou a disputar a Copa do Mundo em 1990. Com dois empates e a derrota para a Inglaterra na terceira rodada, novamente foi eliminada na fase inicial. </p>
+                <p align = "justify">Em 2017 o Egito voltou a participar da competição continental após 3 edições fora(2012,2013,2015), fazendo ótimo papel, pois chegaram na final da competição, perdendo para Camarões de virada, por 2 a 1.</p>
+                <p align = "justify">O jogador que mais participou de jogos pelo Egito é Ahmed Hassan, que jogou 184 partidas entre 1995 e 2012.
+                Já o maior artilheiro dos “faraós” é Hossam Hassan, que marcou 70 gols em 169 jogos, entre 1985 e 2006.</p>
+               <p align = "justify"> O Egito se classificou para a Copa do Mundo de 2018 após ficar em primeiro lugar no Grupo E das Eliminatórias Africanas, ficando à frente de Uganda, Gana e Congo. Salah foi o artilheiro do Egito na competição, com 5 gols marcados.</p>
+<p align = "justify">Os egípcios jogaram 17 jogos em 2017, conquistando 10 vitórias, 3 empates e 4 derrotas, com 18 gols marcados e 11 gols sofridos.</p>
+<p align = "justify">A seleção egípcia tem como destaque maior Salah, atacante de 25 anos do Liverpool, que possui 15 gols e 5 assistências na atual temporada da Premier League. Ele possui 56 jogos pela seleção, com 32 gols marcados.
+Outros destaques do Egito são: Hegazi, zagueiro do West Bromwich, de 26 anos, que possui 42 partidas pelo Egito, com 1 gol marcado; o goleiro do Al-Taawoun El-Hadary, de 44 anos, que possui 156 partidas pela seleção, podendo em 2018 ser o jogador mais velho a jogar uma partida de Copa; o meio-campista de 25 anos Elneny, do Arsenal, que possui 58 jogos pelo Egito, com gols marcados.</p>
+<p align = "justify">O Egito está no grupo A da Copa do Mundo de 2018, juntamente da anfritriã Rússia, Arábia Saudita e Uruguai. Os “faraós” possuem boas chances de classificação para as oitavas, pois possui grandes valores individuais no seu elenco, aliando juventude e experiência.</p>
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

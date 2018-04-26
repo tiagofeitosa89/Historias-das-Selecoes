@@ -379,11 +379,20 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A seleção saudita é vista como novata no cenário mundial, tendo feito sua primeira aparição na copa de 1994 que foi também sua melhor campanha, quando chegaram até as oitavas de final, sendo eliminados pela seleção Sueca pelo placar de 3 x 1. Os sauditas perderam para a Holanda por 2 x 1 e venceram Marrocos por 2 x 1 e Bélgica por 1 x 0 pela fase de grupos.
-                Nas três seguintes copas os sauditas não passaram da fase de grupos.
+            <div class="col-md-7">
+               <p align = "justify"> A seleção saudita é vista como novata no cenário mundial, tendo feito sua primeira aparição na copa de 1994 que foi também sua melhor campanha, quando chegaram até as oitavas de final, sendo eliminados pela seleção Sueca pelo placar de 3 x 1. Os sauditas perderam para a Holanda por 2 x 1 e venceram Marrocos por 2 x 1 e Bélgica por 1 x 0 pela fase de grupos.</p>
+                <p align = "justify">Nas três seguintes copas os sauditas não passaram da fase de grupos.</p>
+                <p align = "justify">Esta será a quinta Copa do Mundo da história da Arábia Saudita, sendo que, pela quarta vez, o técnico será um sul-americano. Em 1994, o técnico foi o também argentino Jorge Solari. Em 1998, o comandante foi o brasileiro Carlos Alberto Parreira. Em 2006, o treinador foi o também brasileiro Marcos Paquetá.</p>
 
-            </p> <!--texto seleção-->
+                <p align = "justify">Ao longo das eliminatórias, o time jogava em um 4-3-3, com o meia Nawaf Albed sendo a principal referência técnica. Merece destaque o centroavante Mohammad Al Sahlawi, artilheiro das eliminatórias asiáticas com 16 gols.</p>
+                <p align = "justify">O jogador com mais partidas pela Arábia Saudita é o goleiro Mohamed Al-Deayea, com 178 jogos. O maior artilheiro é o atacante Majed Abdullah, com 71 gols em 116 jogos.</p>
+
+                <p align = "justify">A Arábia Saudita jogou 12 jogos em 2017, com 6 vitórias, 1 empate e 5 derrotas, com 22 gols a favor e 16 gols contra.</p>
+
+                <p align = "justify">Todos os jogadores jogam na Arábia Saudita, com destaque para o meio-campista Al-Jassim, de 33 anos, que joga no Al-Ahli; Al-Sahlawi, de 30 anos, do Al-Nassr, que é o maior artilheiro da seleção saudita, com 30 gols; o lateral-esquerdo Al-Zori, de 30 anos, que joga no Al-Hilal; o goleiro Abdullah, de 31 anos, do Al-Nassr; e o zagueiro Hawsawi, de 33 anos, do Al-Hilal.</p>
+
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

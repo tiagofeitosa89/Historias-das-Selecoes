@@ -379,13 +379,18 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A Alemanha é uma das grandes potências no cenário do futebol mundial. Até 2013, além de ser a maior vencedora da Eurocopa, ao lado da Espanha, com três títulos (em 1972, contra União Soviética; 1980, contra Bélgica; e 1996, contra a República Tcheca), a seleção alemã conquistou quatro Copas do Mundo (1954, contra Hungria; 1974, contra Holanda;1990, contra Argentina e 2014 contra a Argentina novamente).
-				Nas Eliminatórias do continente, a equipe venceu todos os 10 jogos que disputou, terminando na liderança do grupo C com 30 pontos conquistados e 100% de aproveitamento - foram 43 gols marcados e apenas três sofridos. A chave ainda tinha Irlanda do Norte, República Tcheca, Noruega, Azerbaijão e San Marino.
+            <div class="col-md-7">
+               <p align = "justify">A Alemanha é uma das grandes potências no cenário do futebol mundial. Até 2013, além de ser a maior vencedora da Eurocopa, ao lado da Espanha, com três títulos (em 1972, contra União Soviética; 1980, contra Bélgica; e 1996, contra a República Tcheca), a seleção alemã conquistou quatro Copas do Mundo (1954, contra Hungria; 1974, contra Holanda;1990, contra Argentina e 2014 contra a Argentina novamente).</p>
+    <p align = "justify">Nas Eliminatórias do continente, a equipe venceu todos os 10 jogos que disputou, terminando na liderança do grupo C com 30 pontos conquistados e 100% de aproveitamento - foram 43 gols marcados e apenas três sofridos. A chave ainda tinha Irlanda do Norte, República Tcheca, Noruega, Azerbaijão e San Marino.</p>
+    <p align = "justify">A FIFA considera os três campeonatos da Alemanha Ocidental como da atual seleção alemã. Depois da Segunda Guerra Mundial a Alemanha foi dividida em dois países. O lado ocidental era uma economia mais forte e uma potência no futebol. O maior feito da Alemanha Oriental foi a vitória contra os irmãos ocidentais na Copa do Mundo de 1974 por 1 a 0. Em 1990, ocidentais e orientais comemoraram o título mundial e europeu como mais um passo para a reunificação do país. A Alemanha conseguiu em 2014 conquistar seu primeiro título reunificada.</p>
+<p align = "justify">Não tendo participado apenas da Copa do Mundo de 1930 (seguindo o exemplo de praticamente todas as seleções européias que pouca atenção deram ao torneio) e de 1950 (quando foi impedida pela Fifa de participar por conta do contexto da Alemanha ocupada no pós-guerra), a seleção alemã é a única, ao lado da brasileira, a ter participado de todas as edições da Copa do Mundo para a qual se inscreveu – ou esteve habilitada – sem nunca ter ficado pelo caminho nas eliminatórias.</p>
+    <p align = "justify">Com quatro títulos mundiais na bagagem – e a marca de ter participado de oito finais em sua história –, a Alemanha vem para a Copa do Mundo da Rússia em busca de seu 5º título mundial ainda sob o comando de Joachim Löw, que assumiu o cargo de técnico em 2006 em substituição a Jürgen Klinsmann que deixou o posto após o vice-campeonato na Copa da Alemanha. De lá pra cá, além da necessária renovação da equipe, foram dois títulos importantes: tetracampeã do mundo no Brasil em 2014 (ano do lendário 7 a 1) e campeã da Copa das Confederações em 2017 (único título que faltava aos alemães), com uma equipe composta basicamente por jovens talentos.</p>
+    <p align = "justify">É assim, segura, renovada, concentrada e alinhada que a Seleção Alemã chega para a Copa do Mundo da Rússia, com Löw no banco e o “camisa 10” que veste a 8, Tony Kroos, comandando a equipe dentro de campo em busca do pentacampeonato.</p>
 
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

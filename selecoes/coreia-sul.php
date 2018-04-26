@@ -379,13 +379,17 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A Seleção Sul-Coreana de Futebol é a mais bem-sucedida seleção da Ásia na história das Copas do Mundo, com dez participações (oito consecutivas 1986-2014) e uma semifinal, recordes absolutos no continente. O 4º lugar foi alcançado justamente no Mundial de 2002, disputado na Coreia do Sul e Japão, o primeiro em solo asiático e disputado em dois países diferentes. Na ocasião, os sul-coreanos perderam a semifinal para a Alemanha e a disputa de 3º lugar para a Turquia.
-                Na primeira fase das Eliminatórias do continente, a equipe terminou com folga na liderança do seu grupo, mas, na etapa seguinte, teve dificuldades e só garantiu vaga na última rodada, ficando na segunda colocação da chave, atrás do líder Irã.A performance da Coreia do Sul na Copa do Mundo do Brasil foi fraca, conquistando apenas um ponto e caindo na fase de grupos, com isso os jogadores foram recebidos debaixos de muitos protestos, o foco agora da seleção é apagar a má campanha no Mundial passado e fazer uma competição digna na Rússia.
+            <div class="col-md-7">
+                <p align = "justify">A Seleção Sul-Coreana de Futebol é a mais bem-sucedida seleção da Ásia na história das Copas do Mundo, com dez participações (oito consecutivas 1986-2014) e uma semifinal, recordes absolutos no continente. O 4º lugar foi alcançado justamente no Mundial de 2002, disputado na Coreia do Sul e Japão, o primeiro em solo asiático e disputado em dois países diferentes. Na ocasião, os sul-coreanos perderam a semifinal para a Alemanha e a disputa de 3º lugar para a Turquia.</p>
+<p align = "justify">Na primeira fase das Eliminatórias do continente, a equipe terminou com folga na liderança do seu grupo, mas, na etapa seguinte, teve dificuldades e só garantiu vaga na última rodada, ficando na segunda colocação da chave, atrás do líder Irã.A performance da Coreia do Sul na Copa do Mundo do Brasil foi fraca, conquistando apenas um ponto e caindo na fase de grupos, com isso os jogadores foram recebidos debaixos de muitos protestos, o foco agora da seleção é apagar a má campanha no Mundial passado e fazer uma competição digna na Rússia. </p>
+<p align = "justify">O segundo lugar conquistado no Grupo 1 das Eliminatórias Asiáticas, com 50% de aproveitamento (4 vitórias, 3 empates e 3 derrotas, 11 gols a favor e 10 contra), no final, não foi muito animador para a seleção sul-coreana que chegará à Copa do Mundo como um dos “figurantes” do show principal.</p>
+    <p align = "justify">O toque de bola rápido e a liderança de Heung-Min Son, do Tottenham, não deverão ser o suficiente para levar a Seleção da Coréia do Sul à segunda fase do torneio.</p>
+    <p align = "justify">O time dirigido por Taeyong Shin nas eliminatórias da copa da Rússia em 2018, obteve a classificação sem qualquer brilho ao ficar em segundo lugar no Grupo 1 das Eliminatórias Asiáticas, com sete pontos a menos que o Irã. Seu aproveitamento foi de 50%, e em dez rodadas o ataque balançou as redes apenas 11 vezes, enquanto a defesa foi vazada em 10 oportunidades. Nos amistosos preparatórios disputados em 2017, os asiáticos perderam para Rússia e Marrocos, empataram com o Iraque e a Sérvia, e venceram a Colômbia.</p>
+    <p align = "justify">Em um plantel com poucos destaques de nível internacional, os nomes mais conhecidos são os de Son Heung-min, do Tottenham, e Ki Sung-yueng, do Swansea. Segundo o Bumbet, a Coréia do Sul é a seleção mais cotada para uma eliminação na primeira fase, com um retorno de 28%.</p>
 
 
 
-            </p> <!--texto seleção-->
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

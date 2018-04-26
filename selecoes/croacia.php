@@ -379,13 +379,20 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A Seleção Croata de Futebol é reconhecida pela FIFA como sucessora da seleção da Banovina de Croácia e dos Estados Independentes da Croácia, que disputaram 16 amistosos entre os anos de 1940 e 1944. A seleção croata esteve representada pela primeira vez em uma competição oficial nas Eliminatórias da Euro 1996, conseguindo uma das 16 vagas.
-                Ela é um dos 14 países da Europa que vão participar da Copa do Mundo de 2018, na Rússia. Segunda colocada do Grupo I das Eliminatórias do continente, a vaga para o maior evento do futebol mundial só veio na repescagem. Contra a Grécia, a seleção croata venceu o primeiro jogo por 4 a 1 e empatou em 0 a 0 a segunda partida.
+            <div class="col-md-7">
+               <p align = "justify"> A Seleção Croata de Futebol é reconhecida pela FIFA como sucessora da seleção da Banovina de Croácia e dos Estados Independentes da Croácia, que disputaram 16 amistosos entre os anos de 1940 e 1944. A seleção croata esteve representada pela primeira vez em uma competição oficial nas Eliminatórias da Euro 1996, conseguindo uma das 16 vagas.</p>
+               <p align = "justify"> Ela é um dos 14 países da Europa que vão participar da Copa do Mundo de 2018, na Rússia. Segunda colocada do Grupo I das Eliminatórias do continente, a vaga para o maior evento do futebol mundial só veio na repescagem. Contra a Grécia, a seleção croata venceu o primeiro jogo por 4 a 1 e empatou em 0 a 0 a segunda partida.</p>
+
+                <p align = "justify">Em 14 jogos entre 2017 e 2018, a Croácia venceu 6, empatou 4 e perdeu 4 jogos, marcando 14 gols e sofrendo 12.</p>
+<p align = "justify">O jogador com mais partidas pela Croácia é Darijo Srna, com 134 jogos entre 2002 e 2016.
+Já o maior artilheiro é Davor Suker, que marcou 45 gols em 69 jogos, entre 1991 e 2002.</p>
+<p align = "justify">A Croácia possui muitos talentos individuais, dentre eles: Dejan Lovren, zagueiro de 28 anos do Liverpool, que possui 37 jogos e 2 gols pela Croácia; Luka Modric, meio-campista de 32 anos do Real Madrid, que possui 104 jogos e 12 gols pela Croácia; Ivan Perisic, meio-campista de 29 anos da Internazionale, que possui 64 jogos e 17 gols pela Croácia; Ivan Rakitic, meio-campista de 30 anos do Barcelona, que possui 90 jogos e 14 gols pela Croácia; Mario Mandzukic, atacante de 31 anos da Juventus, que possui 82 jogos e 30 gols pela Croácia.</p>
+<p align = "justify">A Croácia foi sorteada no grupo D da Copa do Mundo em 2018, juntamente de Argentina, Islândia e Nigéria.</p>
 
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

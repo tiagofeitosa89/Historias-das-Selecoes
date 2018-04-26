@@ -379,13 +379,19 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A Seleção Belga de Futebol está no Top 10 das seleções mais presentes em Copas do Mundo, com 13 participações (incluindo 2018). Após um período sombrio, a Bélgica foi uma das sensações das Eliminatórias da Europa, o que a credenciou a ser cabeça de chave do Mundial no Brasil.Em Copas do Mundo, sua melhor participação foi em 1986, chegando às semifinais. Sorte melhor, a Bélgica teve somente no longínquo ano de 1920, ao sagrar-se campeã olímpica contra a Tchecoslováquia.
-                Na copa da Rússica a vaga foi conquistada com tranquilidade no Grupo H das Eliminatórias da Europa. Foram nove vitórias e um empate em dez jogos e 28 pontos conquistados, com 43 gols marcados e apenas seis sofridos.
+            <div class="col-md-7">
+                <p align = "justify">A Seleção Belga de Futebol está no Top 10 das seleções mais presentes em Copas do Mundo, com 13 participações (incluindo 2018). Após um período sombrio, a Bélgica foi uma das sensações das Eliminatórias da Europa, o que a credenciou a ser cabeça de chave do Mundial no Brasil.Em Copas do Mundo, sua melhor participação foi em 1986, chegando às semifinais. Sorte melhor, a Bélgica teve somente no longínquo ano de 1920, ao sagrar-se campeã olímpica contra a Tchecoslováquia.</p>
+<p align = "justify">A Bélgica vai disputar sua 13ª Copa do Mundo. Ela foi uma das quatro seleções europeias que atravessou o Atlântico, em 1930, para disputar a primeira Copa do Mundo, no Uruguai.</p>
+    <p align = "justify">Em 12 presenças, o país conseguiu um quarto lugar na Copa de 86, no México, e foi sexta colocada na Copa do Brasil, em 2014. Em 41 jogos, os belgas ganharam 14, empataram 9 e perderam 18. Marcaram 52 gols e sofreram 66.</p>
+    <p align = "justify">Em 30, a Bélgica fez dois jogos e perdeu os dois: 3 a 0 para os Estados Unidos e 1 a 0 para o Paraguai. Em 90, ganhou da campeã Argentina por 1 a 0 no jogo de abertura da Copa.O artilheiro belga nas Copas é Marc Wilmots, com 5 gols, seguido por Jan Celeumans, com quatro. A Bélgica está no grupo G ao lado de Inglaterra, Tunísia e Panamá.</p>
+<p align = "justify">No comando da seleção belga está o técnico espanhol Roberto Martinez. Campeão da Copa da Inglaterra como treinador do Wigan em 2013, Martinez comanda os belgas desde 2016 e disputará a sua primeira Copa do Mundo. Apesar de ser a sua primeira vez treinando uma seleção, o técnico espanhol abdica de usar as mesmas ideias para liderar a sua equipe: ser metódico e conservador das tradições dos clubes por onde passa. Não somente de conhecimento tático se vale um treinador. É preciso criar um vínculo com um clube e com os jogadores. O tipo de vínculo que quebra a barreira do profissionalismo futebolístico e a aproxima intimamente os jogadores, técnico e todos os funcionários de um time. Roberto faz com que os jogadores entendam a responsabilidade de atuarem pela seleção, ensinando as tradições da equipe e compartilhando experiências.</p>
+    <p align = "justify">Apesar da pouca tradição em Mundiais, tendo ficado em 4° lugar em 1986 como melhor resultado, a equipe se destacou por ter chegado às quartas de final da Copa do Mundo no Brasil em 2014. Após passar pela seleção dos Estados Unidos, a Bélgica foi eliminada pela Argentina, que viria a ser a vice-campeã mundial da edição. Em 2018, a seleção belga terá pela frente na fase de grupos a seleção da Inglaterra, do atacante Harry Kane, a modesta seleção da Tunísia e o Panamá – estreante em Copas do Mundo.</p>
+<p align = "justify">Na copa da Rússia a vaga foi conquistada com tranquilidade no Grupo H das Eliminatórias da Europa. Foram nove vitórias e um empate em dez jogos e 28 pontos conquistados, com 43 gols marcados e apenas seis sofridos.</p>
+    <p align = "justify">Diante dos fatos apresentados, mesclando o talento e entrosamento da Bélgica, os retrospectos e os bons desempenhos da equipe e a presença de um técnico que conhece a seleção, podemos acreditar, sim, que possivelmente a Bélgica será o destaque desta Copa do Mundo. Além desses fatores, os belgas caíram em um grupo relativamente fácil em relação às outras seleções, o que facilita, de certa forma, o acesso às oitavas de final da competição.</p>
 
 
 
-            </p> <!--texto seleção-->
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

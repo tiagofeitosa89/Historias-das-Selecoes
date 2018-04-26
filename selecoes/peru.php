@@ -379,12 +379,32 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A Seleção Peruana de Futebol teve sua época de ouro entre os anos de 1970 e 1982, quando disputou três das quatro Copas do Mundo , além de ter conquistado, em 1975, seu segundo título da Copa América contra a Colômbia. Seu melhor resultado em mundiais foi o 7º lugar em 1970. Entretanto, após a Copa do Mundo de 1982, o futebol peruano entrou em declínio, sem grandes conquistas, ou mesmo classificação para mundiais.
+            <div class="col-md-7">
+                <p align = "justify">A Seleção Peruana de Futebol teve sua época de ouro entre os anos de 1970 e 1982, quando disputou três das quatro Copas do Mundo , além de ter conquistado, em 1975, seu segundo título da Copa América contra a Colômbia. Seu melhor resultado em mundiais foi o 7º lugar em 1970. Entretanto, após a Copa do Mundo de 1982, o futebol peruano entrou em declínio, sem grandes conquistas, ou mesmo classificação para mundiais.</p>
+
+                <p align = "justify">Mas a atual geração peruana vem dando esperanças ao torcedor local, unindo talentos como Guerrero e Farfán, que conseguiram colocar o Peru em um patamar que há tempos não era visto.
+
+Tanto em 2011 como em 2015 o Peru ficou em 3° lugar na Copa América, após ser derrotado nas semifinais por Uruguai e Chile, respectivamente, que viriam a ser campeões das Copas Américas após vencer o Peru.
+
+Paolo Guerrero também marcou a história peruana, conseguindo ser artilheiro das edições de 2011 e 2015 da Copa América.</p>
+
+<p align = "justify">Sob o bom comando de Ricardo Gareca, a seleção peruana conseguiu classificar-se para a Copa do Mundo de 2018 de maneira dramática.
+
+Ficando em 5° lugar nas Eliminatórias Sul-Americanas, com 7 vitórias, 5 empates e 6 derrotas em 18 jogos, marcando 27 gols e sofrendo 26, o Peru foi para a repescagem mundial, enfrentando a Nova Zelândia, campeã das Eliminatórias da Oceania.
+</p>
+<p align = "justify">Sem a presença de Guerrero para os confrontos contra os neozelandeses, devido ao doping do peruano, o Peru iniciou sua jornada com um empate sem gols na Oceania.
+
+No jogo de volta, 2 a 0 para o Peru, com gols de Farfán e Ramos, que colocaram o Peru de volta ao mundial após 36 anos, sendo a seleção não-estreante há mais tempo ausente a voltar para a Copa do Mundo.
+O Peru jogou 10 jogos em 2017, conseguindo 6 vitórias e 4 empates, marcando 15 gols e sofrendo apenas 7.</p>
+<p align = "justify">O jogador com maior partidas pelo Peru é Roberto Palacios, que possui 128 partidas, entre 1992 e 2012.
+Paolo Guerrero é o maior artilheiro da história da seleção peruana, com 33 gols marcados em 84 jogos, de 2004 até os dias atuais.</p>
+<p align = "justify">O Peru possui alguns destaques individuais, como: Miguel Trauco, lateral de 25 anos do Flamengo, que possui 22 jogos pelo Peru; Alberto Rodríguez, zagueiro de 33 anos do Junior Barranquilla, que possui 72 jogos pelo Peru; Christian Cueva, meio-campista de 26 anos do São Paulo, que possui 41 jogos e 7 gols pelo Peru; Jefferson Farfán, atacante de 33 anos do Lokomotiv Moscou, que possui 79 jogos e 22 gols pelo Peru; Paolo Guerrero, atacante de 34 anos do Flamengo, que possui 86 jogos e 33 gols marcados pelo Peru.</p>
+<p align = "justify">O Peru foi sorteado no grupo C da Copa do Mundo de 2018, juntamente de França, Austrália e Dinamarca.</p>
 
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 

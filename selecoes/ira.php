@@ -379,13 +379,29 @@
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">
-            <p class="col-md-7">
-                A Seleção Iraniana de Futebol é a única a conquistar a Copa da Ásia três vezes consecutivas (1968 – pontos corridos, 1972 – final contra a Coreia do Sul e 1976, em cima do Kuwait). A "Seleção Melli" (Seleção do Povo), como também é conhecida, é membro da FIFA desde 1945, tendo se classificado para a primeira Copa do Mundo em 1978.
-                Após desistir de disputar as eliminatórias para o Mundial de 1982, o Irã recusou-se a disputar as eliminatórias de 1986 por ter que mandar suas partidas em campo neutro, o que era visto pela FIFA como medida de segurança, devido aos problemas internos e às guerras que afligia o país. Tradicionalmente, o Irã manda seus jogos no Estádio Azadi.
+            <div class="col-md-7">
+               <p align = "justify"> A Seleção Iraniana de Futebol é a única a conquistar a Copa da Ásia três vezes consecutivas (1968 – pontos corridos, 1972 – final contra a Coreia do Sul e 1976, em cima do Kuwait). A "Seleção Melli" (Seleção do Povo), como também é conhecida, é membro da FIFA desde 1945, tendo se classificado para a primeira Copa do Mundo em 1978.</p>
+               <p align = "justify"> Após desistir de disputar as eliminatórias para o Mundial de 1982, o Irã recusou-se a disputar as eliminatórias de 1986 por ter que mandar suas partidas em campo neutro, o que era visto pela FIFA como medida de segurança, devido aos problemas internos e às guerras que afligia o país. Tradicionalmente, o Irã manda seus jogos no Estádio Azadi.</p>
+
+                <p align = "justify">Para chegar à Copa do Mundo de 2018, a sua primeira participação consecutiva em mundiais, o Irã teve que passar por algumas fases nas Eliminatórias Asiáticas.
+
+Iniciando as Eliminatórias no grupo D do segundo round, o Irã conseguiu 6 vitórias e 2 empates, marcando 26 gols e sofrendo apenas 3 gols, liderando o grupo e passando de fase.
+
+No terceiro round, o Irã caiu no grupo A, juntamente de Coreia do Sul, Síria, Uzbequistão, China e Catar.</p>
+
+<p align = "justify">Com 6 vitórias e 4 empates em 10 jogos, marcando 10 gols e sofrendo apenas 2, o Irã ficou na primeira posição de seu grupo, se classificando para sua quinta Copa do Mundo.
+Em 2017 foram 11 jogos do Irã, com 7 vitórias, 3 empates e 1 derrota, com 14 gols marcados e 6 gols sofridos.</p>
+
+<p align = "justify">O jogador com mais partidas da história do Irã é Javad Nekounam, com 151 partidas, entre 2000 e 2015.
+Já o maior artilheiro da história do Irã é Ali Daei, que marcou 109 gols em 149 jogos, entre 1993 e 2006.</p>
+
+<p align = "justify">O Irã possui alguns destaques individuais, como: Jalal Hosseini, zagueiro de 36 anos do Persepolis, que possui 114 jogos e 8 gols pelo Irã; Alireza Jahanbakhsh, meio-campista de 24 anos do AZ, que possui 34 jogos e 4 gols pelo Irã; Ashkan Dejagah, meio-campista de 31 anos do Nottingham Forest e capitão do Irã, que possui 44 jogos e 8 gols pela seleção; Sardar Azmoun, atacante de 23 anos do Rubin Kazan, que possui 23 gols em 30 jogos pelo Irã.</p>
+<p align = "justify">O Irã está no grupo B da Copa do Mundo de 2018, juntamente de Portugal, Espanha e Marrocos.</p>
 
 
 
-            </p> <!--texto seleção-->
+
+            </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
                 <div id="carousel" class="carousel slide">
 
