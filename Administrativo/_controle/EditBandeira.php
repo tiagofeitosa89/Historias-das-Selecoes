@@ -41,7 +41,7 @@ if (isset($_POST['atualizar'])) {
 		if(!empty($bandeira["name"])){
 			$largura = 1000;
 			$altura = 1000;
-			$tamanho = 13430;
+			$tamanho = 53430;
 
 			$error = array();
 
@@ -83,7 +83,7 @@ if (isset($_POST['atualizar'])) {
 	                  Verifique se ela está dentro dos padrões:<br>
 	                  - Largura máxima 1000px<br>
 	                  - Altura máxima 1000px<br>
-	                  - Tamanho 13430 bytes<br>
+	                  - Tamanho 53430 bytes<br>
 	                  - Formatos: pjpeg|jpeg|png|gif|bmp			
 	                  </div> ';			
 			}
