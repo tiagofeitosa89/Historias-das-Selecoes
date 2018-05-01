@@ -7,7 +7,7 @@
 		if (requisicao()) {
 			$nome = $_POST["nome"];
 			$bandeira = $_FILES["bandeira"];
-			$resumo = strip_tags($_POST["resumo"]);
+			$resumo = $_POST["resumo"];
 
 			if(!empty($nome) && !empty($bandeira["name"]) && !empty($resumo)){
 				$largura = 1000;

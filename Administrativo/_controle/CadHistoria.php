@@ -12,7 +12,7 @@
 			$cod_copa = $_POST["copa"];
 			$subtitulo = $_POST["subtitulo"];
 			$imagem = $_FILES["imagem"];
-			$descricao = strip_tags($_POST["descricao"]);
+			$descricao = $_POST["descricao"];
 
 			if(!empty($titulo) && !empty($cod_usuario) && !empty($cod_selecao) && !empty($cod_copa) && !empty($subtitulo) && !empty($descricao)){
 
