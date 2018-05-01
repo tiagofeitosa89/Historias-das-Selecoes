@@ -8,7 +8,7 @@ include_once("_controle/SelecaoDAO.php");
 $id = $_GET["id"];
 
 try{
-  $sqlConsulta = "Select nome, bandeira from selecao where codigo = '{$id}'";
+  $sqlConsulta = "Select nome, bandeira, resumo from selecao where codigo = '{$id}'";
 
   $SelecaoDAO = new SelecaoDAO();
 
@@ -17,7 +17,8 @@ try{
   if ($resultado != "") {
     foreach ($resultado as $atributo) {
       $nome = $atributo[0];
-      $imagem= $atributo[1]; 
+      $imagem = $atributo[1]; 
+      $resumo = $atributo[2];
     }
   }else{
 	  	echo '<script> 
@@ -33,10 +34,11 @@ try{
 
 // Ação realizada pelo botão atualizar 
 if (isset($_POST['atualizar'])) {
-	//if (requisicao()) {
+	if (requisicao()) {
 		$nome = $_POST["nome"];
 		$caminho_imagem = $imagem;
 		$bandeira = $_FILES["bandeira"];
+		$resumo = strip_tags($_POST["resumo"]);
 
 		if(!empty($bandeira["name"])){
 			$largura = 1000;
@@ -89,7 +91,7 @@ if (isset($_POST['atualizar'])) {
 			}
 		}	
 		
-		$selecao = new Selecao($nome, $_SESSION['codigo']);	
+		$selecao = new Selecao($nome, $_SESSION['codigo'], $resumo);	
 		$selecao->setBandeira($caminho_imagem);	
 		$selecao->setCodigo($id);
 		
@@ -110,7 +112,7 @@ if (isset($_POST['atualizar'])) {
 					});
 				  </script>';
 		}	
-	//}
+	}
 }
 	
 

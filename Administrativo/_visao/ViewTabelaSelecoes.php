@@ -1,7 +1,7 @@
 <?php
 include_once("_controle/SelecaoDAO.php");
 
-$sqlSelecoes = "Select codigo, nome, bandeira from selecao";
+$sqlSelecoes = "Select codigo, nome, bandeira, resumo from selecao";
 $SelecaoDAO = new SelecaoDAO();
 $listaSelecoes = $SelecaoDAO->Selecionar($sqlSelecoes);
 
@@ -27,6 +27,7 @@ $listaSelecoes = $SelecaoDAO->Selecionar($sqlSelecoes);
                   <th>Código</th>
                   <th>Seleção</th>
                   <th>Bandeira</th>
+                  <th>Resumo</th>
                   <th>Opções</th>
                 </tr>
               </thead>
@@ -35,6 +36,7 @@ $listaSelecoes = $SelecaoDAO->Selecionar($sqlSelecoes);
                   <th>Código</th>
                   <th>Seleção</th>
                   <th>Bandeira</th>
+                  <th>Resumo</th>
                   <th>Opções</th>
                 </tr>
               </tfoot>
@@ -44,6 +46,7 @@ $listaSelecoes = $SelecaoDAO->Selecionar($sqlSelecoes);
                   <td><?php echo $selecao[0]; ?></td>
                   <td><?php echo $selecao[1];?></td>
                   <td><img src="<?php echo $selecao[2] ?>" width="80" height="60"></td>
+                  <td><?php if (!empty($selecao[3]) && strlen($selecao[3]) >= 235) {echo substr($selecao[3], 0, 235).'...';}else{ echo $selecao[3]; } ?></td>
                   <td class="td-actions">
                     <a href="index.php?link=14&id=<?php echo $selecao[0];?>" class="btn btn-success btn-sm"><i class="fa fa-pencil-square-o"> </i></a>
                     <a href="index.php?link=15&delete=<?php echo $selecao[0];?>" class="btn btn-danger btn-sm" onClick="return confirm('Deseja realmente exluir a seleção?')" ><i class="fa fa-times"> </i></a>

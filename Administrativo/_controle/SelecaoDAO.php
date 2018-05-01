@@ -5,11 +5,12 @@
 	class SelecaoDAO implements PadraoDAO{
 		public function Inserir($objeto){
 			try{
-				$sql = "insert into selecao(nome, bandeira, cod_usuario) values(:nome, :bandeira, :cod_usuario)";
+				$sql = "insert into selecao(nome, bandeira, resumo, cod_usuario) values(:nome, :bandeira, :resumo, :cod_usuario)";
 
 				$stmt = conexao::getConexao()->prepare($sql);
 				$stmt->bindValue(":nome", $objeto->getNome(), PDO::PARAM_STR);
 				$stmt->bindValue(":bandeira", $objeto->getBandeira(), PDO::PARAM_STR);
+				$stmt->bindValue(":resumo", $objeto->getResumo(), PDO::PARAM_STR);
 				$stmt->bindValue(":cod_usuario", $objeto->getCodUsuario(), PDO::PARAM_INT);
 				$stmt->execute();
 
@@ -24,11 +25,12 @@
 
 		public function Alterar($objeto){
 			try{
-				$sql = "update selecao set nome = :nome, bandeira = :bandeira, cod_usuario = :cod_usuario where codigo = :codigo";
+				$sql = "update selecao set nome = :nome, bandeira = :bandeira, resumo = :resumo, cod_usuario = :cod_usuario where codigo = :codigo";
 
 				$stmt = conexao::getConexao()->prepare($sql);
 				$stmt->bindValue(":nome", $objeto->getNome(), PDO::PARAM_STR);
 				$stmt->bindValue(":bandeira", $objeto->getBandeira(), PDO::PARAM_STR);
+				$stmt->bindValue(":resumo", $objeto->getResumo(), PDO::PARAM_STR);
 				$stmt->bindValue(":cod_usuario", $objeto->getCodUsuario(), PDO::PARAM_INT);
 				$stmt->bindValue(":codigo", $objeto->getCodigo(), PDO::PARAM_INT);
 

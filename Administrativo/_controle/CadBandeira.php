@@ -7,8 +7,9 @@
 		if (requisicao()) {
 			$nome = $_POST["nome"];
 			$bandeira = $_FILES["bandeira"];
+			$resumo = strip_tags($_POST["resumo"]);
 
-			if(!empty($nome) && !empty($bandeira["name"])){
+			if(!empty($nome) && !empty($bandeira["name"]) && !empty($resumo)){
 				$largura = 1000;
 				$altura = 1000;
 				$tamanho = 53430;
@@ -44,7 +45,7 @@
 
 					move_uploaded_file($bandeira["tmp_name"], $caminho_imagem);
 
-					$selecao = new Selecao($nome, $_SESSION['codigo']);	
+					$selecao = new Selecao($nome, $_SESSION['codigo'], $resumo);	
 
 					$selecao->setBandeira($caminho_imagem);
 
