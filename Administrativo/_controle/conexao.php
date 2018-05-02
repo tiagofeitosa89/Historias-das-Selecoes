@@ -6,6 +6,7 @@
 			try{
 				if(empty($conn)){
 					$conn = new PDO('mysql:host=mysql762.umbler.com;dbname=histo_selecoes','masteradm', 'masteradm2904');
+					//$conn = new PDO('mysql:host=localhost;dbname=histo_selecoes','root','');
 					$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 				}
 				return $conn; 

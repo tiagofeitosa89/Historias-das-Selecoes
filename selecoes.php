@@ -48,7 +48,7 @@
     <div class="row" id="linha-titulo-site">
         <div class="container">
             <div class="col-md-6 col-xs-6" id="titulo-site"><!--título site-->
-                <h3>Futistórias</h3>
+                <img class="logo-site" src="img/logo.png" width="30%" height="30%">
             </div>
             <div class="topnav" id="myTopnav">
                 <a href="index.php">Home</a>
@@ -61,15 +61,15 @@
     </div>
 
     <div class="row">
-        <div id="cabecalho-pagina" class="col-md-12"></div>
+        <div id="cabecalho-pagina" class="col-md-12 col-xs-6"></div>
     </div>
 
     <div class="container" id="corpoSite">
         <div class="row">
             <div id="selecoes" class="col-md-12">
 
-                    <h2>SELEÇÕES</h2>
-                    <hr class="linha-modulo">
+                    <h2 class="titulo-pagina">SELEÇÕES</h2>
+                    <hr class="linha-titulo-pagina">
                     <div id="grupos">
                         <div id="grupo" class="col-md-3">
                             <h5>GRUPO A</h5>

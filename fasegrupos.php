@@ -49,7 +49,7 @@
     <div class="row" id="linha-titulo-site">
         <div class="container">
             <div class="col-md-6 col-xs-6" id="titulo-site"><!--título site-->
-                <h3>Fut Histórias</h3>
+                <img class="logo-site" src="img/logo.png" width="30%" height="30%">
             </div>
             <div class="topnav" id="myTopnav">
                 <a href="index.php">Home</a>
@@ -63,18 +63,16 @@
 
 
     <div class="row">
-
+        <div id="cabecalho-pagina" class="col-md-12"></div>
         <div class="container" id="corpoSite">
 
             <div class="row">
                 
                 <div id="fasegrupos" class="col-md-12">
 
-                    <hr class="linha-modulo">
-                    
-                    
                     <div class="container">
-                      <h2>FASE DE GRUPOS</h2> <br>
+                      <h2 class="titulo-pagina">FASE DE GRUPOS</h2>
+                      <hr class="linha-titulo-pagina">
                       <!--<p>The .table-responsive class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p> -->                                                                                      
                       <div class="table-responsive">          
                       <table class="table">
@@ -655,7 +653,8 @@
                 </div>
 
             </div>
-
+        </div>
+    </div>
 
     <div class="row" id="rodape">
         <div class="container">
