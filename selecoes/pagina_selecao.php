@@ -400,7 +400,7 @@
         </div> <!---grupos cabecalho-->
         <br>
         <div class="row">
-                <img class="img-responsive col-md-2" style="width: 330px; height: 200px;" src="<?php echo "../Administrativo/{$bandeira}"; ?>">  <!--width="150px" height="120px"-->
+                <img class="img-responsive col-md-2" style="width: 330px; height: 200px;" src="<?php echo '../Administrativo/'.$bandeira; ?>">  <!--width="150px" height="120px"-->
                 <div class="titulo-selecao col-md-8">
                     <h1><?php echo $nome; ?></h1>
                     <hr>
