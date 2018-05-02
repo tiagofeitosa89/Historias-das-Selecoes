@@ -73,73 +73,73 @@
                     <div id="grupos">
                         <div id="grupo" class="col-md-3">
                             <h5>GRUPO A</h5>
-                            <a href="selecoes/arabia.php"><img src="img/selecoes/ArabiaSaudita-65.png"></a>
-                            <a href="selecoes/egito.php"><img src="img/selecoes/egito_65.png"></a>
-                            <a href="selecoes/russia.php"><img src="img/selecoes/Russia_65.png"></a>
-                            <a href="selecoes/uruguai.php"><img src="img/selecoes/Uruguai_65.png"></a>
+                            <a href="selecoes/pagina_selecao.php?id=41"><img src="img/selecoes/ArabiaSaudita-65.png"></a>
+                            <a href="selecoes/pagina_selecao.php?id=20"><img src="img/selecoes/egito_65.png"></a>
+                            <a href="selecoes/pagina_selecao.php?id=34"><img src="img/selecoes/Russia_65.png"></a>
+                            <a href="selecoes/pagina_selecao.php?id=40"><img src="img/selecoes/Uruguai_65.png"></a>
                             <p> ARÁBIA SAUDITA |  EGITO  |  RÚSSIA  |  URUGUAI</p>
                         </div>
 
                         <div id="grupo" class="col-md-3">
                             <h5>GRUPO B</h5>
-                           <a href="selecoes/espanha.php"> <img src="img/selecoes/ESPANHA-65.png"></a>
-                           <a href="selecoes/ira.php"> <img src="img/selecoes/Ira-65.png"></a>
-                           <a href="selecoes/marrocos.php"> <img src="img/selecoes/marrocos_65.png"></a>
-                           <a href="selecoes/portugal.php"> <img src="img/selecoes/PORTUGAL-65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=21"> <img src="img/selecoes/ESPANHA-65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=24"> <img src="img/selecoes/Ira-65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=27"> <img src="img/selecoes/marrocos_65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=33"> <img src="img/selecoes/PORTUGAL-65.png"></a>
                             <p>ESPANHA | IRÃ | MARROCOS | PORTUGAL</p>
                         </div>
 
                         <div id="grupo" class="col-md-3">
                             <h5>GRUPO C</h5>
-                             <a href="selecoes/australia.php"> <img src="img/selecoes/Australia-65.png"></a>
-                             <a href="selecoes/dinamarca.php"> <img src="img/selecoes/Dinamarca_65.png"></a>
-                             <a href="selecoes/franca.php"> <img src="img/selecoes/FRANCA-65.png"></a>
-                             <a href="selecoes/peru.php"> <img src="img/selecoes/Peru_65.png"></a>
+                             <a href="selecoes/pagina_selecao.php?id=14"> <img src="img/selecoes/Australia-65.png"></a>
+                             <a href="selecoes/pagina_selecao.php?id=19"> <img src="img/selecoes/Dinamarca_65.png"></a>
+                             <a href="selecoes/pagina_selecao.php?id=22"> <img src="img/selecoes/FRANCA-65.png"></a>
+                             <a href="selecoes/pagina_selecao.php?id=31"> <img src="img/selecoes/Peru_65.png"></a>
                             <p>AUSTRÁLIA | DINAMARCA | FRANÇA | PERU</p>
                         </div>
 
                         <div id="grupo" class="col-md-3">
                             <h5>GRUPO D</h5>
-                           <a href="selecoes/argentina.php"> <img src="img/selecoes/ARGENTINA-65.png"></a>
-                           <a href="selecoes/croacia.php"> <img src="img/selecoes/Croacia_65.png"></a>
-                           <a href="selecoes/islandia.php"> <img src="img/selecoes/Islandia_65.png"></a>
-                           <a href="selecoes/nigeria.php"> <img src="img/selecoes/Nigeria_65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=10"> <img src="img/selecoes/ARGENTINA-65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=18"> <img src="img/selecoes/Croacia_65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=25"> <img src="img/selecoes/Islandia_65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=29"> <img src="img/selecoes/Nigeria_65.png"></a>
                             <p>ARGENTINA | CROÁCIA | ISLÂNDIA | NIGÉRIA</p>
                         </div>
 
                         <div id="grupo" class="col-md-3">
                             <h5>GRUPO E</h5>
-                           <a href="selecoes/costarica.php"> <img src="img/selecoes/CostaRica_65.png"></a>
-                           <a href="selecoes/brasil.php"> <img src="img/selecoes/Brasil_65x65.png"></a>
-                           <a href="selecoes/servia.php"> <img src="img/selecoes/servia_65.png"></a>
-                           <a href="selecoes/suica.php"> <img src="img/selecoes/suica_65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=17"> <img src="img/selecoes/CostaRica_65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=13"> <img src="img/selecoes/Brasil_65x65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=36"> <img src="img/selecoes/servia_65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=38"> <img src="img/selecoes/suica_65.png"></a>
                             <p>COSTA RICA | BRASIL | SERVIA | SUICA</p>
                         </div>
 
                         <div id="grupo" class="col-md-3">
                             <h5>GRUPO F</h5>
-                           <a href="selecoes/alemanha.php">  <img src="img/selecoes/Alemanha-65.png"></a>
-                           <a href="selecoes/corea_sul.php"> <img src="img/selecoes/Coreia_Sul_65.png"></a>
-                           <a href="selecoes/mexico.php">    <img src="img/selecoes/Mexico_65.png"></a>
-                           <a href="selecoes/suecia.php">    <img src="img/selecoes/SUECIA-65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=11">  <img src="img/selecoes/Alemanha-65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=16"> <img src="img/selecoes/Coreia_Sul_65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=28">    <img src="img/selecoes/Mexico_65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=37">    <img src="img/selecoes/SUECIA-65.png"></a>
                             <p>ALEMANHA | COREIA DO SUL | MEXICO | SUECIA</p>
                         </div>
 
                         <div id="grupo" class="col-md-3">
                             <h5>GRUPO G</h5>
-                          <a href="selecoes/belgica.php"> <img src="img/selecoes/Belgica_65.png"></a>
-                          <a href="selecoes/inglaterra.php"> <img src="img/selecoes/Inglaterra_65x65.png"></a>
-                          <a href="selecoes/panama.php"> <img src="img/selecoes/Panama_65.png"></a>
-                          <a href="selecoes/tunisia.php">  <img src="img/selecoes/tunisia_65.png"></a>
+                          <a href="selecoes/pagina_selecao.php?id=12"> <img src="img/selecoes/Belgica_65.png"></a>
+                          <a href="selecoes/pagina_selecao.php?id=23"> <img src="img/selecoes/Inglaterra_65x65.png"></a>
+                          <a href="selecoes/pagina_selecao.php?id=30"> <img src="img/selecoes/Panama_65.png"></a>
+                          <a href="selecoes/pagina_selecao.php?id=39">  <img src="img/selecoes/tunisia_65.png"></a>
                             <p>BELGICA | INGLATERRA | PANAMA | TUNISIA</p>
                         </div>
 
                         <div id="grupo" class="col-md-3">
                             <h5>GRUPO H</h5>
-                           <a href="selecoes/colombia.php"> <img src="img/selecoes/COLOMBIA-65.png"></a>
-                           <a href="selecoes/japao.php"><img src="img/selecoes/Japao_65.png"></a>
-                           <a href="selecoes/polonia.php"> <img src="img/selecoes/Polonia_65.png"></a>
-                           <a href="selecoes/senegal.php"><img src="img/selecoes/Senegal-65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=15"> <img src="img/selecoes/COLOMBIA-65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=26"><img src="img/selecoes/Japao_65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=32"> <img src="img/selecoes/Polonia_65.png"></a>
+                           <a href="selecoes/pagina_selecao.php?id=35"><img src="img/selecoes/Senegal-65.png"></a>
                             <p>COLOMBIA | JAPAO | POLONIA | SENEGAL</p>
                         </div>
                     </div>
