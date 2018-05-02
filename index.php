@@ -126,42 +126,42 @@
                 <div class="mySlides">
                     <img src="img/selecoes-principais/franca.jpg" class="image-responsive" style="width: 100%">
                     <div class="text-item">Seleção Francesa de Futebol</div>
-                    <a class="saiba-mais-principais" href="selecoes/franca.php">Saiba mais</a>
+                    <a class="saiba-mais-principais" href="selecoes/pagina_selecao.php?id=22">Saiba mais</a>
                 </div> <!--frança-->
                 <div class="mySlides">
                     <img src="img/selecoes-principais/brasil.png" class="image-responsive" style="width: 100%">
                     <div class="text-item">Seleção Brasileira de Futebol</div>
-                    <a class="saiba-mais-principais" href="selecoes/brasil.php">Saiba mais</a>
+                    <a class="saiba-mais-principais" href="selecoes/pagina_selecao.php?id=13">Saiba mais</a>
                 </div> <!--brasil-->
                 <div class="mySlides">
                     <img src="img/selecoes-principais/argentina.jpg" class="image-responsive" style="width: 100%">
                     <div class="text-item">Seleção Argentina de Futebol</div>
-                    <a class="saiba-mais-principais" href="selecoes/argentina.php">Saiba mais</a>
+                    <a class="saiba-mais-principais" href="selecoes/pagina_selecao.php?id=10">Saiba mais</a>
                 </div> <!--argentina-->
                 <div class="mySlides">
                     <img src="img/selecoes-principais/alemanha.jpg" class="image-responsive" style="width: 100%">
                     <div class="text-item">Seleção Alemã de Futebol</div>
-                    <a class="saiba-mais-principais" href="selecoes/alemanha.php">Saiba mais</a>
+                    <a class="saiba-mais-principais" href="selecoes/pagina_selecao.php?id=11">Saiba mais</a>
                 </div><!--alemanha-->
                 <div class="mySlides">
                     <img src="img/selecoes-principais/russia.jpg" class="image-responsive" style="width: 100%">
                     <div class="text-item">Seleção Russa de Futebol</div>
-                    <a class="saiba-mais-principais" href="selecoes/russia.php">Saiba mais</a>
+                    <a class="saiba-mais-principais" href="selecoes/pagina_selecao.php?id=34">Saiba mais</a>
                 </div><!--russia-->
                 <div class="mySlides">
                     <img src="img/selecoes-principais/espanha.jpg" class="image-responsive" style="width: 100%">
                     <div class="text-item">Seleção Espanhola de Futebol</div>
-                    <a class="saiba-mais-principais" href="selecoes/espanha.php">Saiba mais</a>
+                    <a class="saiba-mais-principais" href="selecoes/pagina_selecao.php?id=21">Saiba mais</a>
                 </div><!--espanha-->
                 <div class="mySlides">
                     <img src="img/selecoes-principais/portugal.jpg" class="image-responsive" style="width: 100%">
                     <div class="text-item">Seleção Portuguesa de Futebol</div>
-                    <a class="saiba-mais-principais" href="selecoes/portugal.php">Saiba mais</a>
+                    <a class="saiba-mais-principais" href="selecoes/pagina_selecao.php?id=33">Saiba mais</a>
                 </div><!--portugal-->
                 <div class="mySlides">
                     <img src="img/selecoes-principais/inglaterra.jpg" class="image-responsive" style="width: 100%">
                     <div class="text-item">Seleção Inglesa de Futebol</div>
-                    <a class="saiba-mais-principais" href="selecoes/inglaterra.php">Saiba mais</a>
+                    <a class="saiba-mais-principais" href="selecoes/pagina_selecao.php?id=23">Saiba mais</a>
                 </div><!--inglaterra-->
             </div>
         </div>
