@@ -7,11 +7,12 @@
 		if (requisicao()) {
 			$nome = $_POST["nome"];
 			$bandeira = $_FILES["bandeira"];
+			$resumo = $_POST["resumo"];
 
-			if(!empty($nome) && !empty($bandeira["name"])){
+			if(!empty($nome) && !empty($bandeira["name"]) && !empty($resumo)){
 				$largura = 1000;
 				$altura = 1000;
-				$tamanho = 13430;
+				$tamanho = 53430;
 
 				$error = array();
 
@@ -44,7 +45,7 @@
 
 					move_uploaded_file($bandeira["tmp_name"], $caminho_imagem);
 
-					$selecao = new Selecao($nome, $_SESSION['codigo']);	
+					$selecao = new Selecao($nome, $_SESSION['codigo'], $resumo);	
 
 					$selecao->setBandeira($caminho_imagem);
 
@@ -72,7 +73,7 @@
 		                  Verifique se ela está dentro dos padrões:<br>
 		                  - Largura máxima 1000px<br>
 		                  - Altura máxima 1000px<br>
-		                  - Tamanho 13430 bytes<br>
+		                  - Tamanho 53430 bytes<br>
 		                  - Formatos: pjpeg|jpeg|png|gif|bmp			
 		                  </strong>
 		                  </div> ';			

@@ -30,6 +30,14 @@
           </div>
           <div class="form-group">
             <div class="row">
+              <div class="col-md-12">
+                <label class="control-label required">Resumo<sup style="color: red">*</sup></label><br>
+                <textarea id="summernote" name="resumo"><p>Escreva o resumo aqui...</p></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
                 <input type="submit" name="registrar" id="registrar" tabindex="4" class="form-control btn btn-register" value="Registrar">
               </div>

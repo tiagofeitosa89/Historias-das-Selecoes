@@ -156,7 +156,7 @@
 		                  Verifique se ela está dentro dos padrões:<br>
 		                  - Largura máxima 1000px<br>
 		                  - Altura máxima 1000px<br>
-		                  - Tamanho 13430 bytes<br>
+		                  - Tamanho 93430 bytes<br>
 		                  - Formatos: pjpeg|jpeg|png|gif|bmp			
 		                  </strong>
 		                  </div> ';

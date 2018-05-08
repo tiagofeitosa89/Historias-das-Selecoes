@@ -4,7 +4,9 @@ session_destroy();
 
 //Remove todas as informações contidas na variaveis globais
 unset($_SESSION['codigo'],			
-$_SESSION['usuario'], 		 
+$_SESSION['usuario'],
+$_SESSION['senha'],
+$_SESSION['master'], 		 
 $_SESSION['last_request']);
 
 //redirecionar o usuário para a página de login

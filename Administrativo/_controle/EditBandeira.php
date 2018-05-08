@@ -8,7 +8,7 @@ include_once("_controle/SelecaoDAO.php");
 $id = $_GET["id"];
 
 try{
-  $sqlConsulta = "Select nome, bandeira from selecao where codigo = '{$id}'";
+  $sqlConsulta = "Select nome, bandeira, resumo from selecao where codigo = '{$id}'";
 
   $SelecaoDAO = new SelecaoDAO();
 
@@ -17,7 +17,8 @@ try{
   if ($resultado != "") {
     foreach ($resultado as $atributo) {
       $nome = $atributo[0];
-      $imagem= $atributo[1]; 
+      $imagem = $atributo[1]; 
+      $resumo = $atributo[2];
     }
   }else{
 	  	echo '<script> 
@@ -37,13 +38,14 @@ if (isset($_POST['atualizar'])) {
 		$nome = $_POST["nome"];
 		$caminho_imagem = $imagem;
 		$bandeira = $_FILES["bandeira"];
+		$resumo = $_POST["resumo"];
+
+		$error = array();
 
 		if(!empty($bandeira["name"])){
 			$largura = 1000;
 			$altura = 1000;
-			$tamanho = 13430;
-
-			$error = array();
+			$tamanho = 53430;
 
 			if(!preg_match("/^image\/(pjpeg|jpeg|png|gif|bmp)$/", $bandeira["type"])){
 				$error[1] = "Imagem inválida.";
@@ -76,44 +78,42 @@ if (isset($_POST['atualizar'])) {
 				$imagem = $caminho_imagem;
 
 				move_uploaded_file($bandeira["tmp_name"], $caminho_imagem);
-			}else{
-				echo '<div class="alert alert-danger">
-	                  <button type="button" class="close" data-dismiss="alert">×</button>
-	                  <strong>Imagem inválida!</strong><br>
-	                  Verifique se ela está dentro dos padrões:<br>
-	                  - Largura máxima 1000px<br>
-	                  - Altura máxima 1000px<br>
-	                  - Tamanho 13430 bytes<br>
-	                  - Formatos: pjpeg|jpeg|png|gif|bmp			
-	                  </div> ';			
 			}
-		}	
-		
-		$selecao = new Selecao($nome, $_SESSION['codigo']);	
-		$selecao->setBandeira($caminho_imagem);	
-		$selecao->setCodigo($id);
-		
-		$selecaoDAO = new SelecaoDAO();
-		
-		if($selecaoDAO->Alterar($selecao)){
-			echo '<script> 
-					swal("Sucesso!", "Seleção atualizada com êxito", "success", {closeOnClickOutside: false}
-					).then(function(){
-						window.location.href="index.php?link=10";
-					});
-				  </script>';
+		}
+
+		if (count($error) == 0) {
+			$selecao = new Selecao($nome, $_SESSION['codigo'], $resumo);	
+			$selecao->setBandeira($caminho_imagem);	
+			$selecao->setCodigo($id);
+			
+			$selecaoDAO = new SelecaoDAO();
+			
+			if($selecaoDAO->Alterar($selecao)){
+				echo '<script> 
+						swal("Sucesso!", "Seleção atualizada com êxito", "success", {closeOnClickOutside: false}
+						).then(function(){
+							window.location.href="index.php?link=10";
+						});
+					  </script>';
+			}else{
+				echo '<script> 
+						swal("Erro!", "A operação não pôde ser realizada!",  "error", {closeOnClickOutside: false}
+						).then(function(){
+							window.location.href="index.php?link=10";
+						});
+					  </script>';
+			}		
 		}else{
-			echo '<script> 
-					swal("Erro!", "A operação não pôde ser realizada!",  "error", {closeOnClickOutside: false}
-					).then(function(){
-						window.location.href="index.php?link=10";
-					});
-				  </script>';
+			echo '<div class="alert alert-danger">
+                  <button type="button" class="close" data-dismiss="alert">×</button>
+                  <strong>Imagem inválida!</strong><br>
+                  Verifique se ela está dentro dos padrões:<br>
+                  - Largura máxima 1000px<br>
+                  - Altura máxima 1000px<br>
+                  - Tamanho 53430 bytes<br>
+                  - Formatos: pjpeg|jpeg|png|gif|bmp			
+                  </div> ';			
 		}	
 	//}
 }
-	
-
-
-
 ?>

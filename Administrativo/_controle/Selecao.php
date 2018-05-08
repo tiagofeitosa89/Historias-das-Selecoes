@@ -3,13 +3,15 @@
 		private $codigo;
 		private $nome;
 		private $bandeira;
+		private $resumo;
 		private $cod_usuario;
 		private $data_criacao;
 		private $data_alteracao;
 
-		public function Selecao($nome, $cod_usuario){
+		public function Selecao($nome, $cod_usuario, $resumo){
 			$this->nome = $nome;
 			$this->cod_usuario = $cod_usuario;
+			$this->resumo = $resumo;
 		}
 
 		public function getCodigo(){
@@ -35,6 +37,14 @@
 		public function setBandeira($bandeira){
 			$this->bandeira = $bandeira;
 		}
+
+		public function getResumo(){
+			return $this->resumo;
+		}
+
+		public function setResumo($resumo){
+			$this->resumo = $resumo;
+		}		
 
 		public function getCodUsuario(){
 			return $this->cod_usuario;

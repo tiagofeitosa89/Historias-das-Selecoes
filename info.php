@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <title>Histórias das copas</title>
+    <title>FutHistórias::Informações e Curiosidades</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -47,12 +47,12 @@
     <div class="row" id="linha-titulo-site">
         <div class="container">
             <div class="col-md-6 col-xs-6" id="titulo-site"><!--título site-->
-                <h3>Fut Histórias</h3>
+                <img class="logo-site" src="img/logo.png" width="30%" height="30%">
             </div>
             <div class="topnav" id="myTopnav">
-                <a href="index.php">Home</a>
+                <a href="index.php">Início</a>
                 <a href="selecoes.php">Seleções</a>
-                <a href="fasegrupos.php">Fase de grupos</a>
+                <a href="fasegrupos.php">Torcedômetro</a>
                 <a href="#">Informações e curiosidades</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
             </div>
@@ -65,12 +65,12 @@
             <div class="row">
                 <div id="info" class="col-md-12">
                     <div class="container">
-                        <h2>INFORMAÇÕES E CURIOSIDADES</h2>
-                        <hr class="linha-modulo">
-                        <h1>Página em desenvolvimento...</h1>
-                        <h1>Página em desenvolvimento...</h1>
-                        <h1>Página em desenvolvimento...</h1>
-                        <h1>Página em desenvolvimento...</h1>
+                        <h2 class="titulo-pagina">INFORMAÇÕES E CURIOSIDADES</h2>
+                        <hr class="linha-titulo-pagina">
+                        <h2>Página em desenvolvimento...</h2>
+                        <h2>Página em desenvolvimento...</h2>
+                        <h2>Página em desenvolvimento...</h2>
+                        <h2>Página em desenvolvimento...</h2>
                     </div>
                 </div>
             </div>
@@ -79,7 +79,7 @@
 
     <div class="row" id="rodape">
         <div class="container">
-            <h3>Fut Histórias</h3>
+            <h3>FutHistórias</h3>
             <h5> Tudo que você quer saber sobre as seleções da copa de 2018</h5>
             <button onclick="topFunction()" id="myBtn" title="Voltar ao topo"><img src="img/seta_cima.png" width="30" height="30"></button>
         </div>

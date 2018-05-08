@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.js" rel="stylesheet">
 
-    <title>Histórias das copas</title>
+    <title>FutHistórias::Torcedômetro</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -49,12 +49,12 @@
     <div class="row" id="linha-titulo-site">
         <div class="container">
             <div class="col-md-6 col-xs-6" id="titulo-site"><!--título site-->
-                <h3>Fut Histórias</h3>
+                <img class="logo-site" src="img/logo.png" width="30%" height="30%">
             </div>
             <div class="topnav" id="myTopnav">
-                <a href="index.php">Home</a>
+                <a href="index.php">Início</a>
                 <a href="selecoes.php">Seleções</a>
-                <a href="fasegrupos.php">Fase de grupos</a>
+                <a href="fasegrupos.php">Torcedômetro</a>
                 <a href="info.php">Informações e curiosidades</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
             </div>
@@ -63,18 +63,16 @@
 
 
     <div class="row">
-
+        <div id="cabecalho-pagina" class="col-md-12"></div>
         <div class="container" id="corpoSite">
 
             <div class="row">
                 
                 <div id="fasegrupos" class="col-md-12">
 
-                    <hr class="linha-modulo">
-                    
-                    
                     <div class="container">
-                      <h2>FASE DE GRUPOS</h2> <br>
+                      <h2 class="titulo-pagina">FASE DE GRUPOS</h2>
+                      <hr class="linha-titulo-pagina">
                       <!--<p>The .table-responsive class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p> -->                                                                                      
                       <div class="table-responsive">          
                       <table class="table">
@@ -655,11 +653,12 @@
                 </div>
 
             </div>
-
+        </div>
+    </div>
 
     <div class="row" id="rodape">
         <div class="container">
-            <h3>Fut Histórias</h3>
+            <h3>FutHistórias</h3>
             <h5> Tudo que você quer saber sobre as seleções da copa de 2018</h5>
             <button onclick="topFunction()" id="myBtn" title="Voltar ao topo"><img src="img/seta_cima.png" width="30" height="30"></button>
         </div>
