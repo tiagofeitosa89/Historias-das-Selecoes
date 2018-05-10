@@ -89,7 +89,7 @@
                 <a href="../index.php">Início</a>
                 <a href="../selecoes.php">Seleções</a>
                 <a href="../torcedometro.php">Torcedômetro</a>
-                <a href="../info.php">Informações e curiosidades</a>
+                <a href="../info.php">Extras e Curiosidades</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
             </div>
         </div>
