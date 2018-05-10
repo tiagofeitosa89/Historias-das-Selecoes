@@ -310,7 +310,7 @@
                     <div class="page-header">
                         <h3>NOTÍCIAS</h3>
                     </div>
-                        
+                    <?php include_once("Administrativo/_controle/GerarFeedNoticias.php") ?>    
                     <div class="carousel slide" id="myCarousel">
                         <div class="carousel-inner">
                             <div class="item active">
@@ -318,48 +318,48 @@
                                         <li class="col-sm-3">
                                             <div class="fff">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                    <a href="<?php echo $ListaDeNoticias[0]->getLink(); ?>"><?php echo $ListaDeNoticias[0]->getImagem(); ?></a>
                                                 </div>
                                                 <div class="caption">
-                                                    <h4>Praesent commodo</h4>
-                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                    <a class="btn btn-mini" href="#">» Read More</a>
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[0]->getTitulo(); ?>"</p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[0]->getLink() ?>">» Ler mais</a>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="col-sm-3">
                                             <div class="fff">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                    <a href="<?php echo $ListaDeNoticias[1]->getLink(); ?>"><?php echo $ListaDeNoticias[1]->getImagem(); ?></a>
                                                 </div>
                                                 <div class="caption">
-                                                    <h4>Praesent commodo</h4>
-                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                    <a class="btn btn-mini" href="#">» Read More</a>
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[1]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[1]->getLink(); ?>">» Ler mais</a>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="col-sm-3">
                                             <div class="fff">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                    <a href="<?php echo $ListaDeNoticias[2]->getLink(); ?>"><?php echo $ListaDeNoticias[2]->getImagem(); ?></a>
                                                 </div>
                                                 <div class="caption">
-                                                    <h4>Praesent commodo</h4>
-                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                    <a class="btn btn-mini" href="#">» Read More</a>
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[2]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[2]->getLink(); ?>">» Ler mais</a>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="col-sm-3">
                                             <div class="fff">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                    <a href="<?php echo $ListaDeNoticias[3]->getLink(); ?>"><?php echo $ListaDeNoticias[3]->getImagem(); ?></a>
                                                 </div>
                                                 <div class="caption">
-                                                    <h4>Praesent commodo</h4>
-                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                    <a class="btn btn-mini" href="#">» Read More</a>
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[3]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[3]->getLink(); ?>">» Ler mais</a>
                                                 </div>
                                             </div>
                                         </li>
@@ -370,48 +370,48 @@
                                         <li class="col-sm-3">
                                             <div class="fff">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                    <a href="<?php echo $ListaDeNoticias[4]->getLink(); ?>"><?php echo $ListaDeNoticias[4]->getImagem(); ?></a>
                                                 </div>
                                                 <div class="caption">
-                                                    <h4>Praesent commodo</h4>
-                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                    <a class="btn btn-mini" href="#">» Read More</a>
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[4]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[4]->getLink(); ?>">» Ler mais</a>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="col-sm-3">
                                             <div class="fff">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                    <a href="<?php echo $ListaDeNoticias[5]->getLink(); ?>"><?php echo $ListaDeNoticias[5]->getImagem(); ?></a>
                                                 </div>
                                                 <div class="caption">
-                                                    <h4>Praesent commodo</h4>
-                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                    <a class="btn btn-mini" href="#">» Read More</a>
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[5]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[5]->getLink(); ?>">» Ler mais</a>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="col-sm-3">
                                             <div class="fff">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                    <a href="<?php echo $ListaDeNoticias[6]->getLink(); ?>"><?php echo $ListaDeNoticias[6]->getImagem(); ?></a>
                                                 </div>
                                                 <div class="caption">
-                                                    <h4>Praesent commodo</h4>
-                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                    <a class="btn btn-mini" href="#">» Read More</a>
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[6]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[6]->getLink(); ?>">» Ler mais</a>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="col-sm-3">
                                             <div class="fff">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                    <a href="<?php echo $ListaDeNoticias[7]->getLink(); ?>"><?php echo $ListaDeNoticias[7]->getImagem(); ?></a>
                                                 </div>
                                                 <div class="caption">
-                                                    <h4>Praesent commodo</h4>
-                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                    <a class="btn btn-mini" href="#">» Read More</a>
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[7]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[7]->getLink(); ?>">» Ler mais</a>
                                                 </div>
                                             </div>
                                         </li>
@@ -422,48 +422,48 @@
                                         <li class="col-sm-3">	
                                             <div class="fff">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                    <a href="<?php echo $ListaDeNoticias[8]->getLink(); ?>"><?php echo $ListaDeNoticias[8]->getImagem(); ?></a>
                                                 </div>
                                                 <div class="caption">
-                                                    <h4>Praesent commodo</h4>
-                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                    <a class="btn btn-mini" href="#">» Read More</a>
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[8]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[8]->getLink(); ?>">» Ler mais</a>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="col-sm-3">
                                             <div class="fff">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                    <a href="<?php echo $ListaDeNoticias[9]->getLink(); ?>"><?php echo $ListaDeNoticias[9]->getImagem(); ?></a>
                                                 </div>
                                                 <div class="caption">
-                                                    <h4>Praesent commodo</h4>
-                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                    <a class="btn btn-mini" href="#">» Read More</a>
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[9]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[9]->getLink(); ?>">» Ler mais</a>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="col-sm-3">
                                             <div class="fff">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                    <a href="<?php echo $ListaDeNoticias[10]->getLink(); ?>"><?php echo $ListaDeNoticias[10]->getImagem(); ?></a>
                                                 </div>
                                                 <div class="caption">
-                                                    <h4>Praesent commodo</h4>
-                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                    <a class="btn btn-mini" href="#">» Read More</a>
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[10]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[10]->getLink(); ?>">» Ler mais</a>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="col-sm-3">
                                             <div class="fff">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                    <a href="<?php echo $ListaDeNoticias[11]->getLink(); ?>"><?php echo $ListaDeNoticias[11]->getImagem(); ?></a>
                                                 </div>
                                                 <div class="caption">
-                                                    <h4>Praesent commodo</h4>
-                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                    <a class="btn btn-mini" href="#">» Read More</a>
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[11]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[11]->getLink(); ?>">» Ler mais</a>
                                                 </div>
                                             </div>
                                         </li>

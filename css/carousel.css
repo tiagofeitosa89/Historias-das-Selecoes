@@ -48,9 +48,9 @@ body {
 }
 
 /* Declare heights because of positioning of img element */
-.carousel .item {
-    /*height: 500px;
-    background-color: #777;*/
+carousel .item {
+    height: 500px;
+    background-color: #777;
 }
 .carousel-inner > .item > img {
     position: absolute;
@@ -92,6 +92,12 @@ body {
     letter-spacing: -1px;
 }
 
+div#myCarousel img{
+    /*width: 220px;
+    height: 100px;*/
+    min-height: 80px;
+    object-fit: cover;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
