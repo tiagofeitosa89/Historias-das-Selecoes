@@ -8,7 +8,7 @@
     // leitura do feed
     $rss = simplexml_load_file($feed);
     //limite de itens
-    $limit = 12;
+    $limit = 18;
     // contador
     $count = 0;
     $cod = 1;

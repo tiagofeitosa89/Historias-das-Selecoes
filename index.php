@@ -76,7 +76,7 @@
                 <div class="topnav" id="myTopnav">
                     <a href="#">Início</a>
                     <a href="selecoes.php">Seleções</a>
-                    <a href="torcidometro.php">Torcidômetro</a>
+                    <a href="torcedometro.php">Torcedômetro</a>
                     <a href="info.php">Informações e curiosidades</a>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
                 </div>
@@ -312,7 +312,7 @@
                         <div class="carousel-inner">
                             <div class="item active">
                                     <ul class="thumbnails">
-                                        <li class="col-sm-3">
+                                        <li class="col-sm-2">
                                             <div class="fff">
                                                 <div class="thumbnail">
                                                     <a href="<?php echo $ListaDeNoticias[0]->getLink(); ?>"><?php echo $ListaDeNoticias[0]->getImagem(); ?></a>
@@ -324,7 +324,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="col-sm-3">
+                                        <li class="col-sm-2">
                                             <div class="fff">
                                                 <div class="thumbnail">
                                                     <a href="<?php echo $ListaDeNoticias[1]->getLink(); ?>"><?php echo $ListaDeNoticias[1]->getImagem(); ?></a>
@@ -336,7 +336,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="col-sm-3">
+                                        <li class="col-sm-2">
                                             <div class="fff">
                                                 <div class="thumbnail">
                                                     <a href="<?php echo $ListaDeNoticias[2]->getLink(); ?>"><?php echo $ListaDeNoticias[2]->getImagem(); ?></a>
@@ -348,7 +348,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="col-sm-3">
+                                        <li class="col-sm-2">
                                             <div class="fff">
                                                 <div class="thumbnail">
                                                     <a href="<?php echo $ListaDeNoticias[3]->getLink(); ?>"><?php echo $ListaDeNoticias[3]->getImagem(); ?></a>
@@ -360,11 +360,35 @@
                                                 </div>
                                             </div>
                                         </li>
+                                        <li class="col-sm-2">
+                                            <div class="fff">
+                                                <div class="thumbnail">
+                                                    <a href="<?php echo $ListaDeNoticias[14]->getLink(); ?>"><?php echo $ListaDeNoticias[14]->getImagem(); ?></a>
+                                                </div>
+                                                <div class="caption">
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[14]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[14]->getLink(); ?>">» Ler mais</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="col-sm-2">
+                                            <div class="fff">
+                                                <div class="thumbnail">
+                                                    <a href="<?php echo $ListaDeNoticias[17]->getLink(); ?>"><?php echo $ListaDeNoticias[17]->getImagem(); ?></a>
+                                                </div>
+                                                <div class="caption">
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[17]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[17]->getLink(); ?>">» Ler mais</a>
+                                                </div>
+                                            </div>
+                                        </li>
                                     </ul>
                             </div><!-- /Slide1 --> 
                             <div class="item">
                                     <ul class="thumbnails">
-                                        <li class="col-sm-3">
+                                        <li class="col-sm-2">
                                             <div class="fff">
                                                 <div class="thumbnail">
                                                     <a href="<?php echo $ListaDeNoticias[4]->getLink(); ?>"><?php echo $ListaDeNoticias[4]->getImagem(); ?></a>
@@ -376,7 +400,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="col-sm-3">
+                                        <li class="col-sm-2">
                                             <div class="fff">
                                                 <div class="thumbnail">
                                                     <a href="<?php echo $ListaDeNoticias[5]->getLink(); ?>"><?php echo $ListaDeNoticias[5]->getImagem(); ?></a>
@@ -388,7 +412,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="col-sm-3">
+                                        <li class="col-sm-2">
                                             <div class="fff">
                                                 <div class="thumbnail">
                                                     <a href="<?php echo $ListaDeNoticias[6]->getLink(); ?>"><?php echo $ListaDeNoticias[6]->getImagem(); ?></a>
@@ -400,7 +424,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="col-sm-3">
+                                        <li class="col-sm-2">
                                             <div class="fff">
                                                 <div class="thumbnail">
                                                     <a href="<?php echo $ListaDeNoticias[7]->getLink(); ?>"><?php echo $ListaDeNoticias[7]->getImagem(); ?></a>
@@ -412,11 +436,35 @@
                                                 </div>
                                             </div>
                                         </li>
+                                        <li class="col-sm-2">
+                                            <div class="fff">
+                                                <div class="thumbnail">
+                                                    <a href="<?php echo $ListaDeNoticias[12]->getLink(); ?>"><?php echo $ListaDeNoticias[12]->getImagem(); ?></a>
+                                                </div>
+                                                <div class="caption">
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[12]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[12]->getLink(); ?>">» Ler mais</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="col-sm-2">
+                                            <div class="fff">
+                                                <div class="thumbnail">
+                                                    <a href="<?php echo $ListaDeNoticias[16]->getLink(); ?>"><?php echo $ListaDeNoticias[16]->getImagem(); ?></a>
+                                                </div>
+                                                <div class="caption">
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[16]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[16]->getLink(); ?>">» Ler mais</a>
+                                                </div>
+                                            </div>
+                                        </li>
                                     </ul>
                             </div><!-- /Slide2 --> 
                             <div class="item">
                                     <ul class="thumbnails">
-                                        <li class="col-sm-3">	
+                                        <li class="col-sm-2">	
                                             <div class="fff">
                                                 <div class="thumbnail">
                                                     <a href="<?php echo $ListaDeNoticias[8]->getLink(); ?>"><?php echo $ListaDeNoticias[8]->getImagem(); ?></a>
@@ -428,7 +476,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="col-sm-3">
+                                        <li class="col-sm-2">
                                             <div class="fff">
                                                 <div class="thumbnail">
                                                     <a href="<?php echo $ListaDeNoticias[9]->getLink(); ?>"><?php echo $ListaDeNoticias[9]->getImagem(); ?></a>
@@ -440,7 +488,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="col-sm-3">
+                                        <li class="col-sm-2">
                                             <div class="fff">
                                                 <div class="thumbnail">
                                                     <a href="<?php echo $ListaDeNoticias[10]->getLink(); ?>"><?php echo $ListaDeNoticias[10]->getImagem(); ?></a>
@@ -452,7 +500,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="col-sm-3">
+                                        <li class="col-sm-2">
                                             <div class="fff">
                                                 <div class="thumbnail">
                                                     <a href="<?php echo $ListaDeNoticias[11]->getLink(); ?>"><?php echo $ListaDeNoticias[11]->getImagem(); ?></a>
@@ -461,6 +509,30 @@
                                                     <h4>Futebol</h4>
                                                     <p><?php echo $ListaDeNoticias[11]->getTitulo(); ?></p>
                                                     <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[11]->getLink(); ?>">» Ler mais</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="col-sm-2">
+                                            <div class="fff">
+                                                <div class="thumbnail">
+                                                    <a href="<?php echo $ListaDeNoticias[13]->getLink(); ?>"><?php echo $ListaDeNoticias[13]->getImagem(); ?></a>
+                                                </div>
+                                                <div class="caption">
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[13]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[13]->getLink(); ?>">» Ler mais</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="col-sm-2">
+                                            <div class="fff">
+                                                <div class="thumbnail">
+                                                    <a href="<?php echo $ListaDeNoticias[15]->getLink(); ?>"><?php echo $ListaDeNoticias[15]->getImagem(); ?></a>
+                                                </div>
+                                                <div class="caption">
+                                                    <h4>Futebol</h4>
+                                                    <p><?php echo $ListaDeNoticias[15]->getTitulo(); ?></p>
+                                                    <a class="btn btn-mini" href="<?php echo $ListaDeNoticias[15]->getLink(); ?>">» Ler mais</a>
                                                 </div>
                                             </div>
                                         </li>
