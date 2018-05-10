@@ -26,7 +26,7 @@
               $Corpo['n_image'] = $results[0];  
               //$Corpo['n_image'] = str_replace('border="1"', 'border="1" style="max-width:360px;max-height:240px;object-fit:cover;"', $Corpo['n_image']);                 
             }else{
-              $Corpo['n_image'] = '<img src="http://placehold.it/360x240" alt="">';
+              $Corpo['n_image'] = '<img src="img/noticias/logofeed.jpg">';
             }
 
             // Criando classe do Feed de Notícias
