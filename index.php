@@ -7,7 +7,7 @@
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.js" rel="stylesheet">
 
     <title>FutHistórias::Início</title>
-
+    <link rel="shortcut icon" href="img/logo-icon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/carousel.css" rel="stylesheet" type="text/css">
@@ -71,12 +71,12 @@
         <div class="row" id="linha-titulo-site">
             <div class="container">
                 <div class="col-md-6 col-xs-6" id="titulo-site"><!--título site-->
-                    <img class="logo-site" src="img/logo.png" width="30%" height="30%">
+                    <img class="logo-site" src="img/logo.png" width="40%" height="40%">
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="#">Início</a>
                     <a href="selecoes.php">Seleções</a>
-                    <a href="fasegrupos.php">Torcedômetro</a>
+                    <a href="torcidometro.php">Torcidômetro</a>
                     <a href="info.php">Informações e curiosidades</a>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
                 </div>
@@ -87,8 +87,8 @@
             <div id="principais-selecoes" class="container">
                 <div id="col-1-img-selecoes" class="col-md-2">
                     <div class="img-selecao col-md-6">
-                        <p>FRANÇA</p>
-                        <img class="img-mini-selecao" src="img/selecoes-principais/franca.jpg" onclick="currentDiv(1)">
+                        <p>RÚSSIA</p>
+                        <img class="img-mini-selecao" src="img/selecoes-principais/russia.jpg" onclick="currentDiv(1)">
                     </div>
                     <div class="img-selecao col-md-6">
                         <p>BRASIL</p>
@@ -105,8 +105,8 @@
                 </div>
                 <div id="col-2-img-selecoes" class="col-md-2">
                     <div class="img-selecao col-md-6">
-                        <p>RUSSIA</p>
-                        <img class="img-mini-selecao" src="img/selecoes-principais/russia.jpg" onclick="currentDiv(5)">
+                        <p>FRANÇA</p>
+                        <img class="img-mini-selecao" src="img/selecoes-principais/franca.jpg" onclick="currentDiv(5)">
                     </div>
                     <div class="img-selecao col-md-6">
                         <p>ESPANHA</p>
@@ -123,9 +123,9 @@
                 </div>
                 <div id="img-selecao-grande" class="col-md-8">
                     <div class="mySlides">
-                        <img src="img/selecoes-principais/franca.jpg" class="image-responsive" style="width: 100%">
-                        <div class="text-item">Seleção Francesa de Futebol</div>
-                        <a class="saiba-mais-principais" href="selecoes/pagina_selecao.php?id=22">Saiba mais</a>
+                        <img src="img/selecoes-principais/russia.jpg" class="image-responsive" style="width: 100%">
+                        <div class="text-item">Seleção Russa de Futebol</div>
+                        <a class="saiba-mais-principais" href="selecoes/pagina_selecao.php?id=34">Saiba mais</a>
                     </div> <!--frança-->
                     <div class="mySlides">
                         <img src="img/selecoes-principais/brasil.png" class="image-responsive" style="width: 100%">
@@ -143,9 +143,9 @@
                         <a class="saiba-mais-principais" href="selecoes/pagina_selecao.php?id=11">Saiba mais</a>
                     </div><!--alemanha-->
                     <div class="mySlides">
-                        <img src="img/selecoes-principais/russia.jpg" class="image-responsive" style="width: 100%">
-                        <div class="text-item">Seleção Russa de Futebol</div>
-                        <a class="saiba-mais-principais" href="selecoes/pagina_selecao.php?id=34">Saiba mais</a>
+                        <img src="img/selecoes-principais/franca.jpg" class="image-responsive" style="width: 100%">
+                        <div class="text-item">Seleção Francesa de Futebol</div>
+                        <a class="saiba-mais-principais" href="selecoes/pagina_selecao.php?id=22">Saiba mais</a>
                     </div><!--russia-->
                     <div class="mySlides">
                         <img src="img/selecoes-principais/espanha.jpg" class="image-responsive" style="width: 100%">
@@ -166,7 +166,7 @@
             </div>
         </div>
 
-        <div class="col align-self-center" id="estadios-copa-1">
+        <div class="row" id="estadios-copa-1">
             <div class="container">
                 <h3>ESTÁDIOS DA COPA</h3><hr>
             </div>
@@ -305,11 +305,8 @@
 
         <section class="row" id="noticias">
             <div class="container">
+                <h3>NOTÍCIAS</h3><hr>
                 <div class="col-xs-12">
-
-                    <div class="page-header">
-                        <h3>NOTÍCIAS</h3>
-                    </div>
                     <?php include_once("Administrativo/_controle/GerarFeedNoticias.php") ?>    
                     <div class="carousel slide" id="myCarousel">
                         <div class="carousel-inner">
@@ -480,8 +477,7 @@
                         <!-- /.control-box -->                                   
                     </div><!-- /#myCarousel -->
                         
-                </div><!-- /.col-xs-12 -->          
-
+                </div><!-- /.col-xs-12 -->
             </div><!-- /.container -->
         </section>
 

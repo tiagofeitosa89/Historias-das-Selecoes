@@ -88,7 +88,7 @@
             <div class="topnav" id="myTopnav">
                 <a href="../index.php">Início</a>
                 <a href="../selecoes.php">Seleções</a>
-                <a href="../fasegrupos.php">Torcedômetro</a>
+                <a href="../torcidometro.php">Torcedômetro</a>
                 <a href="../info.php">Informações e curiosidades</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
             </div>
@@ -400,7 +400,7 @@
         </div> <!---grupos cabecalho-->
         <br>
         <div class="row">
-                <img class="img-responsive col-md-2" style="width: 330px; height: 200px;" src="<?php echo '../Administrativo/'.$bandeira; ?>">  <!--width="150px" height="120px"-->
+                <img class="img-responsive col-md-2" style="width: 320px; height: 200px;box-shadow: 0px 0px 10px 1px #4e555b; padding:0; margin-left: 15px" src="<?php echo '../Administrativo/'.$bandeira; ?>">  <!--width="150px" height="120px"-->
                 <div class="titulo-selecao col-md-8">
                     <h1><?php echo $nome; ?></h1>
                     <hr>

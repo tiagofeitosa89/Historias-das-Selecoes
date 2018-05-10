@@ -53,7 +53,7 @@
             <div class="topnav" id="myTopnav">
                 <a href="..\index.php">Home</a>
 				<a href="../selecoes.php">Seleções</a>
-                <a href="../fasegrupos.php">Fase de grupos</a>
+                <a href="../torcidometro.php">Fase de grupos</a>
                 <a href="../info.php">Informações e curiosidades</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
             </div>
