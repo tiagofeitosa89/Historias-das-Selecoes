@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <title>FutHistórias::Informações e Curiosidades</title>
+    <title>FutHistórias::Extras e Curiosidades</title>
     <link rel="shortcut icon" href="img/logo-icon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -53,7 +53,7 @@
                 <a href="index.php">Início</a>
                 <a href="selecoes.php">Seleções</a>
                 <a href="torcedometro.php">Torcedômetro</a>
-                <a href="#">Informações e curiosidades</a>
+                <a href="#">Extras e curiosidades</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
             </div>
         </div>
@@ -65,7 +65,7 @@
             <div class="row">
                 <div id="info" class="col-md-12">
 
-                        <h2 class="titulo-pagina">INFORMAÇÕES E CURIOSIDADES</h2>
+                        <h2 class="titulo-pagina">EXTRAS E CURIOSIDADES</h2>
                         <hr class="linha-titulo-pagina">
                         <h2>Página em desenvolvimento...</h2>
                         <h2>Página em desenvolvimento...</h2>
