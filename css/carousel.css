@@ -93,8 +93,9 @@ carousel .item {
 }
 
 div#myCarousel img{
-    /*width: 220px;
-    height: 100px;*/
+    min-width: 139px;
+    max-width: 139px;
+    max-height: 80px;
     min-height: 80px;
     object-fit: cover;
 }
