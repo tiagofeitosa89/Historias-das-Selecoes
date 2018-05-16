@@ -12,14 +12,14 @@
         
         $sqlConsulta = "Select codigo, votos from torcidometro where cod_selecao = '{$id}' and cod_copa = 43";
         $retorno = $torcedometroDAO->Selecionar($sqlConsulta);
-        echo "teste";
+
         if($retorno != "" && count($retorno)==1){
             foreach ($retorno as $voto) {
                 $torcedometro->setCodigo($voto[0]);
                 $torcedometro->setVotos($voto[1] + 1);
             }
             if($torcedometroDAO->Alterar($torcedometro)){
-                echo 'Obrigado pela sua participação'; 
+                echo 'Obrigado por sua participação'; 
                 /*echo '<script> 
                             swal("Sucesso!", "Obrigado pela sua participação", "success", {closeOnClickOutside: false}
                             ).then(function(){
@@ -41,7 +41,7 @@
             $torcedometro->setVotos(1);
             
             if($torcedometroDAO->Inserir($torcedometro)){
-                echo 'Obrigado pela sua participação'; 
+                echo 'Obrigado por sua participação'; 
                 /*echo '<script> 
                         swal("Sucesso!", "Obrigado pela sua participação", "success", {closeOnClickOutside: false}
                         ).then(function(){

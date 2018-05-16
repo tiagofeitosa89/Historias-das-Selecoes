@@ -3,8 +3,9 @@
     include_once("Administrativo/_controle/Torcedometro.php");
     //include_once("Administrativo/_controle/RegistrarVoto.php");    
     try{
-        $sqlSelecoes = 'Select selecao.codigo, selecao.nome, selecao.bandeira, coalesce(torcidometro.votos, 0)  from selecao left join torcidometro 
-                        on torcidometro.cod_selecao = selecao.codigo and torcidometro.cod_copa = 43 order by torcidometro.votos desc';
+        $sqlSelecoes = 'Select selecao.codigo, selecao.nome, selecao.bandeira, coalesce(torcidometro.votos, 0)  from 
+                        selecao left join torcidometro on torcidometro.cod_selecao = selecao.codigo and torcidometro.cod_copa = 43 
+                        order by torcidometro.votos desc, selecao.nome';
         $selecaoDAO = new SelecaoDAO();
         $listaSelecoes = $selecaoDAO->Selecionar($sqlSelecoes);
 
@@ -104,7 +105,7 @@
 								</div>
 							</div>
 							<div class="col-md-1 col-xs-1">
-								<a href="" class="btn btn-primary" name="votar" id="<?php echo $selecao[0]; ?>" onclick="Votar(this.id)">Votar</a> 
+								<button class="btn btn-primary" name="votar" id="<?php echo $selecao[0]; ?>" onclick="Votar(this.id)">Votar</button> 
 							</div>
 						</div>
                     <?php } ?>
@@ -138,7 +139,10 @@
                 url: 'Administrativo/_controle/RegistrarVoto.php',
                 data: {'id': dados},
                 success: function(response) {
-                    location.reload();
+                    swal("Sucesso!", "Obrigado por sua participação", "success", {closeOnClickOutside: false}
+                            ).then(function(){
+                                window.location.reload();
+                            });
                 }
             });
         }       
