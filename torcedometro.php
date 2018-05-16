@@ -96,7 +96,7 @@
                                 $barra = 4;
                             ?>
 							<div class="col-md-1 col-xs-3">
-								<img src="<?php echo 'Administrativo/'.$selecao[2] ?>" alt="<?php echo $selecao[1] ?>">
+								<a href="selecoes/pagina_selecao.php?id=<?php echo $selecao[0]; ?>"><img src="<?php echo 'Administrativo/'.$selecao[2] ?>" alt="<?php echo $selecao[1] ?>"></a>
 							</div>
 							<div class="col-md-10 col-xs-6">
 								<p class="selecao-card"><?php echo $selecao[1].': '.$selecao[3].' votos'  ?> </p>
