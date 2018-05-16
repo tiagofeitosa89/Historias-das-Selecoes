@@ -37,7 +37,7 @@
             }
         }else{
             $torcedometro->setCodSelecao($id);
-            $torcedometro->setCodCopa(41);
+            $torcedometro->setCodCopa(43);
             $torcedometro->setVotos(1);
             
             if($torcedometroDAO->Inserir($torcedometro)){
