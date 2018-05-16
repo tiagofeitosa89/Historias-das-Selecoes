@@ -61,8 +61,13 @@
 
 		public function calcularPorcentagem($parcialVotos){
 			$totalVotos = $this->calcularTotalVotos();
-			$porcentagem = ($parcialVotos * 100)/$totalVotos;
+			
+			$porcentagem = 0;
 
+			if ($totalVotos != 0){
+				$porcentagem = ($parcialVotos * 100)/$totalVotos;		
+			}
+			
 			return $porcentagem;
 		}
 
