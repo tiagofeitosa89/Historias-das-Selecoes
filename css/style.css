@@ -42,36 +42,35 @@ body{
     float: right;
 }
 
-.topnav{
+.topnav {
     overflow: hidden;
+    margin-top: 10px;
 }
 
-.topnav a{
+.topnav a {
     float: left;
     display: block;
     color: #fefefe;
     text-align: center;
-    padding: 25px 20px;
+    padding: 14px 16px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 17px;
 }
 
-.topnav a:hover{
-    color: #6892ff;
+.topnav a:hover {
+    color: #005cbf;
+
 }
 
-.active{
-    /*background-color: #002752;*/
-    /*color: #fefefe;*/
-    /*font-size: 25px;*/
-    font-weight: bold;
+.active {
+    background-color: #4CAF50;
+    color: white;
 }
 
-.topnav .icon{
+.topnav .icon {
     display: none;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -80,10 +79,9 @@ body{
     }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
-    .topnav.responsive a.icon {
+    .topnav.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
@@ -348,6 +346,71 @@ body{
     color: #002752;
 }
 
+.card{
+    width: 100%;
+    height: auto;
+    border: solid 1px #005cbf;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.card img{
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.selecao-card{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+.progress{
+    width: 100%;
+    height: 15px;
+    background-color:#005cbf;
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+
+.progress .status{
+    background: #6892ff;
+    color: #fefefe;
+    float: left;
+    width: 90%;
+    height: 100%;
+    padding-left: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:360px){
+    p.selecao-card{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+
+    div.progress{
+        margin-left: 0px;
+    }
+
+    h2.titulo-pagina{
+        text-align: center;
+    }
+
+    div.card{
+        padding-left: 0;
+    }
+
+    img.logo-site{
+        width: 150px;
+        margin-left: -10px;
+    }
+}
+
 #rodape{
 
     margin-top: 40px;
@@ -473,3 +536,15 @@ ul.thumbnails {
 .caption p {  
     color: #999;
 }
+
+.barra1, .barra2, .barra3, .barra4{ 	
+color:#FFF;
+padding-left:10px;
+height:30px;
+line-height:30px;
+}
+
+.barra1{ background-color: #FF0000; }
+.barra2{ background-color: #0000FF; }
+.barra3{ background-color: #FF6600; }
+.barra4{ background-color: #009933; }

@@ -1,3 +1,21 @@
+<?php
+    include_once("Administrativo/_controle/SelecaoDAO.php");
+    include_once("Administrativo/_controle/Torcedometro.php");
+    //include_once("Administrativo/_controle/RegistrarVoto.php");    
+    try{
+        $sqlSelecoes = 'Select selecao.codigo, selecao.nome, selecao.bandeira, coalesce(torcidometro.votos, 0)  from selecao left join torcidometro 
+                        on torcidometro.cod_selecao = selecao.codigo and torcidometro.cod_copa = 43 order by torcidometro.votos desc';
+        $selecaoDAO = new SelecaoDAO();
+        $listaSelecoes = $selecaoDAO->Selecionar($sqlSelecoes);
+
+        $torcedometro = new Torcedometro();
+    
+        //$total = $torcedometro->calcularTotalVotos();
+
+    } catch(PDOException $e){
+        echo $e;
+    }
+?>
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
@@ -56,26 +74,40 @@
                 <a href="selecoes.php">Seleções</a>
                 <a href="#">Torcedômetro</a>
                 <a href="info.php">Extras e Curiosidades</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i>    </a>
             </div>
         </div>
     </div>
-
-
+	
     <div class="row">
         <div class="container" id="corpoSite">
             <div class="row">
                 <div id="fasegrupos" class="col-md-12">
                     <h2 class="titulo-pagina">TORCEDÔMETRO</h2>
                     <hr class="linha-titulo-pagina">
-                    <h2>Página em desenvolvimento...</h2>
-                    <h2>Página em desenvolvimento...</h2>
-                    <h2>Página em desenvolvimento...</h2>
-                    <h2>Página em desenvolvimento...</h2>
-                    <h2>Página em desenvolvimento...</h2>
-                    <h2>Página em desenvolvimento...</h2>
-                    <h2>Página em desenvolvimento...</h2>
-                    <h2>Página em desenvolvimento...</h2>
+                    <p>Quem vencerá a Copa da Rússia de 2018? Dê seu palpite.</p>
+                    
+                    <?php foreach ($listaSelecoes as $selecao) { ?>
+                        <div class="row card">
+							<?php
+                                // definindo porcentagem
+                                $width1 = $torcedometro->calcularPorcentagem($selecao[3]);
+                                $barra = 4;
+                            ?>
+							<div class="col-md-1 col-xs-3">
+								<img src="<?php echo 'Administrativo/'.$selecao[2] ?>" alt="<?php echo $selecao[1] ?>">
+							</div>
+							<div class="col-md-10 col-xs-6">
+								<p class="selecao-card"><?php echo $selecao[1].': '.$selecao[3].' votos'  ?> </p>
+								<div class="progress">
+									<div class="status barra<?php echo $barra; ?>" style="width:<?php echo $width1.'%'; ?>"><?php echo number_format($width1, 2, ',', '.').'%'; ?></div>
+								</div>
+							</div>
+							<div class="col-md-1 col-xs-1">
+								<a href="" class="btn btn-primary" name="votar" id="<?php echo $selecao[0]; ?>" onclick="Votar(this.id)">Votar</a> 
+							</div>
+						</div>
+                    <?php } ?>
                 </div>
             </div>
         </div>
@@ -93,8 +125,28 @@
 </div>
 
 
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" language="javascript">
+        
+        function Votar(codigo) {
+            var dados = codigo;
+
+            $.ajax({
+                type: 'POST',
+                url: 'Administrativo/_controle/RegistrarVoto.php',
+                data: {'id': dados},
+                success: function(response) {
+                    swal("Sucesso!", response.responseText, "success", {closeOnClickOutside: false}).then(function(){
+                                    location.reload();
+                                });
+                }
+            });
+        }       
+    
+</script>
 </body>
 
 </html>
