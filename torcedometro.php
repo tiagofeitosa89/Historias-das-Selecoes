@@ -124,10 +124,9 @@
 
 </div>
 
-
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 <script type="text/javascript" language="javascript">
         
@@ -139,9 +138,7 @@
                 url: 'Administrativo/_controle/RegistrarVoto.php',
                 data: {'id': dados},
                 success: function(response) {
-                    swal("Sucesso!", response.responseText, "success", {closeOnClickOutside: false}).then(function(){
-                                    location.reload();
-                                });
+                    location.reload();
                 }
             });
         }       
