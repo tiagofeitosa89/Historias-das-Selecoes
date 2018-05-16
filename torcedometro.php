@@ -99,7 +99,7 @@
 								<a href="selecoes/pagina_selecao.php?id=<?php echo $selecao[0]; ?>"><img src="<?php echo 'Administrativo/'.$selecao[2] ?>" alt="<?php echo $selecao[1] ?>"></a>
 							</div>
 							<div class="col-md-10 col-xs-6">
-								<p class="selecao-card"><?php echo $selecao[1].': '.$selecao[3].' votos'  ?> </p>
+								<p class="selecao-card"><?php echo '<a href="selecoes/pagina_selecao.php?id=<?php echo $selecao[0]; ?>">'.$selecao[1].'</a>'.': '.$selecao[3].' votos'  ?> </p>
 								<div class="progress">
 									<div class="status barra<?php echo $barra; ?>" style="width:<?php echo $width1.'%'; ?>"><?php echo number_format($width1, 2, ',', '.').'%'; ?></div>
 								</div>
