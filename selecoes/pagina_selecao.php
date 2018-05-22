@@ -3065,7 +3065,7 @@
         </div><!--dados gerais-->
 
         <div class="row">
-            <h2 id="torcidometro">Torcedômetro</h2>
+            <h2 id="torcedometro">Torcedômetro</h2>
             Na torcida pela <?php echo $nome; ?>?
             <a class="votar" href="#">Clique aqui</a>
             <a class="visualizar" href="#">Visualizar resultados</a>

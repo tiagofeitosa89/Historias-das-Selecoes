@@ -25,6 +25,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.js" rel="stylesheet">
 
+
     <title>FutHistórias::Torcedômetro</title>
     <link rel="shortcut icon" href="img/logo-icon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -59,7 +60,6 @@
 
     </script>
 
-
 </head>
 <body>
 
@@ -86,29 +86,45 @@
                 <div id="fasegrupos" class="col-md-12">
                     <h2 class="titulo-pagina">TORCEDÔMETRO</h2>
                     <hr class="linha-titulo-pagina">
-                    <p>Quem vencerá a Copa da Rússia de 2018? Dê seu palpite.</p>
                     
-                    <?php foreach ($listaSelecoes as $selecao) { ?>
-                        <div class="row card">
-							<?php
-                                // definindo porcentagem
-                                $width1 = $torcedometro->calcularPorcentagem($selecao[3]);
-                                $barra = 4;
-                            ?>
-							<div class="col-md-1 col-xs-3">
-								<img src="<?php echo 'Administrativo/'.$selecao[2] ?>" alt="<?php echo $selecao[1] ?>">
-							</div>
-							<div class="col-md-10 col-xs-6">
-								<p class="selecao-card"><?php echo $selecao[1].': '.$selecao[3].' votos'  ?> </p>
-								<div class="progress">
-									<div class="status barra<?php echo $barra; ?>" style="width:<?php echo $width1.'%'; ?>"><?php echo number_format($width1, 2, ',', '.').'%'; ?></div>
-								</div>
-							</div>
-							<div class="col-md-1 col-xs-1">
-								<button class="btn btn-primary" name="votar" id="<?php echo $selecao[0]; ?>" onclick="Votar(this.id)">Votar</button> 
-							</div>
-						</div>
-                    <?php } ?>
+                    <div class="row">
+                        <div class="col-sm-8"><h4>Quem vencerá a Copa da Rússia de 2018? Dê seu palpite.</h4></div>
+                        <div class="col-sm-4"><div class="form-group">
+                            <select class="form-control" id="sel1" onchange="OrdenarPor(this.value)">
+                                <option selected>Ordenar por...</option>
+                                <option value="1">Seleção A-Z</option>
+                                <option value="2">Seleção Z-A</option>
+                                <option value="3">Menor voto</option>
+                                <option value="4">Maior voto</option>
+                            </select>
+                        </div></div>
+                    </div>
+                    
+                    <div id="SelecaoOrdem">
+                        <?php foreach ($listaSelecoes as $selecao) { ?>
+                            
+                                <div class="row card" title="<?php echo $selecao[1]; ?>" id="<?php echo $selecao[3]; ?>">
+                                    <?php
+                                        // definindo porcentagem
+                                        $width1 = $torcedometro->calcularPorcentagem($selecao[3]);
+                                        $barra = 4;
+                                    ?> 
+                                    <div class="col-md-1 col-xs-3">
+                                        <img src="<?php echo 'Administrativo/'.$selecao[2] ?>" alt="<?php echo $selecao[1] ?>">
+                                    </div>
+                                    <div class="col-md-10 col-xs-6">
+                                        <p class="selecao-card"><?php echo $selecao[1].': '.$selecao[3].' votos'  ?> </p>
+                                        <div class="progress">
+                                            <div class="status barra<?php echo $barra; ?>" style="width:<?php echo $width1.'%'; ?>"><?php echo number_format($width1, 2, ',', '.').'%'; ?></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1 col-xs-1">
+                                        <button class="btn btn-primary" name="votar" id="<?php echo $selecao[0]; ?>" onclick="Votar(this.id)">Votar</button> 
+                                    </div>
+                                </div>
+                            
+                        <?php } ?>
+                    </div>
                 </div>
             </div>
         </div>
@@ -132,21 +148,87 @@
 <script type="text/javascript" language="javascript">
         
         function Votar(codigo) {
-            var dados = codigo;
 
+            var dados = codigo;
+            
             $.ajax({
                 type: 'POST',
                 url: 'Administrativo/_controle/RegistrarVoto.php',
                 data: {'id': dados},
-                success: function(response) {
+                success: function(response) {    
                     swal("Sucesso!", "Obrigado por sua participação", "success", {closeOnClickOutside: false}
                             ).then(function(){
                                 window.location.reload();
                             });
                 }
             });
-        }       
-    
+
+            document.getElementByName('votar').disabled = true;        
+
+        }
+
+        function sortList(ordem) {
+            var list, i, switching, b, shouldSwitch;
+            list = document.getElementById("SelecaoOrdem");
+            switching = true;
+            
+            while (switching) {
+            
+                switching = false;
+                b = list.getElementsByClassName("row card");
+            
+                for (i = 0; i < (b.length - 1); i++) {
+        
+                    shouldSwitch = false;
+                    
+                    if (ordem == "asc"){
+                        if (b[i].title.toLowerCase() > b[i + 1].title.toLowerCase()) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+
+                    if (ordem == "desc"){
+                        if (b[i].title.toLowerCase() < b[i + 1].title.toLowerCase()) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+
+                    if (ordem == "numasc"){
+                        if (parseInt(b[i].id) > parseInt(b[i+1].id)) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+
+                    if (ordem == "numdesc"){
+                        if (parseInt(b[i+1].id) > parseInt(b[i].id)) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+                    
+                }
+                if (shouldSwitch) {
+                    b[i].parentNode.insertBefore(b[i + 1], b[i]);
+                    switching = true;
+                }
+            }
+        }    
+
+        function OrdenarPor(opcao){ 
+            if(opcao == "1") {
+                sortList("asc");
+            } else if(opcao == "2"){
+                sortList("desc");
+            }else if(opcao == "3"){
+                sortList("numasc");
+            }else if(opcao == "4"){
+                sortList("numdesc");
+            }
+        }               
+
 </script>
 </body>
 
