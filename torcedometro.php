@@ -89,15 +89,17 @@
                     
                     <div class="row">
                         <div class="col-sm-8"><h4>Quem vencerá a Copa da Rússia de 2018? Dê seu palpite.</h4></div>
-                        <div class="col-sm-4"><div class="form-group">
-                            <select class="form-control" id="sel1" onchange="OrdenarPor(this.value)">
-                                <option selected>Ordenar por...</option>
-                                <option value="1">Seleção A-Z</option>
-                                <option value="2">Seleção Z-A</option>
-                                <option value="3">Menor voto</option>
-                                <option value="4">Maior voto</option>
-                            </select>
-                        </div></div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <select class="form-control" id="sel1" onchange="OrdenarPor(this.value)">
+                                    <option selected>Ordenar por...</option>
+                                    <option value="1">Seleção A-Z</option>
+                                    <option value="2">Seleção Z-A</option>
+                                    <option value="3">Menor voto</option>
+                                    <option value="4">Maior voto</option>
+                                </select>
+                            </div>    
+                        </div>
                     </div>
                     
                     <div id="SelecaoOrdem">
@@ -110,7 +112,7 @@
                                         $barra = 4;
                                     ?> 
                                     <div class="col-md-1 col-xs-3">
-                                        <img src="<?php echo 'Administrativo/'.$selecao[2] ?>" alt="<?php echo $selecao[1] ?>">
+                                        <a href="selecoes/pagina_selecao.php?id=<?php echo $selecao[0]; ?>"><img src="<?php echo 'Administrativo/'.$selecao[2] ?>" alt="<?php echo $selecao[1] ?>"></a>
                                     </div>
                                     <div class="col-md-10 col-xs-6">
                                         <p class="selecao-card"><?php echo $selecao[1].': '.$selecao[3].' votos'  ?> </p>
@@ -125,6 +127,7 @@
                             
                         <?php } ?>
                     </div>
+                    
                 </div>
             </div>
         </div>
