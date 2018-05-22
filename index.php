@@ -71,10 +71,10 @@
         <div class="row" id="linha-titulo-site">
             <div class="container">
                 <div class="col-md-6 col-xs-6" id="titulo-site"><!--título site-->
-                    <img class="logo-site" src="img/logo.png" width="40%" height="40%">
+                    <a href=""><img class="logo-site" src="img/logo.png" width="40%" height="40%"></a>
                 </div>
                 <div class="topnav" id="myTopnav">
-                    <a href="#">Início</a>
+                    <a href="">Início</a>
                     <a href="selecoes.php">Seleções</a>
                     <a href="torcedometro.php">Torcedômetro</a>
                     <a href="info.php">Extras e Curiosidades</a>

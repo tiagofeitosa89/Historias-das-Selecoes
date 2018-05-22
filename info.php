@@ -47,7 +47,7 @@
     <div class="row" id="linha-titulo-site">
         <div class="container">
             <div class="col-md-6 col-xs-6" id="titulo-site"><!--título site-->
-                <img class="logo-site" src="img/logo.png" width="40%" height="40%">
+            <a href="index.php"><img class="logo-site" src="img/logo.png" width="40%" height="40%"></a>
             </div>
             <div class="topnav" id="myTopnav">
                 <a href="index.php">Início</a>
