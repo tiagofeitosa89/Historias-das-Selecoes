@@ -1,7 +1,7 @@
 <?php
     include_once("Administrativo/_controle/SelecaoDAO.php");
     include_once("Administrativo/_controle/Torcedometro.php");
-    //include_once("Administrativo/_controle/RegistrarVoto.php");    
+
     try{
         $sqlSelecoes = 'Select selecao.codigo, selecao.nome, selecao.bandeira, coalesce(torcidometro.votos, 0)  from 
                         selecao left join torcidometro on torcidometro.cod_selecao = selecao.codigo and torcidometro.cod_copa = 43 
@@ -10,8 +10,6 @@
         $listaSelecoes = $selecaoDAO->Selecionar($sqlSelecoes);
 
         $torcedometro = new Torcedometro();
-    
-        //$total = $torcedometro->calcularTotalVotos();
 
     } catch(PDOException $e){
         echo $e;
@@ -118,16 +116,19 @@
                                         <p class="selecao-card"><?php echo $selecao[1].': '.$selecao[3].' votos'  ?> </p>
                                         <div class="progress">
                                             <div class="status barra<?php echo $barra; ?>" style="width:<?php echo $width1.'%'; ?>"><?php echo number_format($width1, 2, ',', '.').'%'; ?></div>
-                                        </div>
+                                        </div>    
                                     </div>
                                     <div class="col-md-1 col-xs-1">
-                                        <button class="btn btn-primary" name="votar" id="<?php echo $selecao[0]; ?>" onclick="Votar(this.id)">Votar</button> 
+                                        <button class="btn btn-primary" name="votar" id="<?php echo $selecao[0]; ?>" onclick="Votar(this.id)"
+                                        <?php 
+                                            if(isset($_COOKIE["usuario"])){
+                                                echo "disabled";                                            
+                                        } ?>>Votar</button>
                                     </div>
                                 </div>
                             
                         <?php } ?>
                     </div>
-                    
                 </div>
             </div>
         </div>

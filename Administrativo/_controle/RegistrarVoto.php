@@ -1,6 +1,5 @@
 <?php
-
- //if(isset($_POST['votar'])){   
+   
     if (isset($_POST['id']) && !empty($_POST['id'])){
         include_once("TorcedometroDAO.php");
         include_once("Torcedometro.php");
@@ -20,20 +19,9 @@
             }
             if($torcedometroDAO->Alterar($torcedometro)){
                 echo 'Obrigado por sua participação'; 
-                /*echo '<script> 
-                            swal("Sucesso!", "Obrigado pela sua participação", "success", {closeOnClickOutside: false}
-                            ).then(function(){
-                                window.location.href="../../torcedometro.php";
-                            });
-                            </script>';*/
+                setcookie("usuario", "voto", time() + (86400 * 30), "/");
             } else {
                 echo 'A operação não pôde ser realizada';
-                /*echo '<script> 
-                            swal("Erro!", "A operação não pôde ser realizada!",  "error", {closeOnClickOutside: false}
-                            ).then(function(){
-                                window.location.href="../../torcedometro.php";
-                            });
-                            </script>';*/
             }
         }else{
             $torcedometro->setCodSelecao($id);
@@ -42,23 +30,11 @@
             
             if($torcedometroDAO->Inserir($torcedometro)){
                 echo 'Obrigado por sua participação'; 
-                /*echo '<script> 
-                        swal("Sucesso!", "Obrigado pela sua participação", "success", {closeOnClickOutside: false}
-                        ).then(function(){
-                            window.location.href="../../torcedometro.php";
-                        });
-                        </script>';*/
+                setcookie("usuario", "voto", time() + (86400 * 30), "/");
             } else {
                 echo 'A operação não pôde ser realizada';
-                /*echo '<script> 
-                            swal("Erro!", "A operação não pôde ser realizada!",  "error", {closeOnClickOutside: false}
-                            ).then(function(){
-                                window.location.href="../../torcedometro.php";
-                            });
-                            </script>';*/
             }
         }
 
     }
-//}
 ?>
