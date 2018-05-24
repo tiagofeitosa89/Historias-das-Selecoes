@@ -11,6 +11,8 @@
 
         $torcedometro = new Torcedometro();
 
+        //$totalVotos = $torcedometro->calcularTotalVotos();
+
     } catch(PDOException $e){
         echo $e;
     }
@@ -58,7 +60,7 @@
 
         var Votos = [];
         var Porcentagens = [];
-
+        //var TotalVotos = "<?php //echo $totalVotos ?>";
     </script>
 
 </head>
@@ -94,11 +96,11 @@
                         <div class="col-sm-4">
                             <div class="form-group">
                                 <select class="form-control" id="sel1" onchange="OrdenarPor(this.value)">
-                                    <option selected>Ordenar por...</option>
-                                    <option value="1">Seleção A-Z</option>
-                                    <option value="2">Seleção Z-A</option>
-                                    <option value="3">Menor voto</option>
-                                    <option value="4">Maior voto</option>
+                                    <option selected>Classificar por...</option>
+                                    <option value="1">Seleções de A-Z</option>
+                                    <option value="2">Seleções de Z-A</option>
+                                    <option value="3">Votos na ordem crescente</option>
+                                    <option value="4">Votos na ordem decrescente</option>
                                 </select>
                             </div>    
                         </div>
@@ -256,24 +258,25 @@
 <script type="text/javascript">
     // Carregar Porcentagens
 
-    var i, j, totalPorcentagem;
+    var i, j, totalPorcentagem, totalVotos;
     var classeStatusBar = document.getElementsByClassName("status barra4"); 
 
-    for(j = 0; j < (classeStatusBar.length - 1); j++){
+    for(j = 0; j < (classeStatusBar.length); j++){
         i = 0;
         totalPorcentagem = Porcentagens[j];
-
-        myLoop2 (i, totalPorcentagem, classeStatusBar[j].id);
+        totalVotos = Votos[j];
+        
+        myLoop2 (i, totalPorcentagem, classeStatusBar[j].id, totalVotos);
     }
 
-    function myLoop2 (inicio, fim, id) {           
-        setTimeout(function () {    
+    function myLoop2 (inicio, fim, id, votos) {           
+        setTimeout(function () {
             $('#' + id).css("width", inicio+'%');          
-            inicio++;                     
+            inicio = inicio + (fim/votos);                     
             if (inicio <= fim) {           
-                myLoop2(inicio, fim, id);             
+                myLoop2(inicio, fim, id, votos);             
             }
-        }, 90)
+        }, 15)
     }
 
 </script>
@@ -284,7 +287,7 @@
     var i, j, totalCount;                    
     var tagStrong = document.getElementsByTagName("STRONG");
 
-    for(j = 0;j < (tagStrong.length - 1); j++){
+    for(j = 0;j < (tagStrong.length); j++){
         totalCount = Votos[j];
         i = 0;
 
@@ -298,7 +301,7 @@
             if (inicio <= fim) {           
                 myLoop(inicio, fim, id);             
             }
-        }, 50)
+        }, 15)
     }
     
 </script>   

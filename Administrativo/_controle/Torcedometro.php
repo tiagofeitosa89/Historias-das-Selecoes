@@ -45,7 +45,7 @@
 		}
 
 		public function calcularTotalVotos(){
-			$sqlTotalVotos = 'Select sum(votos) from torcidometro';
+			$sqlTotalVotos = 'Select sum(coalesce(votos, 0)) from torcidometro';
 
 			$torcedometroDAO = new TorcedometroDAO();
 			$retorno = $torcedometroDAO->Selecionar($sqlTotalVotos);
