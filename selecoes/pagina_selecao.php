@@ -408,7 +408,7 @@
                     <a class="btn btn-primary col-md-2 col-xs-12" href="#dados-gerais" role="button">Dados gerais</a>
                     <a class="btn btn-primary col-md-2 col-xs-12" href="#" role="button">Elenco atual</a>
                     <a class="btn btn-primary col-md-3 col-xs-12" href="#elenco-copas" role="button">Elencos em copas</a>
-                    <a class="btn btn-primary col-md-4 col-xs-12" href="../torcedometro.php" role="button">Na torcida pela Alemanha? Vote aqui!</a>
+                    <a class="btn btn-primary col-md-4 col-xs-12" href="../torcedometro.php" role="button">Na torcida pelo(a) <?php echo $nome ?>>? Vote aqui!</a>
                 </div>
             </div> <!-- nome seleção + ancoras-->
         </div><!--cabecalho pagina selecao-->
