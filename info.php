@@ -46,14 +46,15 @@
 
     <div class="row" id="linha-titulo-site">
         <div class="container">
-            <div class="col-md-6 col-xs-6" id="titulo-site"><!--título site-->
-            <a href="index.php"><img class="logo-site" src="img/logo.png" width="40%" height="40%"></a>
+            <div class="col-md-5 col-xs-5" id="titulo-site"><!--título site-->
+                <img class="logo-site" src="img/logo.png" width="40%" height="40%">
             </div>
             <div class="topnav" id="myTopnav">
                 <a href="index.php">Início</a>
                 <a href="selecoes.php">Seleções</a>
-                <a href="torcedometro.php">Torcedômetro</a>
-                <a href="#">Extras e curiosidades</a>
+                <a href="#torcedometro.php">Torcedômetro</a>
+                <a href="#"  style="color: #005cbf; font-weight: bold" >Extras e Curiosidades</a>
+                <a href="#">Sobre nós</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
             </div>
         </div>
@@ -64,17 +65,181 @@
         <div class="container" id="corpoSite">
             <div class="row">
                 <div id="info" class="col-md-12">
+                    <h2 class="titulo-pagina">EXTRAS E CURIOSIDADES</h2>
+                    <hr class="linha-titulo-pagina">
+                    <div class="row">
+                        <div class="extra col-md-5">
+                            <div class="row">
+                                <div class="extra-img col-md-6 col-xs-6">
+                                    <img class="img-responsive" src="img/extras/selecao-mais-vitorias.jpg">
+                                </div>
+                                <div class="extra-info col-md-6 col-xs-6">
+                                    <div class="extra-tipo">
+                                        <p>RANKING POR VITÓRIAS</p>
+                                    </div>
+                                    <div class="extra-texto">
+                                        <p>
+                                            1º - Alemanha, venceu 70 jogos;<br>
+                                            2º - Brasil, venceu 66 jogos;<br>
+                                            3º - Itália, venceu 45 jogos.
+                                        </p>
+                                    </div>
+                                    <div class="extra-leia-mais">
+                                        <p><a href="http://futpedia.globo.com/campeonato/copa-do-mundo" target="_blank"> + Leia mais</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="extra col-md-5">
+                            <div class="row">
+                                <div class="extra-img col-md-6 col-xs-6">
+                                    <img class="img-responsive" src="img/extras/klose.jpg">
+                                </div>
+                                <div class="extra-info col-md-6 col-xs-6">
+                                    <div class="extra-tipo">
+                                        <p>ARTILHARIA</p>
+                                    </div>
+                                    <div class="extra-texto">
+                                        <p>
+                                            Miroslav Klose, atacante da Alemanha, é o maior artilheiro de todas as copas do mundo
+                                            com 15 gols, superando o brasileiro Ronaldo.
+                                        </p>
+                                    </div>
+                                    <div class="extra-leia-mais">
+                                        <p><a href="https://pt.wikipedia.org/wiki/Lista_de_artilheiros_da_Copa_do_Mundo_FIFA" target="_blank"> + Leia mais</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="extra col-md-5">
+                            <div class="row">
+                                <div class="extra-img col-md-6 col-xs-6">
+                                    <img class="img-responsive" src="img/extras/selecao-mais-derrotas.jpg">
+                                </div>
+                                <div class="extra-info col-md-6 col-xs-6">
+                                    <div class="extra-tipo">
+                                        <p>RANKING POR DERROTAS</p>
+                                    </div>
+                                    <div class="extra-texto">
+                                        <p>
+                                            1º - México, perdeu 25 jogos;<br>
+                                            2º - Argentina, perdeu 21 jogos;<BR>
+                                            3º - Alemanha, perdeu 20 jogos.
+                                        </p>
+                                    </div>
+                                    <div class="extra-leia-mais">
+                                        <p><a href="http://futpedia.globo.com/campeonato/copa-do-mundo" target="_blank"> + Leia mais</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="extra col-md-5">
+                            <div class="row">
+                                <div class="extra-img col-md-6 col-xs-6">
+                                    <img class="img-responsive" src="img/extras/selecao-mais-gols.jpeg">
+                                </div>
+                                <div class="extra-info col-md-6 col-xs-6">
+                                    <div class="extra-tipo">
+                                        <p>RANKING POR GOLS</p>
+                                    </div>
+                                    <div class="extra-texto">
+                                        <p>
+                                            1º - Alemanha, marcou 224 gols;<br>
+                                            2º - Brasil, marcou 221 gols;<br>
+                                            3º - Argentina, marcou 131 gols.
+                                        </p>
+                                    </div>
+                                    <div class="extra-leia-mais">
+                                        <p><a href="http://futpedia.globo.com/campeonato/copa-do-mundo" target="_blank"> + Leia mais</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="extra col-md-5">
+                            <div class="row">
+                                <div class="extra-img col-md-6 col-xs-6">
+                                    <img class="img-responsive" src="img/extras/hungria-1964.jpg">
+                                </div>
+                                <div class="extra-info col-md-6 col-xs-6">
+                                    <div class="extra-tipo">
+                                        <p>MAIOR NUMERO DE GOLS</p>
+                                    </div>
+                                    <div class="extra-texto">
+                                        <p>
+                                            Hungria é a seleção com maior número de gols em uma só copa:
+                                            Em 1954, 27 gols em 5 partidas (média de 5,40 gols por jogo).
+                                        </p>
+                                    </div>
+                                    <div class="extra-leia-mais">
+                                        <p><a href="http://futpedia.globo.com/campeonato/copa-do-mundo" target="_blank"> + Leia mais</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="extra col-md-5">
+                            <div class="row">
+                                <div class="extra-img col-md-6 col-xs-6">
+                                    <img class="img-responsive" src="img/extras/gols-sofridos.jpg">
+                                </div>
+                                <div class="extra-info col-md-6 col-xs-6">
+                                    <div class="extra-tipo">
+                                        <p>RANKING GOLS SOFRIDOS</p>
+                                    </div>
+                                    <div class="extra-texto">
+                                        <p>
+                                            1º - Alemanha, sofreu 121 gols;<br>
+                                            2º - Brasil, sofreu 102 gols;<br>
+                                            3º - México, sofreu 92 gols.
 
-                        <h2 class="titulo-pagina">EXTRAS E CURIOSIDADES</h2>
-                        <hr class="linha-titulo-pagina">
-                        <h2>Página em desenvolvimento...</h2>
-                        <h2>Página em desenvolvimento...</h2>
-                        <h2>Página em desenvolvimento...</h2>
-                        <h2>Página em desenvolvimento...</h2>
-                        <h2>Página em desenvolvimento...</h2>
-                        <h2>Página em desenvolvimento...</h2>
-                        <h2>Página em desenvolvimento...</h2>
-                        <h2>Página em desenvolvimento...</h2>
+                                        </p>
+                                    </div>
+                                    <div class="extra-leia-mais">
+                                        <p><a href="http://futpedia.globo.com/campeonato/copa-do-mundo" target="_blank"> + Leia mais</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="extra col-md-5">
+                            <div class="row">
+                                <div class="extra-img col-md-6 col-xs-6">
+                                    <img class="img-responsive" src="img/extras/mais-participacoes.jpg">
+                                </div>
+                                <div class="extra-info col-md-6 col-xs-6">
+                                    <div class="extra-tipo">
+                                        <p>MAIS PARTICIPAÇÕES</p>
+                                    </div>
+                                    <div class="extra-texto">
+                                        <p>
+                                            O Brasil é a única seleção a participar de todas as edições da copa. São 21 participações (1930 a 2018).
+                                        </p>
+                                    </div>
+                                    <div class="extra-leia-mais">
+                                        <p><a href="https://pt.wikipedia.org/wiki/Recordes_da_Copa_do_Mundo_FIFA#Maior_n%C3%BAmero_de_participa%C3%A7%C3%B5es_consecutivas_em_copas" target="_blank"> + Leia mais</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="extra col-md-5">
+                            <div class="row">
+                                <div class="extra-img col-md-6 col-xs-6">
+                                    <img class="img-responsive" src="img/extras/mais-finais.jpg">
+                                </div>
+                                <div class="extra-info col-md-6 col-xs-6">
+                                    <div class="extra-tipo">
+                                        <p>MAIS FINAIS</p>
+                                    </div>
+                                    <div class="extra-texto">
+                                            1ª - Alemanha, 8 finais;</br>
+                                            2º - Brasil, 7 finais;</br>
+                                            3º - França, 6  finais.
+                                    </div>
+                                    <div class="extra-leia-mais">
+                                        <p><a href="https://pt.wikipedia.org/wiki/Recordes_da_Copa_do_Mundo_FIFA#Sele%C3%A7%C3%B5es" target="_blank"> + Leia mais</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
