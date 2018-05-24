@@ -56,6 +56,8 @@
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
 
+        var Votos = [];
+
     </script>
 
 </head>
@@ -113,9 +115,24 @@
                                         <a href="selecoes/pagina_selecao.php?id=<?php echo $selecao[0]; ?>"><img src="<?php echo 'Administrativo/'.$selecao[2] ?>" alt="<?php echo $selecao[1] ?>"></a>
                                     </div>
                                     <div class="col-md-10 col-xs-6">
-                                        <p class="selecao-card"><?php echo $selecao[1].': '.$selecao[3].' votos'  ?> </p>
+                                        <?php if(isset($_COOKIE["usuario"])){ ?>
+                                            <script>
+                                                Votos.push("<?php echo $selecao[3] ?>");
+                                            </script>
+                                            <p class="selecao-card"><?php echo $selecao[1].': '?>
+                                                <strong id="<?php echo $selecao[0] ?>"></strong> 
+                                                votos
+                                            </p>
+                                        <?php } else{ ?>                                  
+                                            <p class="selecao-card"><?php echo $selecao[1].': '?><strong><?php echo 0 ?></strong> votos</p>
+                                        <?php } ?>            
                                         <div class="progress">
-                                            <div class="status barra<?php echo $barra; ?>" style="width:<?php echo $width1.'%'; ?>"><?php echo number_format($width1, 2, ',', '.').'%'; ?></div>
+                                            <?php if(isset($_COOKIE["usuario"])){ ?>
+                                                    <div class="status barra<?php echo $barra; ?>" style="width:<?php echo $width1.'%'; ?>"><?php echo number_format(0, 2, ',', '.').'%'; ?></div>
+                                               <?php } else{ $width1 = 0; ?>
+                                                    <div class="status barra<?php echo $barra; ?>" style="width:<?php echo $width1.'%'; ?>"><?php echo number_format(0, 2, ',', '.').'%'; ?></div>
+                                              <?php  } ?>  
+                                           <!--<div class="status barra<?php //echo $barra; ?>" style="width:<?php //echo $width1.'%'; ?>"><?php //echo number_format($width1, 2, ',', '.').'%'; ?></div>-->         
                                         </div>    
                                     </div>
                                     <div class="col-md-1 col-xs-1">
@@ -231,9 +248,32 @@
             }else if(opcao == "4"){
                 sortList("numdesc");
             }
-        }               
-
+        }
 </script>
+
+<script type="text/javascript">
+    var i, j, totalCount;                    
+    var tagStrong = document.getElementsByTagName("STRONG");
+
+    for(j = 0;j < (tagStrong.length - 1); j++){
+        totalCount = Votos[j];
+        i = 0;
+
+        myLoop(i, totalCount, tagStrong[j].id);
+    }
+
+    function myLoop (inicio, fim, id) {           
+        setTimeout(function () {    
+            $('#' + id).html(inicio);          
+            inicio++;                     
+            if (inicio <= fim) {           
+                myLoop(inicio, fim, id);             
+            }
+        }, 50)
+    }
+    
+</script>   
+
 </body>
 
 </html>
