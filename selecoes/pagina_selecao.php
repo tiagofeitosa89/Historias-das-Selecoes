@@ -400,17 +400,17 @@
         </div> <!---grupos cabecalho-->
         <br>
         <div class="row">
-                <img class="img-responsive col-md-2" style="width: 320px; height: 200px;box-shadow: 0px 0px 10px 1px #4e555b; padding:0; margin-left: 15px" src="<?php echo '../Administrativo/'.$bandeira; ?>">  <!--width="150px" height="120px"-->
-                <div class="titulo-selecao col-md-8">
-                    <h1><?php echo $nome; ?></h1>
-                    <hr>
-                    <h5>
-                        <a class="col-md-3 col-xs-12" href="#dados-gerais">Dados gerais</a>
-                        <a class="col-md-3 col-xs-12" href="#">Elenco atual</a>
-                        <a class="col-md-3 col-xs-12" href="#elenco-copas">Elencos em copas</a>
-                        <a class="col-md-3 col-xs-12" href="#torcedometro">Torcedômetro</a>
-                    </h5>
-                </div> <!-- nome seleção + ancoras-->
+            <img class="img-responsive col-md-2" style="width: 320px; height: 200px;box-shadow: 0px 0px 10px 1px #4e555b; padding:0; margin-left: 15px" src="<?php echo '../Administrativo/'.$bandeira; ?>">  <!--width="150px" height="120px"-->
+            <div class="titulo-selecao col-md-8">
+                <h1><?php echo $nome; ?></h1>
+                <hr>
+                <div id="menu-selecao" class="col-md-12">
+                    <a class="btn btn-primary col-md-2 col-xs-12" href="#dados-gerais" role="button">Dados gerais</a>
+                    <a class="btn btn-primary col-md-2 col-xs-12" href="#" role="button">Elenco atual</a>
+                    <a class="btn btn-primary col-md-3 col-xs-12" href="#elenco-copas" role="button">Elencos em copas</a>
+                    <a class="btn btn-primary col-md-4 col-xs-12" href="../torcedometro.php" role="button">Na torcida pela Alemanha? Vote aqui!</a>
+                </div>
+            </div> <!-- nome seleção + ancoras-->
         </div><!--cabecalho pagina selecao-->
         <br>
         <div class="row">

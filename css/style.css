@@ -635,3 +635,16 @@ line-height:30px;
     }
 
 }
+
+#menu-selecao {
+    margin-left: -15px;
+}
+
+#menu-selecao a{
+    font-size: 12px;
+    padding: 4px;
+}
+
+.titulo-selecao .col-md-12 a{
+    margin-left: 5px;
+}
