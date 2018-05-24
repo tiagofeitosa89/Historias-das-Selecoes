@@ -52,9 +52,9 @@
             <div class="topnav" id="myTopnav">
                 <a href="index.php">Início</a>
                 <a href="selecoes.php">Seleções</a>
-                <a href="#torcedometro.php">Torcedômetro</a>
-                <a href="#"  style="color: #005cbf; font-weight: bold" >Extras e Curiosidades</a>
-                <a href="#">Sobre nós</a>
+                <a href="torcedometro.php">Torcedômetro</a>
+                <a href="#"  style="color: #005cbf;" >Extras e Curiosidades</a>
+                
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
             </div>
         </div>
