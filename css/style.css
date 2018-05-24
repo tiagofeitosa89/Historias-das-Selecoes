@@ -548,3 +548,90 @@ line-height:30px;
 .barra2{ background-color: #0000FF; }
 .barra3{ background-color: #FF6600; }
 .barra4{ background-color: #009933; }
+
+/*Config página extras*/
+.extra{
+    width: 545px;
+    height: 140px;
+    background-color: #f1ebe3;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding:0;
+    border-radius: 15px;
+}
+
+.extra-info{
+    margin-left: -15px;
+
+}
+
+.extra-img{
+    overflow: hidden;
+    height: 170px;
+    width: 170px;
+    margin-top: 0px;
+    border-radius: 15px;
+}
+
+.extra img{
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    border-radius: 15px;
+}
+
+.extra img:hover{
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    overflow: hidden;
+}
+
+.extra-tipo{
+    margin-top: 10px;
+}
+
+.extra-tipo p{
+    background-color: #005cbf;
+    color: #fefefe;
+    padding: 5px;
+    width: 70%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.extra-texto{
+    width: 140%;
+}
+
+.extra-leia-mais p{
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width:360px){
+
+    .extra{
+        width: 325px;
+    }
+
+    .extra-tipo p{
+        font-size: 9px;
+        color: #fefefe;
+        padding: 3px;
+        width: 65px;
+    }
+
+    .extra-texto {
+        width: 110%;
+        font-size: 12px;
+        text-align: justify;
+        margin-top: -5px;
+    }
+
+    .extra-leia-mais{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+}
