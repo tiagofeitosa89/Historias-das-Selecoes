@@ -57,6 +57,7 @@
         }
 
         var Votos = [];
+        var Porcentagens = [];
 
     </script>
 
@@ -129,11 +130,11 @@
                                         <?php } ?>            
                                         <div class="progress">
                                             <?php if(isset($_COOKIE["usuario"])){ ?>
-                                                    <div class="status barra<?php echo $barra; ?>" style="width:<?php echo $width1.'%'; ?>"><?php echo number_format(0, 2, ',', '.').'%'; ?></div>
+                                                    <script> Porcentagens.push("<?php echo $width1 ?>") </script>   
+                                                    <div class="status barra<?php echo $barra; ?>" id="<?php echo 'status'.$selecao[0]; ?>" style="width: 0%;"><?php echo number_format($width1, 2, ',', '.').'%'; ?></div>
                                                <?php } else{ $width1 = 0; ?>
                                                     <div class="status barra<?php echo $barra; ?>" style="width:<?php echo $width1.'%'; ?>"><?php echo number_format(0, 2, ',', '.').'%'; ?></div>
                                               <?php  } ?>  
-                                           <!--<div class="status barra<?php //echo $barra; ?>" style="width:<?php //echo $width1.'%'; ?>"><?php //echo number_format($width1, 2, ',', '.').'%'; ?></div>-->         
                                         </div>    
                                     </div>
                                     <div class="col-md-1 col-xs-1">
@@ -253,6 +254,33 @@
 </script>
 
 <script type="text/javascript">
+    // Carregar Porcentagens
+
+    var i, j, totalPorcentagem;
+    var classeStatusBar = document.getElementsByClassName("status barra4"); 
+
+    for(j = 0; j < (classeStatusBar.length - 1); j++){
+        i = 0;
+        totalPorcentagem = Porcentagens[j];
+
+        myLoop2 (i, totalPorcentagem, classeStatusBar[j].id);
+    }
+
+    function myLoop2 (inicio, fim, id) {           
+        setTimeout(function () {    
+            $('#' + id).css("width", inicio+'%');          
+            inicio++;                     
+            if (inicio <= fim) {           
+                myLoop2(inicio, fim, id);             
+            }
+        }, 90)
+    }
+
+</script>
+
+<script type="text/javascript">
+    // Carregar núemros
+
     var i, j, totalCount;                    
     var tagStrong = document.getElementsByTagName("STRONG");
 
