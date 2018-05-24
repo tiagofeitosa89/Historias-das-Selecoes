@@ -74,11 +74,11 @@
                     <a href=""><img class="logo-site" src="img/logo.png" width="40%" height="40%"></a>
                 </div>
                 <div class="topnav" id="myTopnav">
-                    <a href="">Início</a>
+                    <a href="#" style="color: #005cbf";>Início</a>
                     <a href="selecoes.php">Seleções</a>
                     <a href="torcedometro.php">Torcedômetro</a>
                     <a href="info.php">Extras e Curiosidades</a>
-                    
+                    <a href="sobre_nos.php" >Sobre</a>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
                 </div>
             </div>

@@ -1,0 +1,155 @@
+
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+
+.container-time
+{
+	width: 1000px;
+	margin: 0px auto;
+}
+
+
+/* Footer */
+
+#featured
+{
+	overflow: hidden;
+	padding: 30px 140px;
+}
+
+#featured #fbox1
+{
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+	background-color: #E8E8E8;
+	padding: 1px;
+	padding-top: 8px;
+	text-align: center;
+}
+
+#featured #fbox2
+{
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+	background-color: #E8E8E8;
+	padding: 1px;
+	padding-top: 8px;
+	text-align: center;
+}
+
+#featured #fbox3
+{
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+	background-color: #E8E8E8;
+	padding: 1px;
+	padding-top: 8px;
+	text-align: center;
+}
+
+#featured #fbox4
+{	
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+	background-color: #E8E8E8;
+	padding: 1px;
+	padding-top: 8px;
+	text-align: center;
+}
+
+#featured #fbox5
+{
+	float: right;
+	width: 200px;
+	margin-right: 140px;
+	margin-left:10px;
+	margin-top: 40px;
+	background-color: #E8E8E8;
+	padding: 1px;
+	padding-top: 8px;
+	text-align: center;
+	
+}
+
+#featured #fbox6
+{
+	float: left;
+	width: 200px;
+	margin-left: 110px;
+	margin-top: 40px;
+	background-color: #E8E8E8;
+	padding: 1px;
+	padding-top: 8px;
+	text-align: center;
+}
+
+#featured #fbox7
+{
+	float: right;
+	width: 200px;
+	margin-right: 9px;
+	margin-top: 40px;
+	background-color: #E8E8E8;
+	padding: 1px;
+	padding-top: 8px;
+	text-align: center;
+}
+
+
+#featured img
+{
+	border-radius: 120px;
+}
+
+#featured p
+{
+	text-align: center;
+	margin-top: -15px;	
+}
+
+#featured h2
+{
+	padding: 0px 0px 5px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.10em;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	color: #002752;
+}
+.rede{
+	height: 40px;
+	width: 40px;
+	float: left;
+	border:solid 0px;
+    border-style: solid;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.rede a:hover{
+cursor: pointer;
+transform: translateY(-10px);
+display: block;
+overflow: hidden;
+border-radius: 50px;
+transition: all 0.4s ease-out;
+box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45);
+}
+
+.icone{
+margin: 0px auto;
+padding: 2px;
+}
+
+
+
+
+
