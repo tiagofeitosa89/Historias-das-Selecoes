@@ -648,3 +648,7 @@ line-height:30px;
 .titulo-selecao .col-md-12 a{
     margin-left: 5px;
 }
+
+#botaoMostrarResultados{    
+    margin-top: 10px;  
+}

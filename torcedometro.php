@@ -121,23 +121,16 @@
                                     <div class="col-md-10 col-xs-6">
                                         <script>
                                             Votos.push("<?php echo $selecao[3] ?>");
-                                        </script>
-                                        <?php if(isset($_COOKIE["usuario"])){ ?>
-                                            
-                                            <p class="selecao-card"><?php echo $selecao[1].': '?>
-                                                <strong id="<?php echo $selecao[0] ?>"></strong> 
-                                                votos
-                                            </p>
-                                        <?php } else{ ?>                                  
-                                            <p class="selecao-card"><?php echo $selecao[1].': '?><strong><?php echo 0 ?></strong> votos</p>
-                                        <?php } ?>            
+                                        </script>    
+                                        <p class="selecao-card"><?php echo $selecao[1].': '?>
+                                            <strong id="<?php echo $selecao[0] ?>">0</strong> 
+                                            votos
+                                        </p>
                                         <div class="progress">
                                             <script> Porcentagens.push("<?php echo $width1 ?>") </script>   
-                                            <?php if(isset($_COOKIE["usuario"])){ ?> 
-                                                    <div class="status barra<?php echo $barra; ?>" id="<?php echo 'status'.$selecao[0]; ?>" style="width: 0%;"><?php echo number_format($width1, 2, ',', '.').'%'; ?></div>
-                                               <?php } else{ $width1 = 0; ?>
-                                                    <div class="status barra<?php echo $barra; ?>" style="width:<?php echo $width1.'%'; ?>"><?php echo number_format(0, 2, ',', '.').'%'; ?></div>
-                                              <?php  } ?>  
+                                            <div class="status barra<?php echo $barra; ?>" id="<?php echo 'status'.$selecao[0]; ?>" style="width: 0%;">
+                                                0,00% 
+                                            </div>
                                         </div>    
                                     </div>
                                     <div class="col-md-1 col-xs-1">
@@ -147,16 +140,15 @@
                                                 echo "disabled";                                            
                                         } ?>>Votar</button>
                                     </div>
-                                </div>
-                            
+                                </div>        
                         <?php } ?>
-                    </div>
-                    <button class="btn btn-primary" onclick="MostrarResultados()">Mostrar Resultados</button>
-                </div>
+                    </div>  
+                    <button class="btn btn-primary" id="botaoMostrarResultados" onclick="MostrarResultados()">Mostrar Resultados</button>
+                </div>  
             </div>
         </div>
     </div>
-
+    
     <div class="row" id="rodape">
         <div class="container">
             <h3>FutHistórias</h3>
@@ -259,60 +251,69 @@
 
 <script type="text/javascript">
     // Carregar Porcentagens
+    function incrementarBarraDeStatus(){
+        var i, j, totalPorcentagem, totalVotos;
+        var classeStatusBar = document.getElementsByClassName("status barra4"); 
 
-    var i, j, totalPorcentagem, totalVotos;
-    var classeStatusBar = document.getElementsByClassName("status barra4"); 
+        for(j = 0; j < (classeStatusBar.length); j++){
+            i = 0;
+            totalPorcentagem = Porcentagens[j];
+            totalVotos = Votos[j];
+            
+            myLoop2 (i, totalPorcentagem, classeStatusBar[j].id, totalVotos);
+        }
 
-    for(j = 0; j < (classeStatusBar.length); j++){
-        i = 0;
-        totalPorcentagem = Porcentagens[j];
-        totalVotos = Votos[j];
-        
-        myLoop2 (i, totalPorcentagem, classeStatusBar[j].id, totalVotos);
+        function myLoop2 (inicio, fim, id, votos) {           
+            var valor;
+            setTimeout(function () {
+                valor = inicio.toFixed(2);
+                
+                $('#' + id).html(valor.replace('.', ',')+'%');          
+                $('#' + id).css("width", inicio+'%');          
+                inicio = inicio + (fim/votos);                     
+                if (inicio <= fim) {           
+                    myLoop2(inicio, fim, id, votos);             
+                }
+            }, 15)
+        }
     }
-
-    function myLoop2 (inicio, fim, id, votos) {           
-        setTimeout(function () {
-            $('#' + id).css("width", inicio+'%');          
-            inicio = inicio + (fim/votos);                     
-            if (inicio <= fim) {           
-                myLoop2(inicio, fim, id, votos);             
-            }
-        }, 15)
-    }
-
 </script>
 
 <script type="text/javascript">
     // Carregar núemros
+    function incrementarVotos(){
+        var i, j, totalCount;                    
+        var tagStrong = document.getElementsByTagName("STRONG");
 
-    var i, j, totalCount;                    
-    var tagStrong = document.getElementsByTagName("STRONG");
+        for(j = 0;j < (tagStrong.length); j++){
+            totalCount = Votos[j];
+            i = 0;
 
-    for(j = 0;j < (tagStrong.length); j++){
-        totalCount = Votos[j];
-        i = 0;
+            myLoop(i, totalCount, tagStrong[j].id);
+        }
 
-        myLoop(i, totalCount, tagStrong[j].id);
+        function myLoop (inicio, fim, id) {           
+            setTimeout(function () {    
+                $('#' + id).html(inicio);          
+                inicio++;                     
+                if (inicio <= fim) {           
+                    myLoop(inicio, fim, id);             
+                }
+            }, 15)
+        }
     }
-
-    function myLoop (inicio, fim, id) {           
-        setTimeout(function () {    
-            $('#' + id).html(inicio);          
-            inicio++;                     
-            if (inicio <= fim) {           
-                myLoop(inicio, fim, id);             
-            }
-        }, 15)
-    }
-    
 </script>   
 
 <script>
     function MostrarResultados(){
-
+        incrementarVotos();
+        incrementarBarraDeStatus();
     }
 </script>
+
+  <?php if(isset($_COOKIE["usuario"])){ 
+        echo  "<script>MostrarResultados();</script>";
+  } ?>
 
 </body>
 
