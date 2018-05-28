@@ -274,7 +274,7 @@
                 if (inicio <= fim) {           
                     myLoop2(inicio, fim, id, votos);             
                 }
-            }, 15)
+            }, 2)
         }
     }
 </script>
@@ -299,7 +299,7 @@
                 if (inicio <= fim) {           
                     myLoop(inicio, fim, id);             
                 }
-            }, 15)
+            }, 2)
         }
     }
 </script>   
