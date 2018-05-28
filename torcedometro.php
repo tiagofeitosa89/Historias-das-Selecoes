@@ -76,9 +76,9 @@
             <div class="topnav" id="myTopnav">
                 <a href="index.php">Início</a>
                 <a href="selecoes.php">Seleções</a>
-                <a href="#">Torcedômetro</a>
+                <a href="#" style="color: #005cbf;">Torcedômetro</a>
                 <a href="info.php">Extras e Curiosidades</a>
-                
+                <a href="sobre_nos.php" >Sobre</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i>    </a>
             </div>
         </div>

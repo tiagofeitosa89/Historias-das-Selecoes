@@ -54,6 +54,7 @@
                 <a href="selecoes.php">Seleções</a>
                 <a href="torcedometro.php">Torcedômetro</a>
                 <a href="#"  style="color: #005cbf;" >Extras e Curiosidades</a>
+                <a href="sobre_nos.php" >Sobre</a>
                 
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
             </div>
