@@ -119,10 +119,11 @@
                                         <a href="selecoes/pagina_selecao.php?id=<?php echo $selecao[0]; ?>"><img src="<?php echo 'Administrativo/'.$selecao[2] ?>" alt="<?php echo $selecao[1] ?>"></a>
                                     </div>
                                     <div class="col-md-10 col-xs-6">
+                                        <script>
+                                            Votos.push("<?php echo $selecao[3] ?>");
+                                        </script>
                                         <?php if(isset($_COOKIE["usuario"])){ ?>
-                                            <script>
-                                                Votos.push("<?php echo $selecao[3] ?>");
-                                            </script>
+                                            
                                             <p class="selecao-card"><?php echo $selecao[1].': '?>
                                                 <strong id="<?php echo $selecao[0] ?>"></strong> 
                                                 votos
@@ -131,8 +132,8 @@
                                             <p class="selecao-card"><?php echo $selecao[1].': '?><strong><?php echo 0 ?></strong> votos</p>
                                         <?php } ?>            
                                         <div class="progress">
-                                            <?php if(isset($_COOKIE["usuario"])){ ?>
-                                                    <script> Porcentagens.push("<?php echo $width1 ?>") </script>   
+                                            <script> Porcentagens.push("<?php echo $width1 ?>") </script>   
+                                            <?php if(isset($_COOKIE["usuario"])){ ?> 
                                                     <div class="status barra<?php echo $barra; ?>" id="<?php echo 'status'.$selecao[0]; ?>" style="width: 0%;"><?php echo number_format($width1, 2, ',', '.').'%'; ?></div>
                                                <?php } else{ $width1 = 0; ?>
                                                     <div class="status barra<?php echo $barra; ?>" style="width:<?php echo $width1.'%'; ?>"><?php echo number_format(0, 2, ',', '.').'%'; ?></div>
@@ -150,6 +151,7 @@
                             
                         <?php } ?>
                     </div>
+                    <button class="btn btn-primary" onclick="MostrarResultados()">Mostrar Resultados</button>
                 </div>
             </div>
         </div>
@@ -305,6 +307,12 @@
     }
     
 </script>   
+
+<script>
+    function MostrarResultados(){
+
+    }
+</script>
 
 </body>
 
