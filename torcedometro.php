@@ -138,7 +138,7 @@
                                         <?php 
                                             if(isset($_COOKIE["usuario"])){
                                                 echo "disabled";                                            
-                                        } ?>>Votar</button>
+                                        } ?>><span class="glyphicon glyphicon-thumbs-up"></span> Votar</button>
                                     </div>
                                 </div>        
                         <?php } ?>
