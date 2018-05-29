@@ -421,13 +421,13 @@
                     <h4>Na torcida pelo(a) <?php echo $nome ?>? Vote e veja quantos já estão torcendo por esta seleção!</h4>
                 </div>
                 <div class="col-md-12">        
-                    
                         <button class="btn btn-primary" name="votar" id="<?php echo $codigo; ?>" onclick="Votar(this.id)"
                             <?php 
                             if(isset($_COOKIE["usuario"])){
                                 echo "disabled";                                            
                             }?>
-                        >Votar</button>
+                        ><span class="glyphicon glyphicon-thumbs-up"></span>
+						Votar</button>
                         <strong style="font-size: 18px;"></strong>  
                 </div>
             </div> <!-- nome seleção + ancoras-->
