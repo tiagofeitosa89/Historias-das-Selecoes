@@ -409,7 +409,18 @@
                     <a class="btn btn-primary col-md-2 col-xs-12" href="#dados-gerais" role="button">Dados gerais</a>
                     <a class="btn btn-primary col-md-2 col-xs-12" href="#" role="button">Elenco atual</a>
                     <a class="btn btn-primary col-md-3 col-xs-12" href="#elenco-copas" role="button">Elencos em copas</a>
-                    <a class="btn btn-primary col-md-4 col-xs-12" href="../torcedometro.php" role="button">Na torcida pelo(a) <?php echo $nome ?>? Vote aqui!</a>
+                    <a class="btn btn-primary col-md-3 col-xs-12" href="../torcedometro.php" role="button">Torcedômetro</a>
+                </div>
+                <hr>
+                <hr>
+                <div class="col-md-12">
+                    <p>Na torcida pelo(a) <?php echo $nome ?>? Vote aqui e ajude a seleção a ficar mais próxima da taça!</p>
+                    <button class="btn btn-primary" name="votar" id="<?php echo $codigo; ?>" onclick="Votar(this.id)"
+                        <?php 
+                        if(isset($_COOKIE["usuario"])){
+                            echo "disabled";                                            
+                        }?>
+                    >Votar</button>    
                 </div>
             </div> <!-- nome seleção + ancoras-->
         </div><!--cabecalho pagina selecao-->
@@ -427,7 +438,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                        <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                     </div>
 
                     <div class="item">
@@ -439,7 +450,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="../img/selecoes/egito/2 - elenco de 1990.jpg" width="450" height="250"">
+                        <img src="../img/selecoes/egito/2 - elenco de 1990.jpg" width="450" height="250">
                     </div>
 
                     <div class="item">
@@ -451,7 +462,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="../img/selecoes/russia/2- euro 2016.jpg" width="450" height="250"">
+                        <img src="../img/selecoes/russia/2- euro 2016.jpg" width="450" height="250">
                     </div>
 
                     <div class="item">
@@ -463,7 +474,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="../img/selecoes/uruguai/2 - elenco 2018.jpg" width="450" height="250"">
+                        <img src="../img/selecoes/uruguai/2 - elenco 2018.jpg" width="450" height="250">
                     </div>
 
                     <div class="item">
@@ -475,7 +486,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="../img/selecoes/espanha/2- elenco 2018.jpg" width="450" height="250"">
+                        <img src="../img/selecoes/espanha/2- elenco 2018.jpg" width="450" height="250">
                     </div>
 
                     <div class="item">
@@ -487,7 +498,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="../img/selecoes/ira/2 - copa da asia 1968.jpg" width="450" height="250"">
+                        <img src="../img/selecoes/ira/2 - copa da asia 1968.jpg" width="450" height="250">
                     </div>
 
                     <div class="item">
@@ -499,7 +510,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="../img/selecoes/marrocos/2- elenco da copa de 2018.jpg" width="450" height="250"">
+                        <img src="../img/selecoes/marrocos/2- elenco da copa de 2018.jpg" width="450" height="250">
                     </div>
 
                     <div class="item">
@@ -511,7 +522,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="../img/selecoes/portugal/2 - copa do mundo de 2006.jpg" width="450" height="250"">
+                        <img src="../img/selecoes/portugal/2 - copa do mundo de 2006.jpg" width="450" height="250">
                     </div>
 
                     <div class="item">
@@ -523,7 +534,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/australia/2 - eleminatoria da copa 2018.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/australia/2 - eleminatoria da copa 2018.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -535,7 +546,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/dinamarca/02 - eurocopa 1992.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/dinamarca/02 - eurocopa 1992.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -547,7 +558,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/franca/02- brasilxfranca 1998 - final da copa.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/franca/02- brasilxfranca 1998 - final da copa.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -559,7 +570,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/peru/2 - copa america 1939.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/peru/2 - copa america 1939.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -607,7 +618,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -619,7 +630,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -631,7 +642,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -643,7 +654,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -655,7 +666,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -667,7 +678,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -679,7 +690,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -691,7 +702,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -703,7 +714,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -715,7 +726,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -727,7 +738,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -739,7 +750,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -751,7 +762,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -763,7 +774,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -775,7 +786,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -787,7 +798,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -799,7 +810,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250"">
+                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
@@ -820,7 +831,7 @@
         </div><!--texto sobre a selecao + imagem-->
 
         <div class="row">
-            <h2 id="dados-gerais"">Dados Gerais</h2>
+            <h2 id="dados-gerais">Dados Gerais</h2>
 
             <?php if ($nome == "Arábia Saudita") { ?>
                 <div class="panel with panel-primary class">
@@ -1181,7 +1192,7 @@
             </div>
             <?php } ?>
 
-            <h2 id="dados-gerais"">Histórias</h2>
+            <h2 id="dados-gerais">Histórias</h2>
             <?php foreach ($resultadoHistorias as $historia) { ?>
                     <div class="panel with panel-primary class">
                         <div class="panel-heading"><?php echo $historia[0] ?></div>
@@ -3064,13 +3075,6 @@
             <?php } ?>
         
         </div><!--dados gerais-->
-
-        <div class="row">
-            <h2 id="torcedometro">Torcedômetro</h2>
-            Na torcida pela <?php echo $nome; ?>?
-            <a class="votar" href="#">Clique aqui</a>
-            <a class="visualizar" href="#">Visualizar resultados</a>
-        </div><!--torcidometro-->
     </div> <!--fecha container-->
 
 
@@ -3081,10 +3085,31 @@
             <button onclick="topFunction()" id="myBtn" title="Voltar ao topo"><img src="..\img/seta_cima.png" width="30" height="30"></button>
         </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script type="text/javascript" language="javascript">    
+    function Votar(codigo) {
+
+        var dados = codigo;
+        
+        $.ajax({
+            type: 'POST',
+            url: '../Administrativo/_controle/RegistrarVoto.php',
+            data: {'id': dados},
+            success: function(response) {    
+                swal("Sucesso!", "Obrigado por sua participação", "success", {closeOnClickOutside: false}
+                        ).then(function(){
+                            window.location.reload();
+                        });
+            }
+        });
+        document.getElementByName('votar').disabled = true;  
+    }
+</script>
 
 </body>
 
