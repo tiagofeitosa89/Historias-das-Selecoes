@@ -10,8 +10,11 @@
     $id = $_GET['id'];
 
     try{
-        $sqlSelecao = "Select codigo, nome, bandeira, resumo from selecao where selecao.codigo = '{$id}'";
-
+        //$sqlSelecao = "Select codigo, nome, bandeira, resumo from selecao where selecao.codigo = '{$id}'";
+        $sqlSelecao = "Select selecao.codigo, selecao.nome, selecao.bandeira, selecao.resumo, coalesce(torcidometro.votos, 0)  from 
+                       selecao left join torcidometro on torcidometro.cod_selecao = selecao.codigo and torcidometro.cod_copa = 43
+                       where selecao.codigo = '{$id}'  
+                       order by torcidometro.votos desc, selecao.nome";    
         $sqlHistorias = "Select historia.subtitulo, historia.descricao from titulo_historia inner join historia on historia.cod_TitHisto = titulo_historia.codigo inner join copa on copa.codigo = titulo_historia.cod_copa where titulo_historia.cod_selecao = '{$id}'";
 
         $selecaoDao = new SelecaoDAO();
@@ -23,6 +26,7 @@
                 $nome = $atributo[1];
                 $bandeira = $atributo[2];
                 $resumo = $atributo[3];
+                $votos = $atributo[4];
            }
         }
 
@@ -414,13 +418,17 @@
                 <hr>
                 <hr>
                 <div class="col-md-12">
-                    <p>Na torcida pelo(a) <?php echo $nome ?>? Vote aqui e ajude a seleção a ficar mais próxima da taça!</p>
-                    <button class="btn btn-primary" name="votar" id="<?php echo $codigo; ?>" onclick="Votar(this.id)"
-                        <?php 
-                        if(isset($_COOKIE["usuario"])){
-                            echo "disabled";                                            
-                        }?>
-                    >Votar</button>    
+                    <h4>Na torcida pelo(a) <?php echo $nome ?>? Vote e veja quantos já estão torcendo por esta seleção!</h4>
+                </div>
+                <div class="col-md-12">        
+                    
+                        <button class="btn btn-primary" name="votar" id="<?php echo $codigo; ?>" onclick="Votar(this.id)"
+                            <?php 
+                            if(isset($_COOKIE["usuario"])){
+                                echo "disabled";                                            
+                            }?>
+                        >Votar</button>
+                        <strong style="font-size: 18px;"></strong>  
                 </div>
             </div> <!-- nome seleção + ancoras-->
         </div><!--cabecalho pagina selecao-->
@@ -3111,6 +3119,34 @@
     }
 </script>
 
+<script type="text/javascript" language="javascript">   
+    // Carregar núemros
+    function incrementarVotos(){
+        var i, j, totalCount;
+        
+        i = 0;
+        totalCount = '<?php echo $votos ?>';                            
+        
+
+        myLoop(i, totalCount);
+
+        function myLoop (inicio, fim) {           
+
+            setTimeout(function () {
+                $('strong').html(inicio+' pessoas estão na torcida!');          
+                inicio++;                     
+                if (inicio <= fim) {           
+                    myLoop(inicio, fim);             
+                }
+            }, 2)
+        }
+    }
+</script>
+<?php 
+    if(isset($_COOKIE["usuario"])){ 
+        echo  "<script>incrementarVotos();</script>";
+    } 
+?>
 </body>
 
 </html>
