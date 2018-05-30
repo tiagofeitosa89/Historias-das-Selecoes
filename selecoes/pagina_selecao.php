@@ -83,23 +83,31 @@
 <body>
 
 <div class="container-fluid" id="app">
+<div class="row" id="linha-titulo-site">
+            <nav>
+                <div class="container">
+                    <div id="titulo-site" class="col-md-5">
+                        <img class="logo-site" src="../img/logo.png" width="40%" height="40%">
+                    </div>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links-menu">
+                            <i class="material-icons" style="color:white;">menu</i>
+                        </button>
+                    </div>
 
-    <div class="row" id="linha-titulo-site">
-        <div class="container">
-            <div class="col-md-6 col-xs-6" id="titulo-site"><!--título site-->
-                <a href="../index.php"><img class="logo-site" src="../img/logo.png" width="30%" height="30%"></a>
-            </div>
-            <div class="topnav" id="myTopnav">
-                <a href="../index.php">Início</a>
-                <a href="../selecoes.php">Seleções</a>
-                <a href="../torcedometro.php">Torcedômetro</a>
-                <a href="../info.php">Extras e Curiosidades</a>
-                <a href="../sobre_nos.php" >Sobre</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
-            </div>
+                    <nav id="links-menu" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="../index.php">Início</a></li>
+                            <li><a href="../selecoes.php">Seleções</a></li>
+                            <li><a href="../torcedometro.php">Torcedômetro</a></li>
+                            <li><a href="../info.php">Extras e curiosidades</a></li>
+                            <li><a href="../sobre_nos.php">Sobre</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </nav>
         </div>
-    </div>
-
+ 
     <br>
 
     <div class="container">

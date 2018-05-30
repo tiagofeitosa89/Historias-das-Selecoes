@@ -5,14 +5,6 @@ body
 	font-size: 13px;
 }
 
-
-.container-time
-{
-	width: 1000px;
-	margin: 0px auto;
-}
-
-
 /* Footer */
 
 #featured
@@ -29,6 +21,7 @@ body
 	background-color: #E8E8E8;
 	padding: 1px;
 	padding-top: 8px;
+
 	text-align: center;
 }
 
@@ -144,10 +137,31 @@ transition: all 0.4s ease-out;
 box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45);
 }
 
-.icone{
-margin: 0px auto;
-padding: 2px;
+.colaboradores {
+height: 170px;
+border:solid 0px;
+border-style: solid;
 }
+
+#featured a:hover{
+cursor: pointer;
+display: block;
+overflow: hidden;
+transition: all 0.30s ease-out;
+box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45);
+}
+
+.col-sm{
+	background-color: #E8E8E8;
+	width: 200px;
+	height: 250px;
+r;	
+}
+
+
+
+
+
 
 
 

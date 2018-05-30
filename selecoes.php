@@ -2,15 +2,25 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.js" rel="stylesheet">
 
-    <title>FutHistórias::Seleções</title>
+    <title>FutHistórias::Início</title>
     <link rel="shortcut icon" href="img/logo-icon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
 
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- imagem do sanduiche -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/carousel.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/slider.css">
+
+    <!-- JAVASCRIPT E JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
     <script>
         function myFunction() {
@@ -46,20 +56,28 @@
 <div class="container-fluid" id="app">
 
     <div class="row" id="linha-titulo-site">
-        <div class="container">
-            <div class="col-md-6 col-xs-6" id="titulo-site"><!--título site-->
-                <a href="index.php"><img class="logo-site" src="img/logo.png" width="40%" height="40%"></a>
+        <nav>
+            <div class="container">
+                <div id="titulo-site" class="col-md-5">
+                    <img class="logo-site" src="img/logo.png" width="40%" height="40%">
+                </div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links-menu">
+                        <i class="material-icons" style="color:white;">menu</i>
+                    </button>
+                </div>
+
+                <nav id="links-menu" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.php">Início</a></li>
+                        <li><a href="#">Seleções</a></li>
+                        <li><a href="torcedometro.php">Torcedômetro</a></li>
+                        <li><a href="info.php">Extras e curiosidades</a></li>
+                        <li><a href="sobre_nos.php">Sobre</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="topnav" id="myTopnav">
-                <a href="index.php">Início</a>
-                <a href="#" style="color: #005cbf;">Seleções</a>
-                <a href="torcedometro.php">Torcedômetro</a>
-                <a href="info.php">Extras e Curiosidades</a>
-                <a href="sobre_nos.php" ">Sobre</a>
-                
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
-            </div>
-        </div>
+        </nav>
     </div>
 
     <div class="container" id="corpoSite">
