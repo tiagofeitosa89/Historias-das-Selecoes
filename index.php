@@ -178,7 +178,7 @@
 
                         <article class="slider_item active"  slider-bg="img/estadios/res-maior/estadionizhninovgorod.jpg">
                             <div class="slider_content">
-                                <h1>Estádio Nizhny Novogorod</h1>
+                                <a href="http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=nizhny%20novgorod"><h1>Estádio Nizhny Novogorod</h1></a>
                                 <p><span>Local:</span> Situado na cidade Nizhny Novgorod, Distrito de Volga</p>
                                 <p><span>Capacidade:</span> 45 mil pessoas</p>
                                 <p><span>Inauguração:</span> ainda em construção</p>
@@ -188,7 +188,7 @@
 
                         <article class="slider_item" slider-bg="img/estadios/res-maior/estadioluzhniki.jpg">
                             <div class="slider_content">
-                                <h1>Estádio de Moscou - Luzhniki</h1>
+                                <a href="http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=moscow"><h1>Estádio de Moscou - Luzhniki</h1></a>
                                 <p><span>Local:</span> Situado na cidade de Moscou, Distrito Central</p>
                                 <p><span>Capacidade:</span> 80 mil pessoas</p>
                                 <p><span>Inauguração:</span> 1956</p>
@@ -198,7 +198,7 @@
 
                         <article class="slider_item" slider-bg="img/estadios/res-maior/estadiosaopetesburgo.jpg">
                             <div class="slider_content">
-                                <h1>Estádio de São Petesburgo</h1>
+                                <a href="http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=saint%20petersburg"><h1>Estádio de São Petesburgo</h1></a>
                                 <p><span>Local:</span> Situado na cidade de São Petesburgo, Distrito Federal do Noroeste</p>
                                 <p><span>Capacidade:</span> 67 mil pessoas</p>
                                 <p><span>Inauguração:</span> 2017</p>
@@ -208,7 +208,7 @@
 
                         <article class="slider_item" slider-bg="img/estadios/res-maior/estadiosochi.jpg">
                             <div class="slider_content">
-                                <h1>Estádio Olímpico de Fisht - Sochi</h1>
+                                <a href="http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=sochi"><h1>Estádio Olímpico de Fisht - Sochi</h1></a>
                                 <p><span>Local:</span> Situado na cidade de Sochi, Distrito Federal do Sul</p>
                                 <p><span>Capacidade:</span> 48 mil pessoas</p>
                                 <p><span>Inauguração:</span> 2013</p>
@@ -218,7 +218,7 @@
 
                         <article class="slider_item" slider-bg="img/estadios/res-maior/estadioyekaterinburg.jpg">
                             <div class="slider_content">
-                                <h1>Estádio Central - Ekaterinburg Arena</h1>
+                                <a href="http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=yekaterinburg"><h1>Estádio Central - Ekaterinburg Arena</h1></a>
                                 <p><span>Local:</span> Situado na cidade de Ecaterimburgo, Distrito Sverdlovsk</p>
                                 <p><span>Capacidade:</span> 45 mil pessoas</p>
                                 <p><span>Inauguração:</span> 1957 (Reformado para copa)</p>
@@ -228,7 +228,7 @@
 
                         <article class="slider_item" slider-bg="img/estadios/res-maior/estadiokazan.jpg">
                             <div class="slider_content">
-                                <h1>Kazan Arena</h1>
+                                <a href="http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=kazan"><h1>Kazan Arena</h1></a>
                                 <p><span>Local:</span> Situado na cidade de Kazan, subdivisão do Tartaristão</p>
                                 <p><span>Capacidade:</span> 45 mil pessoas</p>
                                 <p><span>Inauguração:</span> 2013</p>
@@ -238,7 +238,7 @@
 
                         <article class="slider_item" slider-bg="img/estadios/res-maior/estadiorostov_don.jpg">
                             <div class="slider_content">
-                                <h1>Rostov Arena</h1>
+                                <a href="http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=rostov%20on%20don"><h1>Rostov Arena</h1></a>
                                 <p><span>Local:</span> Situado na cidade de Rostov, Distrito Federal do Sul</p>
                                 <p><span>Capacidade:</span> 45 mil pessoas</p>
                                 <p><span>Inauguração:</span> 2017</p>
@@ -248,7 +248,7 @@
 
                         <article class="slider_item" slider-bg="img/estadios/res-maior/estadiosamara.jpg">
                             <div class="slider_content">
-                                <h1>Samara Arena</h1>
+                                <a href="http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=samara"><h1>Samara Arena</h1></a>
                                 <p><span>Local:</span> Situado na cidade de Samara, Distrito de Volga</p>
                                 <p><span>Capacidade:</span> 45 mil pessoas</p>
                                 <p><span>Inauguração:</span> 2017</p>
@@ -258,7 +258,7 @@
 
                         <article class="slider_item" slider-bg="img/estadios/res-maior/estadiosaransk.jpg">
                             <div class="slider_content">
-                                <h1>Mordovia Arena - Saransk</h1>
+                                <a href="http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=saransk"><h1>Mordovia Arena - Saransk</h1></a>
                                 <p><span>Local:</span> Situado na cidade de Saransk, capiral de República da Mordóvia</p>
                                 <p><span>Capacidade:</span> 45 mil pessoas</p>
                                 <p><span>Inauguração:</span> ainda em construção</p>
@@ -268,7 +268,7 @@
 
                         <article class="slider_item" slider-bg="img/estadios/res-maior/estadiovolgograd.jpg">
                             <div class="slider_content">
-                                <h1>Estádio Volgograd</h1>
+                                <a href="http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=volgograd"><h1>Estádio Volgograd</h1></a>
                                 <p><span>Local:</span> Situado na cidade de Volgogrado, subdivisão Óblast de Volgogrado</p>
                                 <p><span>Capacidade:</span> 45 mil pessoas</p>
                                 <p><span>Inauguração:</span> ainda em construção</p>
@@ -278,7 +278,7 @@
 
                         <article class="slider_item" slider-bg="img/estadios/res-maior/estadiomoscow_spartak.jpg">
                             <div class="slider_content">
-                                <h1>Estádio Spartak - Moscou</h1>
+                                <a href="http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=moscow"><h1>Estádio Spartak - Moscou</h1></a>
                                 <p><span>Local:</span> Situado na cidade de Moscou, no Distrito Central</p>
                                 <p><span>Capacidade:</span> 42 mil pessoas</p>
                                 <p><span>Inauguração:</span> 2014</p>
@@ -288,7 +288,7 @@
 
                         <article class="slider_item" slider-bg="img/estadios/res-maior/estadiokaliningrad.jpg">
                             <div class="slider_content">
-                                <h1>Estádio de Kaliningrad</h1>
+                                <a href="http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=kaliningrad"><h1>Estádio de Kaliningrad</h1></a>
                                 <p><span>Local:</span> Situado na cidade de Kaliningrad, no Distrito Federal do Noroeste</p>
                                 <p><span>Capacidade:</span> 35 mil pessoas</p>
                                 <p><span>Inauguração:</span> ainda em construção</p>
