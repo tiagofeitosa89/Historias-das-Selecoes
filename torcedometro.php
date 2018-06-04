@@ -99,9 +99,11 @@
                 <div id="fasegrupos" class="col-md-12">
                     <h2 class="titulo-pagina">TORCEDÔMETRO</h2>
                     <hr class="linha-titulo-pagina">
-                    
+                    <h4>Quem vencerá a Copa da Rússia de 2018? Dê seu palpite.</h4>
                     <div class="row">
-                        <div class="col-sm-8"><h4>Quem vencerá a Copa da Rússia de 2018? Dê seu palpite.</h4></div>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" placeholder="Digite o nome da seleção..." id="PesquisarPorNomeSelecao" onchange="PesquisarSelecao(this.value)">
+                        </div>
                         <div class="col-sm-4">
                             <div class="form-group">
                                 <select class="form-control" id="sel1" onchange="OrdenarPor(this.value)">
@@ -256,6 +258,36 @@
                 sortList("numdesc");
             }
         }
+
+        $(document).ready(function(){
+            var listaCardSelecoes, i, selecao = "", digito = "";
+            var encontrados = [];
+            
+            listaCardSelecoes = document.getElementsByClassName("row card");    
+
+            $('#PesquisarPorNomeSelecao').keyup(function(){
+                digito = $('#PesquisarPorNomeSelecao').val();
+                
+                for(i = 0; i < listaCardSelecoes.length; i++){
+                    selecao = listaCardSelecoes[i].title.toLowerCase();
+                    if(selecao.indexOf(digito.toLowerCase()) != -1 ){
+                        encontrados.push(listaCardSelecoes[i].title);    
+                    }
+                }
+                filtrarEncontrados();
+            });    
+
+            function filtrarEncontrados(){              
+                $(".row.card").hide();    
+                
+                for(i = 0;i < encontrados.length;i++){
+                    $("[title|='"+encontrados[i]+"']").show();
+                } 
+                encontrados = [];
+            }
+
+        });
+
 </script>
 
 <script type="text/javascript">
@@ -275,7 +307,7 @@
         function myLoop2 (inicio, fim, id, votos) {           
             var valor;
             setTimeout(function () {
-                valor = inicio.toFixed(2);
+                valor = inicio.toFixed(4);
                 
                 $('#' + id).html(valor.replace('.', ',')+'%');          
                 $('#' + id).css("width", inicio+'%');          
