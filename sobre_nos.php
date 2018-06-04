@@ -192,7 +192,7 @@
                     <h2>FUTBOX</h2> 
                     </div>
 
-                    <div id="fbox3" class="colaboradores"p-3 mb-2 bg-success text-white""> <a href="http://esporte.ig.com.br/futebol/copa-do-mundo-2018/" target="_blank"><img src="img/sobre/colaboradores/portal_ig.jpg" width="150" height="150" alt=""/></a>
+                    <div id="fbox3" class="colaboradores"p-3 mb-2 bg-success text-white""> <a href="http://esporte.ig.com.br/futebol/copa-do-mundo-2018/" target="_blank"><img src="img/sobre/Colaboradores/portal_ig.jpg" width="150" height="150" alt=""/></a>
                     <h2>PORTAL IG</h2> 
                     </div>
 
