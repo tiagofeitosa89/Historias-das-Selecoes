@@ -184,11 +184,11 @@
         </div> <!--fim da div titulo colaboradores --> 
 
                 <div id="featured" class="container">
-                    <div id="fbox1" class="colaboradores"p-3 mb-2 bg-success text-white""> <a href="https://medium.com/@365Esportes/latest" target="_blank"><img src="img/sobre/colaboradores/365esportes.jpeg" width="150" height="150" alt=""/></a>
+                    <div id="fbox1" class="colaboradores"p-3 mb-2 bg-success text-white""> <a href="https://medium.com/@365Esportes/latest" target="_blank"><img src="img/sobre/Colaboradores/365esportes.jpeg" width="150" height="150" alt=""/></a>
                     <h2>365Esportes</h2> 
                     </div> 
 
-                    <div id="fbox2" class="colaboradores"p-3 mb-2 bg-success text-white""> <a href="http://www.futbox.com/pt" target="_blank"><img src="img/sobre/colaboradores/futbox.png" width="150" height="150" alt=""/></a>
+                    <div id="fbox2" class="colaboradores"p-3 mb-2 bg-success text-white""> <a href="http://www.futbox.com/pt" target="_blank"><img src="img/sobre/Colaboradores/futbox.png" width="150" height="150" alt=""/></a>
                     <h2>FUTBOX</h2> 
                     </div>
 
@@ -196,19 +196,19 @@
                     <h2>PORTAL IG</h2> 
                     </div>
 
-                    <div id="fbox4" class="colaboradores"p-3 mb-2 bg-success text-white""> <a href="https://medium.com/@365Esportes/latest" target="_blank"><img src="img/sobre/colaboradores/suapesquisa.gif" width="150" height="150" alt=""/></a>
+                    <div id="fbox4" class="colaboradores"p-3 mb-2 bg-success text-white""> <a href="https://medium.com/@365Esportes/latest" target="_blank"><img src="img/sobre/Colaboradores/suapesquisa.gif" width="150" height="150" alt=""/></a>
                     <h2>SUAPESQUISA.COM</h2> 
                     </div>
 
-                    <div id="fbox5" class="colaboradores"p-3 mb-2 bg-success text-white""> <a href="https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA" target="_blank"><img src="img/sobre/colaboradores/wikepedia.png" width="150" height="150" alt=""/></a>
+                    <div id="fbox5" class="colaboradores"p-3 mb-2 bg-success text-white""> <a href="https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA" target="_blank"><img src="img/sobre/Colaboradores/wikepedia.png" width="150" height="150" alt=""/></a>
                     <h2>WIKIPEDIA</h2> 
                     </div>
 
-                    <div id="fbox6" class="colaboradores"p-3 mb-2 bg-success text-white""> <a href="https://www.oddsshark.com/br/futebol/grupo-g-na-copa-do-mundo-2018-belgica-panama-tunisia-e-inglaterra" target="_blank"><img src="img/sobre/colaboradores/odsshark.jpg" width="150" height="150" alt=""/></a>
+                    <div id="fbox6" class="colaboradores"p-3 mb-2 bg-success text-white""> <a href="https://www.oddsshark.com/br/futebol/grupo-g-na-copa-do-mundo-2018-belgica-panama-tunisia-e-inglaterra" target="_blank"><img src="img/sobre/Colaboradores/odsshark.jpg" width="150" height="150" alt=""/></a>
                     <h2>ODDSSHARK</h2> 
                     </div>
 
-                    <div id="fbox7" class="colaboradores"p-3 mb-2 bg-success text-white""> <a href="http://globoesporte.globo.com/futebol/copa-do-mundo/historia-das-copas.html" target="_blank"><img src="img/sobre/colaboradores/globoesporte.png" width="150" height="150" alt=""/></a>
+                    <div id="fbox7" class="colaboradores"p-3 mb-2 bg-success text-white""> <a href="http://globoesporte.globo.com/futebol/copa-do-mundo/historia-das-copas.html" target="_blank"><img src="img/sobre/Colaboradores/globoesporte.png" width="150" height="150" alt=""/></a>
                     <h2>GLOBOESPORTE.COM</h2> 
                     </div>     
                 </div>      
