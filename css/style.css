@@ -315,7 +315,29 @@ nav #links-menu ul li a:active{
     color: #002752;
 }
 
+.card{
+    width:100%;
+    height: auto;
+    border: solid 1px #005cbf;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
 
+.card img{
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+
+
+.selecao-card{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -5px;
+}
 
 .progress{
     width: 100%;
