@@ -94,7 +94,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/1930.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 1930</p>
                                             </div>
@@ -117,7 +117,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/1934-italia.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 1934</p>
                                             </div>
@@ -140,7 +140,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/1938.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 1938</p>
                                             </div>
@@ -163,7 +163,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/1950.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 1950</p>
                                             </div>
@@ -173,7 +173,7 @@
                                                     Gols marcados: 88 gols<br>
                                                     Partidas: 22 partidas<br>
                                                     Gols por partida: 4 gols por partida<br>
-                                                    Melhor ataque: Brasil (22 gols em 6 partidas: 3,67 gols por partida)<br><br>
+                                                    Melhor ataque: Brasil (22 gols em 6 partidas: 3,67 gols por partida)<br>
                                                     Melhor defesa : Inglaterra (2 gols)<br>
                                                 </p>
                                             </div>
@@ -186,7 +186,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/1954.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 1954</p>
                                             </div>
@@ -210,7 +210,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/1958.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 1958</p>
                                             </div>
@@ -233,7 +233,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/1962.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 1962</p>
                                             </div>
@@ -256,7 +256,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/1966.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 1966</p>
                                             </div>
@@ -279,7 +279,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/1970.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 1970</p>
                                             </div>
@@ -302,7 +302,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/1974.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 1974</p>
                                             </div>
@@ -325,7 +325,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/1978.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 1978</p>
                                             </div>
@@ -348,7 +348,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/1982.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 1982</p>
                                             </div>
@@ -372,7 +372,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/1986.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 1986</p>
                                             </div>
@@ -396,7 +396,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/1990.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 1990</p>
                                             </div>
@@ -420,7 +420,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/1994.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 1994</p>
                                             </div>
@@ -444,7 +444,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/1998.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 1998</p>
                                             </div>
@@ -468,7 +468,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/2002.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 2002</p>
                                             </div>
@@ -492,7 +492,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/2006.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 2006</p>
                                             </div>
@@ -516,7 +516,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/2010.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 2010</p>
                                             </div>
@@ -540,7 +540,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/2014.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ESTATÍSTICAS - 2014</p>
                                             </div>
@@ -564,7 +564,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/Brasil-Copa-do-Mundo.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>SELEÇÕES QUE MAIS PARTICIPARAM</p>
                                             </div>
@@ -586,7 +586,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/Alemanha-Copa-do-Mundo.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>MAIORES CAMPEÕES</p>
                                             </div>
@@ -608,9 +608,9 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/Italia-Copa-do-Mundo.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
-                                                <p>JOGADORES QUE MAIS PARTICIPARÃO</p>
+                                                <p>JOGADORES QUE MAIS PARTICIPARAM</p>
                                             </div>
                                             <div class="extra-texto">
                                                 <p>
@@ -630,7 +630,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/Argentina-Copa-do-Mundo.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>MAIORES GOLEADAS</p>
                                             </div>
@@ -651,7 +651,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/selecao-mais-vitorias.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>RANKING POR VITÓRIAS</p>
                                             </div>
@@ -672,7 +672,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/klose.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>ARTILHARIA</p>
                                             </div>
@@ -691,7 +691,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/selecao-mais-derrotas.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>RANKING POR DERROTAS</p>
                                             </div>
@@ -712,7 +712,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/selecao-mais-gols.jpeg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>RANKING POR GOLS</p>
                                             </div>
@@ -733,14 +733,14 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/hungria-1964.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>NUMERO DE GOLS EM UMA EDIÇÃO</p>
                                             </div>
                                             <div class="extra-texto">
                                                 <p>
-                                                    Hungria é a seleção com maior<br> número de gols em uma só <br>copa:
-                                                    Em 1954, 27 gols em 5 <br>partidas (média de 5,40 gols <br>por jogo).
+                                                    Hungria é a seleção com maior número de gols em uma só copa:
+                                                    Em 1954, 27 gols em 5 partidas (média de 5,40 gols por jogo).
                                                 </p>
                                             </div>
                                             <div class="extra-leia-mais">
@@ -753,7 +753,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/gols-sofridos.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>RANKING GOLS SOFRIDOS</p>
                                             </div>
@@ -774,7 +774,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/mais-participacoes.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>MAIS PARTICIPAÇÕES</p>
                                             </div>
@@ -793,7 +793,7 @@
                                         <div class="extra-img">
                                             <img class="img-responsive" src="img/extras/mais-finais.jpg">
                                         </div>
-                                        <div class="extra-info col-md-6 col-xs-6">
+                                        <div class="extra-info col-md-12 col-xs-12">
                                             <div class="extra-tipo">
                                                 <p>MAIS FINAIS</p>
                                             </div>

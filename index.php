@@ -326,7 +326,6 @@
                                 <p><span>Capacidade:</span> 42 mil pessoas</p>
                                 <p><span>Inauguração:</span> 2014</p>
                                 <p><span>Jogos:</span> Argentina x Islândia | Polônia x Senegal | Bélgica x Tunísia | Sérvia x Brasil | Oitavas de final</p>
-
                                 <a href="http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=moscow"><p><span>Clique aqui para saber mais</span></p></a>
                             </div>
                         </article>
@@ -339,8 +338,6 @@
                                 <p><span>Inauguração:</span> ainda em construção</p>
                                 <p><span>Jogos:</span> Croácia x Nigéria | Sérvia x Suíça | Espanha x Marrocos | Inglaterra x Bélgica</p>
                                 <a href="http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=kaliningrad"><p><span>Clique aqui para saber mais</span></p></a>
-
-                                
                             </div>
                         </article>
 
@@ -352,7 +349,8 @@
             </div>
         </div><!--Sobre estadios-->
 
-        <section class="row" id="noticias">
+        <div class="row" id="noticias-responsive">
+            <section  id="noticias">
             <div class="container">
                 <h3>NOTÍCIAS</h3><hr>
                 <div class="col-xs-12">
@@ -601,6 +599,7 @@
                 </div><!-- /.col-xs-12 -->
             </div><!-- /.container -->
         </section>
+        </div>
 
         <div class="row" id="rodape">
             <div class="container">
@@ -609,7 +608,7 @@
                 <button onclick="topFunction()" id="myBtn" title="Voltar ao topo"><img src="img/seta_cima.png" width="30" height="30"></button>
             </div>
         </div> <!--Rodape-->
-        
+
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="js/jquery.js"></script>

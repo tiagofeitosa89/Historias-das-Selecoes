@@ -1,14 +1,11 @@
 body{
     border-top:0;
-    /*background:#c4e17f;
-    background-image:-webkit-linear-gradient(left,#c4e17f,#c4e17f 12.5%,#f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,#fecf71 37.5%,#f0776c 37.5%,#f0776c 50%,#db9dbe 50%,#db9dbe 62.5%,#c49cde 62.5%,#c49cde 75%,#669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4);background-image:-moz-linear-gradient(left,#c4e17f,#c4e17f 12.5%,#f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,#fecf71 37.5%,#f0776c 37.5%,#f0776c 50%,#db9dbe 50%,#db9dbe 62.5%,#c49cde 62.5%,#c49cde 75%,#669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4);background-image:-o-linear-gradient(left,#c4e17f,#c4e17f 12.5%,#f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,#fecf71 37.5%,#f0776c 37.5%,#f0776c 50%,#db9dbe 50%,#db9dbe 62.5%,#c49cde 62.5%,#c49cde 75%,#669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4);background-image:linear-gradient(to right,#c4e17f,#c4e17f 12.5%,#f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,#fecf71 37.5%,#f0776c 37.5%,#f0776c 50%,#db9dbe 50%,#db9dbe 62.5%,#c49cde 62.5%,#c49cde 75%,#669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4)*/
 }
 
 #app{
     width: 100%;
     height: auto;
     position: absolute;
-    /*background-color: #002752;*/
 }
 
 #cabecalho{
@@ -90,7 +87,7 @@ nav #links-menu ul li a:active{
     max-width: 100%;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
-    transition: all 0.5s;
+    transition: all 1.0s;
 }
 
 #img-selecao-grande:hover img{
@@ -102,14 +99,11 @@ nav #links-menu ul li a:active{
 
 #img-selecao-grande:hover .text-item {
     color: #17a2b8;
-    padding-bottom: 40px;
     font-size: 35px;
+    transition: all 0.5s;
 
 }
 
-#img-selecao-grande:hover .saiba-mais-principais{
-    margin-bottom: 30px;
-}
 
 .text-item {
     position: sticky;
@@ -279,6 +273,10 @@ nav #links-menu ul li a:active{
     font-size: 16px;
 }
 
+#noticias-responsive{
+    margin-bottom: -30px;
+}
+
 #noticias{
     margin-top: 10px;
     width: 100%;
@@ -296,6 +294,7 @@ nav #links-menu ul li a:active{
 
 #noticias hr{
     margin-top: -15px;
+    margin-left: 0px;
     border: solid 0.5px #005cbf;
 }
 
@@ -316,13 +315,14 @@ nav #links-menu ul li a:active{
 }
 
 .card{
-    width:100%;
+    width: 100%;
     height: auto;
     border: solid 1px #005cbf;
     padding: 10px;
     border-radius: 5px;
     margin-left: 0px;
     margin-top: 10px;
+
 }
 
 .card img{
@@ -331,13 +331,6 @@ nav #links-menu ul li a:active{
     box-shadow: 0px 0px 5px 0px black;
 }
 
-
-
-.selecao-card{
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: -5px;
-}
 
 .progress{
     width: 100%;
@@ -441,7 +434,6 @@ nav #links-menu ul li a:active{
 }
 
 #rodape{
-
     margin-top: 40px;
     height: auto;
     background-color: #002752;
@@ -555,6 +547,7 @@ a:hover {
 
 ul.thumbnails {
     margin-bottom: 0px;
+    margin-left: -30px;
 }
 
 /* Thumbnail Box */
@@ -585,21 +578,18 @@ line-height:30px;
     background-color: #f1ebe3;
     margin-top: 20px;
     margin-left: 20px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
 }
 
 .extra-img{
     overflow: hidden;
-    height: 200px;
-    width: 200px;
-    margin-top: 10px;
-    margin-left: 15px;
+    height: 150px;
     border-radius: 5px;
 }
 
 .extra img{
-    max-width: 100%;
+    max-width: 120%;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
@@ -613,6 +603,10 @@ line-height:30px;
     overflow: hidden;
 }
 
+.extra-info{
+    padding: 0px;
+}
+
 .extra-tipo{
     margin-top: 10px;
 }
@@ -621,40 +615,32 @@ line-height:30px;
     background-color: #005cbf;
     color: #fefefe;
     padding: 5px;
-    width: 225%;
     text-align: center;
     font-size: 10px;
     border-radius: 5px;
 }
 
 .extra-texto{
-    width: 250%;
+    width: 100%;
+    font-size: 12px;
 }
 
 .extra-leia-mais p{
     margin-bottom: 0px;
 }
 
-.slider-prev{
-    margin-right: 20px;
-}
-
-.slider-next{
-
-}
-
-
 
 @media screen and (max-width:360px){
 
     .extra{
         width: 250px;
-        height: 350px;
+        height: auto;
         background-color: #f1ebe3;
         margin-top: 20px;
         padding: 10px;
         border-radius: 5px;
         left: 34px;
+        overflow: hidden;
     }
 
     .extra-tipo p{
@@ -672,6 +658,12 @@ line-height:30px;
     .extra-leia-mais{
         font-size: 12px;
     }
+
+    #noticias-responsive{
+        height: 1700px;
+
+    }
+
 }
 
 #menu-selecao {
