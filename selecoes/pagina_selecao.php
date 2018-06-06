@@ -52,9 +52,9 @@
     <!-- imagem do sanduiche -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/carousel.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/slider.css">
+    <link href="..\css/selecao.css" rel="stylesheet" type="text/css">
+    <link href="..\css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="..\css/slider.css">
 
     <!-- JAVASCRIPT E JQUERY -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
