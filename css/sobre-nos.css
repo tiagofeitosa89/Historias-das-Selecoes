@@ -1,15 +1,12 @@
 
-body
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 13px;
-}
 
 /* Footer */
 
 #featured{
 	margin-right:-20px;
 	padding-left: 90px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
 }
 
 #featured #fbox
