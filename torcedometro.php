@@ -23,7 +23,7 @@
     <meta http-equiv="Content-Type" content="text/html">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <title>FutHistórias::Início</title>
+    <title>FutHistórias::Torcedômetro</title>
     <link rel="shortcut icon" href="img/logo-icon.ico" type="image/x-icon" />
 
     <!-- bootstrap -->
