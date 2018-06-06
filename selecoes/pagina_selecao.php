@@ -619,15 +619,15 @@
                         </div>
             <?php } elseif ($nome == "Croácia") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/islandia/slides/1-maior-artilheiro.jpeg" width="450" height="250">
+                            <img src="../img/selecoes/croacia/slides/1-maior-artilheiro.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/islandia/slides/01-maior-artilheiro-Eidur Gudjohnsen.jpg" width="450" height="250">
+                            <img src="../img/selecoes/croacia/slides/2-jogador-com-mais-partidas.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/islandia/slides/01-maior-artilheiro-Eidur Gudjohnsen.jpg" width="450" height="250">
+                            <img src="../img/selecoes/croacia/slides/3-elenco-atual-eliminatorias.jpg" width="450" height="250">
                         </div>
             <?php } elseif ($nome == "Islândia") { ?>
                         <div class="item active">
@@ -643,207 +643,207 @@
                         </div>
             <?php } elseif ($nome == "Nigéria") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/nigeria/slides/3-elenco-atual.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/nigeria/slides/02-classificação.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/nigeria/slides/01-maior-artilheiro.jpg" width="450" height="250">
                         </div>
             <?php } elseif ($nome == "Costa Rica") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/costa-rica/1-Elenco_1990.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/costa-rica/2-elenco_2018.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/costa-rica/3-crack_da_selecao.jpg" width="450" height="250">
                         </div>
             <?php } elseif ($nome == "Brasil") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/brasil/elenco atual.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/brasil/pele.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/brasil/Ronaldo.jpg" width="450" height="250">
                         </div>
             <?php } elseif ($nome == "Sérvia") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/servia/1-elenco_1930.jpeg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/servia/2-ServiaxAlemanha-Gol de Milan Jovanovic.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/servia/3-elenco2018.jpg" width="450" height="250">
                         </div>
             <?php } elseif ($nome == "Suíça") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/suica/Shaqiri - crack da seleção.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/suica/elenco2018.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/suica/brasilxsuiça-1950.jpg" width="450" height="250">
                         </div>
             <?php } elseif ($nome == "Alemanha") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/alemanha/1-Crack-da-selecao.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/alemanha/2-elenco-copa-2014.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/alemanha/3-Tecnico-Alemao.jpg" width="450" height="250">
                         </div>
             <?php } elseif ($nome == "Coreia do Sul") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/coreia-sul/1-elenco-2002.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/coreia-sul/2-Son Heung-min.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/coreia-sul/3-elenco-2018.jpg" width="450" height="250">
                         </div>
             <?php } elseif ($nome == "México") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/mexico/1-Chicharito Hernández.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/mexico/2-elenco-1970.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/mexico/3-elenco-2018.jpg" width="450" height="250">
                         </div>
             <?php } elseif ($nome == "Suécia") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/suecia/3-elenco-2018.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/suecia/1-elenco-1958.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/suecia/2-Maior-crack.jpg" width="450" height="250">
                         </div>
             <?php } elseif ($nome == "Bélgica") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/belgica/1-elenco-1986.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/belgica/2-Artilheiro.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/belgica/3-elenco-2018.jpg" width="450" height="250">
                         </div>
             <?php } elseif ($nome == "Inglaterra") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/inglaterra/1-Harry Kane.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/inglaterra/2-elenco-1966.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/inglaterra/3-elenco-2018.jpg" width="450" height="250">
                         </div>    
             <?php } elseif ($nome == "Panamá") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/panama/1-classificacao-copa-2018.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/panama/2-elenco-2018.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/panama/3-Principal-jogador.jpeg" width="450" height="250">
                         </div>
             <?php } elseif ($nome == "Tunísia") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/tunisia/1-elenco-1978.png" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/tunisia/2-classificação-copa-2018.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/arabia-saudita/3-elenco-2018.jpg" width="450" height="250">
                         </div>
             <?php } elseif ($nome == "Colômbia") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/colombia/1-elenco-2014.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/colombia/2-principal-jogador.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/colombia/3-elenco-2018.jpg" width="450" height="250">
                         </div>
             <?php } elseif ($nome == "Japão") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/japao/1-elenco-copadomundo-1998.JPG" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/japao/2-elenco-2018.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/japao/3-classificação-copa-2018.jpg" width="450" height="250">
                         </div>
             <?php } elseif ($nome == "Polônia") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/polonia/1-elenco-1974.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/polonia/2-principal-jogador.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/polonia/3-elenco-2018.jpg" width="450" height="250">
                         </div>
             <?php } elseif ($nome == "Senegal") { ?>
                         <div class="item active">
-                            <img src="../img/selecoes/arabia-saudita/arabia-1.jpg" width="450" height="250">
+                            <img src="../img/selecoes/senegal/1-senegalxfranca-2002.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-2.jpg" width="450" height="250">
+                            <img src="../img/selecoes/senegal/2-classificao-copa-2018.jpg" width="450" height="250">
                         </div>
 
                         <div class="item">
-                            <img src="../img/selecoes/arabia-saudita/arabia-3.jpg" width="450" height="250">
+                            <img src="../img/selecoes/senegal/3-elenco-2018.jpg" width="450" height="250">
                         </div>
             <?php } ?>
                     <a href="#carousel" class="left carousel-control" data-slide="prev">
