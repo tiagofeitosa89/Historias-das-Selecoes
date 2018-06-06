@@ -7,91 +7,24 @@ body
 
 /* Footer */
 
-#featured
-{
-	overflow: hidden;
-	padding: 30px 140px;
+#featured{
+	margin-right:-20px;
+	padding-left: 90px;
 }
 
-#featured #fbox1
+#featured #fbox
 {
-	float: left;
-	width: 200px;
-	margin-right: 20px;
+	width: 190px;
 	background-color: #E8E8E8;
-	padding: 1px;
-	padding-top: 8px;
-
-	text-align: center;
-}
-
-#featured #fbox2
-{
-	float: left;
-	width: 200px;
-	margin-right: 20px;
-	background-color: #E8E8E8;
-	padding: 1px;
 	padding-top: 8px;
 	text-align: center;
 }
 
-#featured #fbox3
+#featured #equipe
 {
-	float: left;
-	width: 200px;
-	margin-right: 20px;
+	width: 190px;
+	height: 270px;
 	background-color: #E8E8E8;
-	padding: 1px;
-	padding-top: 8px;
-	text-align: center;
-}
-
-#featured #fbox4
-{	
-	float: left;
-	width: 200px;
-	margin-right: 20px;
-	background-color: #E8E8E8;
-	padding: 1px;
-	padding-top: 8px;
-	text-align: center;
-}
-
-#featured #fbox5
-{
-	float: right;
-	width: 200px;
-	margin-right: 140px;
-	margin-left:10px;
-	margin-top: 40px;
-	background-color: #E8E8E8;
-	padding: 1px;
-	padding-top: 8px;
-	text-align: center;
-	
-}
-
-#featured #fbox6
-{
-	float: left;
-	width: 200px;
-	margin-left: 110px;
-	margin-top: 40px;
-	background-color: #E8E8E8;
-	padding: 1px;
-	padding-top: 8px;
-	text-align: center;
-}
-
-#featured #fbox7
-{
-	float: right;
-	width: 200px;
-	margin-right: 9px;
-	margin-top: 40px;
-	background-color: #E8E8E8;
-	padding: 1px;
 	padding-top: 8px;
 	text-align: center;
 }
@@ -99,7 +32,7 @@ body
 
 #featured img
 {
-	border-radius: 120px;
+	border-radius: 70px;
 }
 
 #featured p
@@ -137,12 +70,6 @@ transition: all 0.4s ease-out;
 box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45);
 }
 
-.colaboradores {
-height: 170px;
-border:solid 0px;
-border-style: solid;
-}
-
 #featured a:hover{
 cursor: pointer;
 display: block;
@@ -151,12 +78,16 @@ transition: all 0.30s ease-out;
 box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45);
 }
 
-.col-sm{
-	background-color: #E8E8E8;
-	width: 200px;
-	height: 250px;
-r;	
+#colaboradores{
+	margin-top: 20px;
 }
+
+#colaboradores_linha2{
+	margin-top: 40px;
+}
+
+
+
 
 
 
