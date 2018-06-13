@@ -682,3 +682,21 @@ line-height:30px;
 #botaoMostrarResultados{
     margin-top: 10px;
 }
+
+article{
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+} 
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+    right: 0%;
+    margin-right: 70px;    
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+    left: 0%;
+    margin-left: 70px;        
+}
+
+

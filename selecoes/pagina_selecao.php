@@ -47,14 +47,15 @@
     <link rel="shortcut icon" href="..\img/logo-icon.ico" type="image/x-icon" />
 
     <!-- bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- imagem do sanduiche -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    <link href="..\css/selecao.css" rel="stylesheet" type="text/css">
-    <link href="..\css/style.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="..\css/slider.css">
+    <link href="../css/selecao.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/slider.css">
 
     <!-- JAVASCRIPT E JQUERY -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -100,7 +101,7 @@
             <nav>
                 <div class="container">
                     <div id="titulo-site" class="col-md-5">
-                        <img class="logo-site" src="../img/logo.png" width="40%" height="40%">
+                        <a href="../index.php"><img class="logo-site" src="../img/logo.png" width="40%" height="40%"></a>
                     </div>
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links-menu">
@@ -459,7 +460,13 @@
                 <?php echo $resumo ?>
             </div> <!--texto seleção-->
             <div id="imagem-selecao" class="img-responsive col-md-5 col-xs-12">
-                <div id="carousel" class="carousel slide">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
                     <div class="carousel-inner" role="listbox">
             <?php if ($nome == "Arábia Saudita") { ?>
                     <div class="item active">
@@ -846,15 +853,16 @@
                             <img src="../img/selecoes/senegal/3-elenco-2018.jpg" width="450" height="250">
                         </div>
             <?php } ?>
-                    <a href="#carousel" class="left carousel-control" data-slide="prev">
-                        <i class="glyphicon glyphicon-chevron-left"></i>
-                    </a>
-
-                    <a href="#carousel" class="right carousel-control" data-slide="next">
-                        <i class="glyphicon glyphicon-chevron-right"></i>
-                    </a>
-
-                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
                 </div> <!-- slide carrousel -->
             </div> <!-- imagens selecao-->
         </div><!--texto sobre a selecao + imagem-->

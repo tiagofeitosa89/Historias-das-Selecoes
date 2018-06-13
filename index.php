@@ -82,7 +82,7 @@
             <nav>
                 <div class="container">
                     <div id="titulo-site" class="col-md-5">
-                        <img class="logo-site" src="img/logo.png" width="40%" height="40%">
+                        <a href="index.php"><img class="logo-site" src="img/logo.png" width="40%" height="40%"></a>
                     </div>
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links-menu">
@@ -199,7 +199,7 @@
                 <section class="slider">
                     <div class="slider_box">
 
-                        <article class="slider_item active"  slider-bg="img/estadios/res-maior/estadionizhninovgorod.jpg">
+                        <article class="slider_item active img-responsive"  slider-bg="img/estadios/res-maior/estadionizhninovgorod.jpg">
                             <div class="slider_content">
                                 <h1>Estádio Nizhny Novogorod</h1>
                                 <p><span>Local:</span> Situado na cidade Nizhny Novgorod, Distrito de Volga</p>
@@ -211,7 +211,7 @@
                             </div>
                         </article>
 
-                        <article class="slider_item" slider-bg="img/estadios/res-maior/estadioluzhniki.jpg">
+                        <article class="slider_item img-responsive" slider-bg="img/estadios/res-maior/estadioluzhniki.jpg">
                             <div class="slider_content">
                                 <h1>Estádio de Moscou - Luzhniki</h1>
                                 <p><span>Local:</span> Situado na cidade de Moscou, Distrito Central</p>
@@ -223,7 +223,7 @@
                             </div>
                         </article>
 
-                        <article class="slider_item" slider-bg="img/estadios/res-maior/estadiosaopetesburgo.jpg">
+                        <article class="slider_item img-responsive" slider-bg="img/estadios/res-maior/estadiosaopetesburgo.jpg">
                             <div class="slider_content">
                                 <h1>Estádio de São Petesburgo</h1>
                                 <p><span>Local:</span> Situado na cidade de São Petesburgo, Distrito Federal do Noroeste</p>
@@ -235,7 +235,7 @@
                             </div>
                         </article>
 
-                        <article class="slider_item" slider-bg="img/estadios/res-maior/estadiosochi.jpg">
+                        <article class="slider_item img-responsive" slider-bg="img/estadios/res-maior/estadiosochi.jpg">
                             <div class="slider_content">
                                 <h1>Estádio Olímpico de Fisht - Sochi</h1>
                                 <p><span>Local:</span> Situado na cidade de Sochi, Distrito Federal do Sul</p>
@@ -247,7 +247,7 @@
                             </div>
                         </article>
 
-                        <article class="slider_item" slider-bg="img/estadios/res-maior/estadioyekaterinburg.jpg">
+                        <article class="slider_item img-responsive" slider-bg="img/estadios/res-maior/estadioyekaterinburg.jpg">
                             <div class="slider_content">
                                 <h1>Estádio Central - Ekaterinburg Arena</h1>
                                 <p><span>Local:</span> Situado na cidade de Ecaterimburgo, Distrito Sverdlovsk</p>
@@ -259,7 +259,7 @@
                             </div>
                         </article>
 
-                        <article class="slider_item" slider-bg="img/estadios/res-maior/estadiokazan.jpg">
+                        <article class="slider_item img-responsive" slider-bg="img/estadios/res-maior/estadiokazan.jpg">
                             <div class="slider_content">
                                 <h1>Kazan Arena</h1>
                                 <p><span>Local:</span> Situado na cidade de Kazan, subdivisão do Tartaristão</p>
@@ -271,7 +271,7 @@
                             </div>
                         </article>
 
-                        <article class="slider_item" slider-bg="img/estadios/res-maior/estadiorostov_don.jpg">
+                        <article class="slider_item img-responsive" slider-bg="img/estadios/res-maior/estadiorostov_don.jpg">
                             <div class="slider_content">
                                 <h1>Rostov Arena</h1>
                                 <p><span>Local:</span> Situado na cidade de Rostov, Distrito Federal do Sul</p>
@@ -283,7 +283,7 @@
                             </div>
                         </article>
 
-                        <article class="slider_item" slider-bg="img/estadios/res-maior/estadiosamara.jpg">
+                        <article class="slider_item img-responsive" slider-bg="img/estadios/res-maior/estadiosamara.jpg">
                             <div class="slider_content">
                                 <h1>Samara Arena</h1>
                                 <p><span>Local:</span> Situado na cidade de Samara, Distrito de Volga</p>
@@ -295,7 +295,7 @@
                             </div>
                         </article>
 
-                        <article class="slider_item" slider-bg="img/estadios/res-maior/estadiosaransk.jpg">
+                        <article class="slider_item img-responsive" slider-bg="img/estadios/res-maior/estadiosaransk.jpg">
                             <div class="slider_content">
                                 <h1>Mordovia Arena - Saransk</h1>
                                 <p><span>Local:</span> Situado na cidade de Saransk, capiral de República da Mordóvia</p>
@@ -307,7 +307,7 @@
                             </div>
                         </article>
 
-                        <article class="slider_item" slider-bg="img/estadios/res-maior/estadiovolgograd.jpg">
+                        <article class="slider_item img-responsive" slider-bg="img/estadios/res-maior/estadiovolgograd.jpg">
                             <div class="slider_content">
                                 <h1>Estádio Volgograd</h1>
                                 <p><span>Local:</span> Situado na cidade de Volgogrado, subdivisão Óblast de Volgogrado</p>
@@ -319,7 +319,7 @@
                             </div>
                         </article>
 
-                        <article class="slider_item" slider-bg="img/estadios/res-maior/estadiomoscow_spartak.jpg">
+                        <article class="slider_item img-responsive" slider-bg="img/estadios/res-maior/estadiomoscow_spartak.jpg">
                             <div class="slider_content">
                                 <h1>Estádio Spartak - Moscou</h1>
                                 <p><span>Local:</span> Situado na cidade de Moscou, no Distrito Central</p>
@@ -330,7 +330,7 @@
                             </div>
                         </article>
 
-                        <article class="slider_item" slider-bg="img/estadios/res-maior/estadiokaliningrad.jpg">
+                        <article class="slider_item img-responsive" slider-bg="img/estadios/res-maior/estadiokaliningrad.jpg">
                             <div class="slider_content">
                                 <h1>Estádio de Kaliningrad</h1>
                                 <p><span>Local:</span> Situado na cidade de Kaliningrad, no Distrito Federal do Noroeste</p>

@@ -59,7 +59,7 @@
         <nav>
             <div class="container">
                 <div id="titulo-site" class="col-md-5">
-                    <img class="logo-site" src="img/logo.png" width="40%" height="40%">
+                    <a href="index.php"><img class="logo-site" src="img/logo.png" width="40%" height="40%"></a>
                 </div>
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links-menu">
