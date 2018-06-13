@@ -190,7 +190,7 @@
       </div>
 
         <div class="col-md-3" id="colaboradores_linha2">
-         <div id="equipe"> <img src="img/sobre/2.jpg" width="150" height="150" alt="" />
+         <div id="equipe"> <img src="img/sobre/jefferson.jpg" width="150" height="150" alt="" />
          <h2>Jefferson Moura</h2>
           <p>Teste</p>
           <div class="rede" id="instan"> 
