@@ -508,7 +508,7 @@ nav #links-menu ul li a:active{
     width: 15px;
 }
 
-img { max-width:100%; }
+img { max-width:100%; object-fit: cover}
 
 a {
     -webkit-transition: all 150ms ease;
